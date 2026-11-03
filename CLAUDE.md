@@ -39,3 +39,7 @@ con captura**), guía inicial, exportación CSV/JSON/copiar.
 - Un `<L>_part*.pdf` se genera con el texto ya traducido por bloques; no editar a mano.
 - Prueba local: `python3 -m http.server 8765` en la carpeta de la página y `NODE_PATH=$(npm root -g) node tools/t_pack.js` / `t_drag.js`. El mojibake local es solo falta de charset del servidor.
 - Las traducciones son de IA con revisión de estilo; no afirmar que fueron revisadas por nativos.
+
+## Publicación en GitHub Pages
+`site/` es la versión autónoma (index.html + `<L>/pack.json`). En GitHub: Settings → Pages → Deploy from branch → carpeta `/site`.
+Fuera de claude.ai no existe la base de datos compartida: los comentarios quedan solo en el navegador de cada revisor (localStorage) y se envían con Exportar/Copiar. Tras cambiar traducciones, regenerar con `tools/assemble_packs.py` y copiar el HTML y los pack.json a `site/` (el HTML de `site/` lleva doctype/meta añadidos).
