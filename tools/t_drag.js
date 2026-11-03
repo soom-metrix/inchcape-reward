@@ -1,0 +1,20 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1500,height:900}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));
+await p.goto('http://localhost:8765/Inchcape_Reward_Review.html');await p.waitForTimeout(2500);
+await p.evaluate(()=>{const g=document.querySelector('#gdStart');g&&g.click();});
+await p.waitForTimeout(500);
+const cm=await p.evaluate(()=>document.querySelector('#app').className);console.log('cls',cm);
+const box=await p.evaluate(()=>{const i=document.querySelector('.card[data-side="en"] img');i.scrollIntoView({block:'center'});const r=i.getBoundingClientRect();return {x:r.left,y:r.top,w:r.width,h:r.height}});
+await p.waitForTimeout(300);
+const r=await p.evaluate(()=>{const i=document.querySelector('.card[data-side="en"] img');const r=i.getBoundingClientRect();return {x:r.left,y:r.top,w:r.width,h:r.height}});
+await p.mouse.move(r.x+r.w*.2,r.y+r.h*.3);await p.mouse.down();await p.mouse.move(r.x+r.w*.5,r.y+r.h*.5,{steps:8});await p.mouse.up();
+await p.waitForTimeout(300);
+console.log('shot',await p.evaluate(()=>!!document.querySelector('.pop .shot')));
+await p.fill('#pName','T');await p.fill('#pText','hola');await p.click('#pSave');await p.waitForTimeout(300);
+console.log('reg',await p.evaluate(()=>document.querySelectorAll('.regbox').length));
+await p.screenshot({path:'/tmp/t_drag.png'});
+// plain click still works
+await p.mouse.click(r.x+r.w*.8,r.y+r.h*.8);await p.waitForTimeout(200);
+console.log('plainpop',await p.evaluate(()=>!!document.querySelector('.pop')),await p.evaluate(()=>!!document.querySelector('.pop .shot')));
+console.log(errs);await b.close()})();

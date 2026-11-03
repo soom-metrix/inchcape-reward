@@ -1,0 +1,177 @@
+Aloita
+Ralliradalla
+Edetäksemme ja ylittääksemme maaliviivan meidän on johdettava vuosittainen palkantarkistusprosessi tarkasti ja Reward-periaatteiden mukaisesti.
+Reward-periaatteet
+Rewardin keskeiset käsitteet
+Palkantarkistusprosessi
+Palkitsemisen yhdenmukaistaminen markkinoiden kanssa avainosaajien houkuttelemiseksi ja pitämiseksi.
+Ennakkoluulojen poistaminen ja dataan perustuvien päätösten tekeminen.
+Jokaisen päätöksen avoin perustelu tiimin vahvan luottamuksen säilyttämiseksi.
+Selkeiden tavoitteiden asettaminen ja jokaisen tekijän panoksen oikeudenmukainen palkitseminen.
+Tällä matkalla opastan sinua…
+HÄTÄPAKETTI
+Aloitetaan!
+Rally Reward simuloi, miten esihenkilöt johtavat palkantarkistusprosessia Rewardin perusperiaatteita soveltaen.
+Määritelmä
+Mitä Reward on?
+Se on toiminto, joka suunnittelee strategian, työkalut ja käytännöt, joilla yritys <b>palkitsee</b> työntekijöitä heidän työstään ja panoksestaan <b>houkutellakseen, pitääkseen ja motivoidakseen osaajia.</b>
+Palkkaus
+Edut
+Liikkuvuus
+REWARD-TOIMINTO
+<b>Reward</b> Inchcapen toimintona
+<b>Reward</b> palkkauksena
+Reward ei mittaa vain lukuja; se rakentaa myös luottamusta ja vahvistaa sitoutumista.
+Markkinakilpailukyky
+Ennakkoluuloton
+Läpinäkyvä, tarkka ja selkeä
+Selkeät suoritusodotukset
+Työntekijät osallisina menestyksessämme
+Työntekijöiden hyvinvoinnin tukeminen
+Markkinatrendien mukainen, osaajien pitämiseksi ja houkuttelemiseksi.
+Käytämme apuna palkkatutkimuksia esimerkiksi Mercerin tai KornFerryn kaltaisilta yrityksiltä.
+A) Menetämme osaajia.
+B) Se lisää työntekijöiden sitoutumista.
+C) Sillä ei ole vaikutusta.
+D) Se johtaa työntekijöiden ylennyksiin.
+Mikä vaikutus on markkinoista poikkeavalla palkkauksella?
+Seuraava
+Hienoa työtä!
+Markkinoita vastaamaton palkkaus saa työntekijät harkitsemaan kilpailukykyisempiä ulkopuolisia tarjouksia, mikä vaarantaa avainosaajien pysymisen.
+Ei oikea vastaus.
+Oikea vastaus on, että menetämme osaajia, sillä markkinoita vastaamaton palkkaus heikentää suoraan yrityksen kykyä sekä houkutella että pitää osaajia.
+Palkkapäätökset perustuvat dataan
+Edistämme tasa-arvoa ja läpinäkyvyyttä.
+Selkeä viestintä siitä, miten palkkapäätös tehtiin.
+Kiitos selityksestä! Olen motivoitunut jatkamaan näin.
+Ana, onnittelut erinomaisesta suorituksestasi tällä neljänneksellä. Tulostesi perusteella päätimme antaa sinulle palkankorotuksen.
+Korotus kuvastaa tiimille tuomaasi arvoa ja varmistaa lisäksi, että palkkasi pysyy kilpailukykyisenä ja oikeudenmukaisena markkinoiden vastaaviin tehtäviin verrattuna.
+Viestimme tavoitteet, menestysindikaattorit ja odotukset tarkasti arviointikierroksen aikana.
+Juhlistamme jokaisen työntekijän saavutuksia
+Asetamme tiimin hyvinvoinnin etusijalle tarjoamalla työntekijöille resursseja, jotka tukevat heidän fyysistä ja henkistä terveyttään sekä ammatillista kehittymistään.
+Keskeiset käsitteet
+Compa-ratio (eli sijoittuminen)
+Meriittimatriisi
+Palkkaluokat
+Palkkahaarukat
+<b>Compa-ratio (eli sijoittuminen)</b>
+Tämä mittari arvioi, vastaako työntekijän palkka hänen tehtävälleen määritettyä palkkahaarukkaa.
+Se varmistaa oikeudenmukaiset ja kilpailukykyiset, markkinoiden mukaiset palkkapäätökset.
+Keskipiste
+x
+Minimi Maksimi
+<b>Meriittimatriisi</b>
+Palkantarkistusprosessissa käytettävä työkalu, joka yhdistää kaksi tärkeää tekijää:
+* Suoritus
+* Compa-ratio
+<b>Suoritus</b> Alle 80 %
+Ylitetty
+Saavutettu
+Osittain saavutettu
+Heikko suoritus
+80–100 %
+100–120 %
+Yli 120 %
+Ne määrittävät organisaatiotason ja markkinoihin perustuvan palkkahaarukan.
+<b>Palkkaluokat</b>
+Luokat, jotka ryhmittelevät samankaltaiset tehtävät vastuiden ja vaatimusten perusteella
+Inchcape-taso
+Ei luokiteltu
+Palkkaluokka
+<b>Palkkahaarukat</b>
+Se määrittää kyseisessä luokassa työntekijälle maksettavan minimin, keskipisteen ja maksimin. Palkat voivat vaihdella haarukan sisällä työntekijän kokemuksen, taitojen ja suorituksen mukaan.
+Palkkaluokat
+Katsotaan esimerkkejä, joissa sovellamme oppimaamme.
+<b>Osa 1: Palkantarkistuksen valmistelu</b>
+Tarkista jokaisen työntekijän compa-ratio ja varmista, että suoritusodotukset ovat selkeät.
+Määritä ja viesti odotukset etukäteen jokaiselle työntekijälle: tavoitteet, indikaattorit ja kehittämiskohteet.
+Esihenkilönä on tärkeää tuntea tiimisi compa-ratio, mutta yksittäisen työntekijän kanssa keskusteltaessa tarkkaa tulosta ei tarvitse kertoa.
+<b>Julian compa-ratio</b>
+(Alle odotetun 80 %)
+<b>Compa-ration laskeminen:</b>
+(Nykyinen palkka / haarukan keskipiste) x 100
+Teen markkinoita vastaavan palkkatarkistuksen.
+En tee mitään, koska palkka riittää.
+Harkitsen hänen palkkansa nostamista lähemmäs haarukan keskipistettä tai minimiä.
+Jos Julian palkka on alle 74 % keskipisteestä ja hänen suorituksensa ylittää odotukset, mitä Carlan pitäisi tehdä?
+Henkilö, joka hoiti Julian tehtävää kaksi vuotta sitten eikä enää ole yrityksessä, ansaitsi saman, joten Carla katsoo, ettei Julian tarvitse saada korotusta.
+Odotan Julian inflaatiotarkistusta, joka on hänen maassaan lakisääteinen.
+Jos Julian suoritus ylittää odotukset ja hänen palkkansa on selvästi keskipisteen alapuolella, on perusteltua tarkistaa hänen palkkansa vastaamaan markkinoita ja tunnustaa hänen panoksensa tiimille.
+Oikea vastaus on harkita korotusta. Julian erinomaisen suorituksen sivuuttaminen tai palkan tarkistamatta jättäminen heikentäisi hänen motivaatiotaan ja voisi tuntua epäoikeudenmukaiselta. Lisäksi päätöksen perustaminen vanhentuneeseen dataan tai inflaatiotarkistusten odottamiseen ei takaa kilpailukykyistä palkkausta.
+<b>Osa 2: Ennakkoluulojen välttäminen arvioinnissa</b>
+Tunnista ja ehkäise yleisiä ennakkoluuloja palkkapäätöksissä keskittymällä suoritukseen ja konkreettiseen dataan.
+Roberto on kokenut työntekijä, jolla on 12 vuotta yrityksessä.
+<b>Robertin compa-ratio</b>
+Palkkahaarukkansa keskipisteen yläpuolella.
+Kilpailukykyinen palkka
+<b>Osittain saavutettu suoritus</b>
+Ei saa korotusta.
+Kyllä, työvuosien perusteella.
+Ei, koska hänen suorituksensa ei oikeuta siihen.
+Robertolla on compa-ratio 120 %, mutta hänen suorituksensa on vain osittain vastannut odotuksia. Onko korotuksen myöntäminen perusteltua?
+Kyllä, koska Roberto kertoi Julialle päättäneensä ostaa talon ja hänen vaimonsa on raskaana.
+Hän ei saa korotusta palkantarkistusprosessissa, mutta prosessin jälkeen hänelle voitaisiin antaa ylimääräinen bonus työvuosien perusteella.
+Vaikka Robertolla on korkea compa-ratio, hänen suorituksensa ei Reward-periaatteiden mukaan täytä korotuksen edellyttämiä vaatimuksia.
+Oikea vastaus on, että se ei ole perusteltua, sillä korotusten tulee perustua suoritukseen eikä esimerkiksi työvuosiin, henkilökohtaiseen tilanteeseen tai vakiintuneen prosessin ulkopuolisiin vaihtoehtoihin, jotta päätökset olisivat oikeudenmukaisia ja objektiivisia.
+<b>Osa 3: Läpinäkyvä ja selkeä viestintä</b>
+Kehitä taitoja viestiä palkkapäätöksistä tarkasti ja empaattisesti luottamusta rakentaen.
+Julia, suorituksesi on ollut erinomainen, ja haluamme varmistaa, että palkkasi vastaa markkinoita.
+Siksi saat korotuksen, joka sijoittaa sinut palkkahaarukan sisälle.
+Jotta Julia ymmärtää perusteet ja tuntee itsensä arvostetuksi.
+Byrokraattisen vaatimuksen täyttämiseksi.
+Jotta Julia voi siirtyä toiseen tiimiin.
+Miksi Carlan on tärkeää selittää Julialle, miten päätös hänen palkastaan tehtiin?
+Koska muuten People-tiimi ei käsittele Julian uutta palkanmaksua.
+Palkkapäätösten selkeä ja avoin selittäminen vahvistaa luottamusta, motivoi työntekijää ja varmistaa, että hän ymmärtää, miten hänen suoritustaan arvostetaan organisaatiossa.
+Oikea vastaus on, jotta Julia ymmärtää perusteet ja tuntee itsensä arvostetuksi. Selitys ei ole pelkkä muodollisuus tai hallinnollinen vaatimus; sen ensisijainen tarkoitus on vahvistaa luottamusta ja sitoutumista.
+<b>Osa 3.1: Läpinäkyvä, selkeä ja tarkka viestintä</b>
+Esihenkilönä on olennaista tuntea tiimisi compa-ratio, mutta yksittäisen työntekijän kanssa puhuttaessa tarkkaa tulosta ei tarvitse kertoa.
+Juan:\n• Hänen suoritusarviointinsa tulos oli ”täytti odotukset”, mutta ei ”ylitti odotukset”.\n• Hänen compa-rationsa ylittää tehtävälle määritetyn palkkahaarukan (122 %). Siksi matriisi ei ehdota palkankorotusta.
+Juan, arvostamme työtäsi ja sitä, että täytät tiimin odotukset. Palkkasi on kuitenkin tehtäväsi haarukan yläpuolella, joten meriittimatriisi ei tänä vuonna sisällä korotusta. Haluamme olla avoimia, ja nämä päätökset perustuvat suoritukseesi ja palkkasi sijoittumiseen.
+Vaikka korotusta ei tänä vuonna tulisikaan, voimme yhdessä löytää polun, jonka avulla voit kehittyä edelleen ja hyödyntää yrityksen uusia mahdollisuuksia.
+Ymmärrän, kiitos paljon, kun selitit asian näin ja tarjosit minulle vaihtoehtoja.
+Perustella syyt selkeästi ja tarjota vaihtoehtoja työntekijän kehittymiselle.
+Jättää päätös selittämättä ja sanoa vain, ettei korotusta tule.
+Miten Carlan tulisi toimia tilanteessa, jossa työntekijä täyttää odotukset mutta ei ole oikeutettu korotukseen palkkansa sijoittumisen vuoksi?
+Antaa Juanille korotus silti, koska hän täytti odotukset eikä haittaa, vaikka hän on edelleen ylipalkattu.
+Pyytää Juania siirtymään toiseen yritykseen, koska hän ei tulevaisuudessakaan saa korotusta.
+Syiden selittäminen ja vaihtoehtojen tarjoaminen edistää avoimuutta ja ylläpitää työntekijän motivaatiota.
+Oikea vastaus on perustella syyt selkeästi ja tarjota vaihtoehtoja. Selittämättä jättäminen luo epäluottamusta, korotuksen antaminen rikkoo palkkakäytäntöjä ja lähtemisen ehdottaminen on epäammattimaista ja latistavaa.
+<b>Osa 4: Hankalien tilanteiden käsittely</b>
+Vaativien tapausten käsittely, joissa palkankorotus ei tule kyseeseen: tarjoa kehittymis- ja hyvinvointivaihtoehtoja.
+Roberto, kokenut työntekijä: palkantarkistuksen ja yrityksen käytäntöjen mukaisesti todettiin, ettei hän saa korotusta.
+Tänä vuonna emme suorituksesi ja yrityksen käytäntöjen perusteella myönnä korotusta, mutta palkkasi on markkinoihin nähden kilpailukykyinen. Haluan laatia kanssasi suunnitelman kehittymisesi tukemiseksi.
+Roberto, arvostamme suuresti kokemustasi ja panostasi tiimille.
+Saat vapaapäiviä isyysvapaata varten. Kannustan sinua osallistumaan kehittymis- ja hyvinvointiohjelmiin, kuten valmennukseen ja stressinhallintaan. Haluamme, että tunnet olevasi tuettu.
+Kiitos selkeydestä, Carla. Ymmärrän tilanteen ja arvostan tarjoamaasi tukea.
+Sanoa vain, ettei korotusta tule.
+Mitä keskeisiä asioita Carlan tulisi sisällyttää keskusteluunsa Robertin kanssa?
+Tunnustaa hänen panoksensa, selittää päätös ja tarjota kehittymissuunnitelma.
+Olla kertomatta Robertolle mitään. Hän ei edes tietäisi, miksi hänellä on vapaapäiviä isyysvapaata varten.
+Esiintyä vihaisena esihenkilönä ja syyttää häntä korotuksen saamatta jäämisestä heikon suorituksen vuoksi.
+Panoksen tunnustaminen, päätöksen selittäminen ja kehittymissuunnitelman tarjoaminen osoittavat empatiaa ja edistävät motivaatiota läpinäkyvän viestinnän ja hyvinvoinnin tuen periaatteiden mukaisesti.
+Viestimättä jättäminen tai pelkkä korotuksen epääminen on empatiatonta ja voi latistaa Robertoa. Samoin hänen syyttämisensä on epäammattimaista ja voisi vahingoittaa sekä luottamusta että työilmapiiriä.
+On olennaista ymmärtää, miten palkantarkistusprosessi toimii People Hub -järjestelmässä ja mitä työkaluja meillä on käytettävissä.
+<b>Osa 5: Palkantarkistusprosessi People Hub -järjestelmässä</b>
+1. Palkankorotusehdotus
+2. Ehdotusten tarkistus ja validointi
+3. Johdon tarkastelu
+4. Kirjeiden luominen ja maksu
+<b>Palkitsemissuunnittelijan esihenkilö</b>
+Tarkistaa ehdotukset People Hubissa.
+Hyväksyy, muokkaa tai palauttaa lomakkeet korjattaviksi ennen etenemistä.
+Paikallinen ja alueellinen Reward-tiimi
+Kun ehdotus on hyväksytty, se lähetetään alueen toimitusjohtajalle hyväksyttäväksi.
+Palkkakirjeet luodaan prosessin tuloksista, ja ne ovat saatavilla:
+Employee Central\nJokaisen työntekijän People Hub -profiilissa
+Palkkaerittelyn näkee Employee Centralissa seuraavasti:
+Prosessin lopussa saavutamme tavoitteen soveltaa Reward-periaatteita tehokkaasti. Lisäksi varmistamme, että jokainen työntekijä ymmärtää tehdyt päätökset ja sen, miten hän voi jatkaa kasvuaan.
+Kilpailukyky, ennakkoluulot, läpinäkymättömyys ja sitoutuminen.
+Kilpailukyky markkinoihin nähden, ennakkoluulottomuus, läpinäkyvyys ja selkeys, sitoutuminen ihmisiin.
+Mitä Reward-periaatteita Carla sovelsi koko prosessin aikana?
+Ylennys, compa-ratio, ennakkoluulottomuus ja sitoutuminen.
+Sitoutuminen, ennakkoluulottomuus, kilpailukyky ja palkkaluokka.
+Kilpailukyky, ennakkoluulottomuus, läpinäkyvyys ja sitoutuminen ihmisiin heijastavat keskeisiä Reward-periaatteita, joita sovellettiin palkantarkistusprosessin aikana.
+Yhteenveto
+Esihenkilönä ymmärrät nyt roolisi oikeudenmukaisen ja motivoivan Reward-prosessin rakentajana. Etenemme kaikki yhdessä kohti menestystä periaatteita soveltaen.
+Olet suorittanut tämän osion.\nNähdään ensi kerralla.

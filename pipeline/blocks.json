@@ -1,0 +1,7185 @@
+{
+"1": [],
+"2": [
+{
+"id": "2.1",
+"es": "Elige el idioma en el que deseas llevar este curso para disfrutar de",
+"bbox": [
+469,
+428,
+1534,
+468
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "2.2",
+"es": "una experiencia personalizada.",
+"bbox": [
+744,
+464,
+1250,
+504
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "2.3",
+"es": "Choose the language you'd like to take this course in for a",
+"bbox": [
+533,
+536,
+1470,
+576
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "2.4",
+"es": "personalized experience.",
+"bbox": [
+795,
+572,
+1198,
+612
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "2.5",
+"es": "<b>Selecciona tu idioma / Select your language</b>",
+"bbox": [
+568,
+314,
+1426,
+363
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "2.6",
+"es": "Español English",
+"bbox": [
+671,
+705,
+1345,
+745
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"3": [
+{
+"id": "3.1",
+"es": "Inicio",
+"bbox": [
+321,
+552,
+443,
+616
+],
+"size": 53.0,
+"font": "T-BookItalic"
+}
+],
+"4": [
+{
+"id": "4.1",
+"es": "Pista de carrera",
+"bbox": [
+400,
+16,
+878,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "4.2",
+"es": "Para avanzar y cruzar la meta, debemos liderar juntos el proceso de revisión salarial anual",
+"bbox": [
+435,
+177,
+1576,
+208
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "4.3",
+"es": "con precisión y alineación a los principios de Reward.",
+"bbox": [
+664,
+208,
+1347,
+239
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "4.4",
+"es": "Principios de",
+"bbox": [
+143,
+438,
+353,
+478
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "4.5",
+"es": "Reward",
+"bbox": [
+182,
+478,
+306,
+518
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "4.6",
+"es": "Conceptos clave",
+"bbox": [
+1039,
+447,
+1327,
+487
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "4.7",
+"es": "de Reward",
+"bbox": [
+1090,
+486,
+1267,
+526
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "4.8",
+"es": "Proceso de Revisión salarial",
+"bbox": [
+1475,
+771,
+1722,
+851
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"5": [],
+"6": [],
+"7": [],
+"8": [],
+"9": [
+{
+"id": "9.1",
+"es": "<b>Alinear</b> las compensaciones con el mercado para atraer y retener talento",
+"bbox": [
+983,
+208,
+1588,
+291
+],
+"size": 33.6,
+"font": "tGardePro-Bold"
+},
+{
+"id": "9.2",
+"es": "clave.",
+"bbox": [
+1233,
+290,
+1329,
+331
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "9.3",
+"es": "<b>Eliminar</b> sesgos y tomar decisiones",
+"bbox": [
+1025,
+437,
+1568,
+481
+],
+"size": 33.6,
+"font": "tGardePro-Bold"
+},
+{
+"id": "9.4",
+"es": "basadas en datos concretos.",
+"bbox": [
+1066,
+479,
+1518,
+520
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "9.5",
+"es": "<b>Explicar</b> cada decisión de manera transparente para mantener la conﬁanza",
+"bbox": [
+969,
+617,
+1620,
+700
+],
+"size": 33.6,
+"font": "tGardePro-Bold"
+},
+{
+"id": "9.6",
+"es": "del equipo al máximo.",
+"bbox": [
+1116,
+700,
+1464,
+741
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "9.7",
+"es": "<b>Establecer</b> metas claras y recompensar de",
+"bbox": [
+952,
+837,
+1631,
+881
+],
+"size": 33.6,
+"font": "tGardePro-Bold"
+},
+{
+"id": "9.8",
+"es": "manera justa el esfuerzo de cada",
+"bbox": [
+1027,
+879,
+1555,
+920
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "9.9",
+"es": "colaborador.",
+"bbox": [
+1184,
+919,
+1390,
+960
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "9.10",
+"es": "En este recorrido te guiaré en…",
+"bbox": [
+821,
+80,
+1762,
+152
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"10": [
+{
+"id": "10.1",
+"es": "EMERGENCY KIT",
+"bbox": [
+1426,
+373,
+1619,
+464
+],
+"size": 40.3,
+"font": "CondensedLight"
+}
+],
+"11": [
+{
+"id": "11.1",
+"es": "EMPECEMOS",
+"bbox": [
+533,
+305,
+1357,
+465
+],
+"size": 132.3,
+"font": "T-BoldItalic"
+}
+],
+"12": [
+{
+"id": "12.1",
+"es": "Pista de carrera",
+"bbox": [
+400,
+16,
+878,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "12.2",
+"es": "El rally está diseñado para simular cómo los líderes enfrentan el desafío de gestionar el proceso de revisión salarial, aplicando los principios de Reward.",
+"bbox": [
+384,
+237,
+805,
+338
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+}
+],
+"13": [
+{
+"id": "13.1",
+"es": "Definición de Reward",
+"bbox": [
+400,
+16,
+1046,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "13.2",
+"es": "<b>¿Qué es Reward?</b>",
+"bbox": [
+889,
+251,
+1363,
+321
+],
+"size": 53.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "13.3",
+"es": "Área que diseña la estrategia, herramientas y políticas que la compañía utiliza para <b>recompensar</b>",
+"bbox": [
+1040,
+442,
+1626,
+566
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "13.4",
+"es": "los colaboradores por su trabajo y contribuciones, <b>con el ﬁn de atraer,</b>",
+"bbox": [
+1055,
+565,
+1652,
+648
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "13.5",
+"es": "<b>retener y motivar al talento.</b>",
+"bbox": [
+1114,
+645,
+1584,
+689
+],
+"size": 33.0,
+"font": "tGardePro-Bold"
+}
+],
+"14": [
+{
+"id": "14.1",
+"es": "Definición de Reward",
+"bbox": [
+400,
+16,
+1046,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "14.2",
+"es": "1. Compensaciones",
+"bbox": [
+977,
+261,
+1463,
+316
+],
+"size": 45.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "14.3",
+"es": "2. Beneﬁcios",
+"bbox": [
+1018,
+482,
+1287,
+536
+],
+"size": 45.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "14.4",
+"es": "3. Movilidad",
+"bbox": [
+1018,
+706,
+1283,
+761
+],
+"size": 45.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "14.5",
+"es": "ÁREA REWARD",
+"bbox": [
+316,
+480,
+575,
+615
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"15": [
+{
+"id": "15.1",
+"es": "<b>Reward</b> como área de Inchcape",
+"bbox": [
+810,
+456,
+1333,
+500
+],
+"size": 33.6,
+"font": "tGardePro-Bold"
+},
+{
+"id": "15.2",
+"es": "<b>Reward</b> como compensación",
+"bbox": [
+810,
+669,
+1283,
+713
+],
+"size": 33.6,
+"font": "tGardePro-Bold"
+},
+{
+"id": "15.3",
+"es": "Definición de Reward",
+"bbox": [
+400,
+16,
+1046,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"16": [
+{
+"id": "16.1",
+"es": "Pista de carrerat",
+"bbox": [
+400,
+16,
+899,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "16.2",
+"es": "Para avanzar y cruzar la meta, debemos liderar juntos el proceso de revisión salarial anual",
+"bbox": [
+435,
+177,
+1576,
+208
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "16.3",
+"es": "con precisión y alineación a los principios de Reward.",
+"bbox": [
+664,
+208,
+1347,
+239
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "16.4",
+"es": "Principios de",
+"bbox": [
+143,
+438,
+353,
+478
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "16.5",
+"es": "Reward",
+"bbox": [
+182,
+478,
+306,
+518
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "16.6",
+"es": "Conceptos clave",
+"bbox": [
+1039,
+447,
+1327,
+487
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "16.7",
+"es": "de Reward",
+"bbox": [
+1090,
+486,
+1267,
+526
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "16.8",
+"es": "Proceso de Revisión salarial",
+"bbox": [
+1475,
+771,
+1722,
+851
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"17": [
+{
+"id": "17.1",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "17.2",
+"es": "Reward no solo mide cifras, construye conﬁanza y",
+"bbox": [
+889,
+202,
+1666,
+243
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "17.3",
+"es": "refuerza el compromiso",
+"bbox": [
+1092,
+242,
+1455,
+283
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"18": [
+{
+"id": "18.1",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "18.2",
+"es": "Competitividad",
+"bbox": [
+697,
+291,
+949,
+332
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.3",
+"es": "en el mercado",
+"bbox": [
+703,
+332,
+934,
+373
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.4",
+"es": "Libre de sesgos",
+"bbox": [
+702,
+494,
+935,
+534
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.5",
+"es": "Transparencia,",
+"bbox": [
+705,
+636,
+941,
+677
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.6",
+"es": "precisión y",
+"bbox": [
+737,
+676,
+909,
+717
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.7",
+"es": "claridad",
+"bbox": [
+753,
+717,
+884,
+758
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.8",
+"es": "Expectativas de",
+"bbox": [
+1213,
+271,
+1470,
+312
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.9",
+"es": "Desempeño",
+"bbox": [
+1241,
+312,
+1443,
+353
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.10",
+"es": "Claras",
+"bbox": [
+1289,
+352,
+1387,
+393
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.11",
+"es": "Compartir el Éxito",
+"bbox": [
+1203,
+454,
+1481,
+495
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.12",
+"es": "con los Colaboradores",
+"bbox": [
+1220,
+494,
+1456,
+575
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.13",
+"es": "Apoyar el Bienestar de los",
+"bbox": [
+1218,
+636,
+1466,
+717
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "18.14",
+"es": "Colaboradores",
+"bbox": [
+1220,
+717,
+1456,
+758
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"19": [
+{
+"id": "19.1",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "19.2",
+"es": "Competitividad",
+"bbox": [
+283,
+219,
+536,
+260
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "19.3",
+"es": "en el mercado",
+"bbox": [
+290,
+259,
+521,
+300
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "19.4",
+"es": "Alineación con el mercado para atraer y",
+"bbox": [
+123,
+520,
+490,
+601
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "19.5",
+"es": "retener talento.",
+"bbox": [
+183,
+600,
+422,
+641
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "19.6",
+"es": "Nos apoyamos en encuestas salariales con",
+"bbox": [
+1431,
+463,
+1814,
+544
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "19.7",
+"es": "empresas como Mercer",
+"bbox": [
+1432,
+543,
+1812,
+584
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "19.8",
+"es": "o KornFerry.",
+"bbox": [
+1529,
+584,
+1708,
+625
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"20": [
+{
+"id": "20.1",
+"es": "Perdemos talento.",
+"bbox": [
+1235,
+362,
+1474,
+394
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "20.2",
+"es": "Aumenta el compromiso de los empleados.",
+"bbox": [
+1235,
+482,
+1566,
+547
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "20.3",
+"es": "No tiene impacto.",
+"bbox": [
+1235,
+635,
+1472,
+668
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "20.4",
+"es": "Genera promociones de los empleados.",
+"bbox": [
+1235,
+759,
+1523,
+824
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "20.5",
+"es": "¿Qué impacto tiene una compensación no alineada con el mercado?",
+"bbox": [
+409,
+202,
+1483,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "20.6",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"21": [
+{
+"id": "21.1",
+"es": "Perdemos talento.",
+"bbox": [
+1235,
+362,
+1474,
+394
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.2",
+"es": "Aumenta el compromiso de los empleados.",
+"bbox": [
+1235,
+482,
+1566,
+547
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.3",
+"es": "No tiene impacto.",
+"bbox": [
+1235,
+635,
+1472,
+668
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.4",
+"es": "Genera promociones de los empleados.",
+"bbox": [
+1235,
+759,
+1523,
+824
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.5",
+"es": "¿Qué impacto tiene una compensación no alineada con el mercado?",
+"bbox": [
+409,
+202,
+1483,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.7",
+"es": "¡Muy bien!",
+"bbox": [
+1018,
+301,
+1424,
+413
+],
+"size": 93.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "21.8",
+"es": "Una compensación no alineada",
+"bbox": [
+1024,
+418,
+1426,
+448
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.9",
+"es": "con el mercado lleva a que los colaboradores consideren ofertas",
+"bbox": [
+1016,
+448,
+1434,
+508
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.10",
+"es": "externas más competitivas, poniendo en riesgo la retención",
+"bbox": [
+1027,
+508,
+1423,
+568
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.11",
+"es": "del talento clave.",
+"bbox": [
+1114,
+568,
+1329,
+598
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "21.12",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "21.13",
+"es": "nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Lorem ipsum dolor sit amet,",
+"bbox": [
+294,
+987,
+1561,
+1019
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+}
+],
+"22": [
+{
+"id": "22.1",
+"es": "Perdemos talento.",
+"bbox": [
+1235,
+362,
+1474,
+394
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.2",
+"es": "Aumenta el compromiso de los empleados.",
+"bbox": [
+1235,
+482,
+1566,
+547
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.3",
+"es": "No tiene impacto.",
+"bbox": [
+1235,
+635,
+1472,
+668
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.4",
+"es": "Genera promociones de los empleados.",
+"bbox": [
+1235,
+759,
+1523,
+824
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.5",
+"es": "¿Qué impacto tiene una compensación no alineada con el mercado?",
+"bbox": [
+409,
+202,
+1483,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.7",
+"es": "No es la respuesta",
+"bbox": [
+950,
+308,
+1445,
+387
+],
+"size": 66.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "22.8",
+"es": "La respuesta correcta es que perdemos talento, ya que una",
+"bbox": [
+1013,
+418,
+1391,
+478
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.9",
+"es": "compensación no alineada",
+"bbox": [
+1029,
+478,
+1375,
+508
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.10",
+"es": "afecta directamente la capacidad de la empresa para tanto atraer como retener talento.",
+"bbox": [
+988,
+508,
+1409,
+598
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "22.11",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"23": [
+{
+"id": "23.1",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "23.2",
+"es": "Libre de sesgos",
+"bbox": [
+289,
+240,
+522,
+281
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "23.3",
+"es": "Decisiones salariales",
+"bbox": [
+147,
+520,
+465,
+560
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "23.4",
+"es": "basadas en datos",
+"bbox": [
+162,
+560,
+451,
+601
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "23.5",
+"es": "objetivos.",
+"bbox": [
+229,
+600,
+375,
+641
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "23.6",
+"es": "Fomentamos la",
+"bbox": [
+1498,
+485,
+1747,
+526
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "23.7",
+"es": "equidad y transparencia.",
+"bbox": [
+1506,
+526,
+1730,
+607
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"24": [
+{
+"id": "24.1",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "24.2",
+"es": "Transparencia,",
+"bbox": [
+292,
+198,
+528,
+239
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "24.3",
+"es": "precisión y",
+"bbox": [
+324,
+239,
+495,
+280
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "24.4",
+"es": "claridad",
+"bbox": [
+340,
+279,
+471,
+320
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "24.5",
+"es": "Comunicación clara",
+"bbox": [
+1457,
+485,
+1787,
+526
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "24.6",
+"es": "sobre cómo se tomó",
+"bbox": [
+1458,
+526,
+1787,
+566
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "24.7",
+"es": "la decisión salarial.",
+"bbox": [
+1475,
+566,
+1761,
+607
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"25": [
+{
+"id": "25.1",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "25.2",
+"es": "Transparencia,",
+"bbox": [
+292,
+198,
+528,
+239
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "25.3",
+"es": "precisión y",
+"bbox": [
+324,
+239,
+495,
+280
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "25.4",
+"es": "claridad",
+"bbox": [
+340,
+279,
+471,
+320
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "25.5",
+"es": "¡Gracias por la explicación! Me siento motivada para seguir contribuyendo de esta manera.",
+"bbox": [
+278,
+445,
+672,
+521
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "25.6",
+"es": "Ana, felicidades por tu excelente desempeño este trimestre. Basado en tus resultados, se tomó la decisión de darte un incremento salarial.",
+"bbox": [
+1244,
+173,
+1694,
+275
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "25.7",
+"es": "Este ajuste reﬂeja no solo el valor que aportaste al equipo, sino también que tu salario se mantiene competitivo y justo en comparación con roles similares en el mercado.",
+"bbox": [
+1245,
+324,
+1706,
+425
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+}
+],
+"26": [
+{
+"id": "26.1",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "26.2",
+"es": "Expectativas de",
+"bbox": [
+281,
+198,
+538,
+239
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "26.3",
+"es": "Desempeño",
+"bbox": [
+309,
+239,
+510,
+280
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "26.4",
+"es": "Claras",
+"bbox": [
+356,
+279,
+455,
+320
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "26.5",
+"es": "Comunicamos de forma",
+"bbox": [
+1427,
+449,
+1818,
+490
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "26.6",
+"es": "precisa los objetivos, indicadores de éxito y expectativas durante el",
+"bbox": [
+1434,
+490,
+1811,
+611
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "26.7",
+"es": "ciclo de evaluación.",
+"bbox": [
+1459,
+611,
+1777,
+652
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"27": [
+{
+"id": "27.1",
+"es": "Reconocemos y celebramos los logros de",
+"bbox": [
+1426,
+481,
+1818,
+562
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "27.2",
+"es": "cada colaborador.",
+"bbox": [
+1468,
+562,
+1768,
+603
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "27.3",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "27.4",
+"es": "Compartir el Éxito",
+"bbox": [
+270,
+198,
+549,
+239
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "27.5",
+"es": "con los Colaboradores",
+"bbox": [
+288,
+239,
+523,
+320
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"28": [
+{
+"id": "28.1",
+"es": "Pensamos en el bienestar",
+"bbox": [
+1426,
+403,
+1827,
+444
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "28.2",
+"es": "del equipo ofreciendo recursos para apoyar la salud física, emocional y",
+"bbox": [
+1434,
+443,
+1819,
+564
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "28.3",
+"es": "el desarrollo profesional",
+"bbox": [
+1441,
+564,
+1812,
+605
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "28.4",
+"es": "de nuestros colaboradores.",
+"bbox": [
+1503,
+604,
+1741,
+685
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "28.5",
+"es": "Principios de Reward",
+"bbox": [
+400,
+16,
+1035,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "28.6",
+"es": "Apoyar el Bienestar de los",
+"bbox": [
+286,
+198,
+533,
+280
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "28.7",
+"es": "Colaboradores",
+"bbox": [
+288,
+279,
+523,
+320
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+}
+],
+"29": [
+{
+"id": "29.1",
+"es": "Pista de carrera",
+"bbox": [
+400,
+16,
+878,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "29.2",
+"es": "Para avanzar y cruzar la meta, debemos liderar juntos el proceso de revisión salarial anual",
+"bbox": [
+435,
+177,
+1576,
+208
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "29.3",
+"es": "con precisión y alineación a los principios de Reward.",
+"bbox": [
+664,
+208,
+1347,
+239
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "29.4",
+"es": "Principios de",
+"bbox": [
+143,
+438,
+353,
+478
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "29.5",
+"es": "Reward",
+"bbox": [
+182,
+478,
+306,
+518
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "29.6",
+"es": "Conceptos clave",
+"bbox": [
+1039,
+447,
+1327,
+487
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "29.7",
+"es": "de Reward",
+"bbox": [
+1090,
+486,
+1267,
+526
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "29.8",
+"es": "Proceso de Revisión salarial",
+"bbox": [
+1475,
+771,
+1722,
+851
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"30": [
+{
+"id": "30.1",
+"es": "Conceptos clave",
+"bbox": [
+400,
+16,
+883,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "30.2",
+"es": "Comparatio (o posicionamiento)",
+"bbox": [
+865,
+279,
+1322,
+315
+],
+"size": 30.1,
+"font": "tGardePro-Bk"
+},
+{
+"id": "30.3",
+"es": "Matriz de Mérito",
+"bbox": [
+982,
+432,
+1205,
+469
+],
+"size": 30.1,
+"font": "tGardePro-Bk"
+},
+{
+"id": "30.4",
+"es": "Grados salariales",
+"bbox": [
+976,
+586,
+1211,
+623
+],
+"size": 30.1,
+"font": "tGardePro-Bk"
+},
+{
+"id": "30.5",
+"es": "Rangos salariales",
+"bbox": [
+976,
+740,
+1211,
+776
+],
+"size": 30.1,
+"font": "tGardePro-Bk"
+}
+],
+"31": [
+{
+"id": "31.1",
+"es": "Conceptos clave",
+"bbox": [
+400,
+16,
+883,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "31.2",
+"es": "<b>Comparatio (o posicionamiento)</b>",
+"bbox": [
+40,
+583,
+621,
+628
+],
+"size": 34.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "31.3",
+"es": "Indicador que evalúa si el salario de un colaborador está alineado con el rango salarial establecido para su puesto.",
+"bbox": [
+52,
+687,
+578,
+849
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "31.4",
+"es": "Garantiza decisiones",
+"bbox": [
+1408,
+673,
+1740,
+714
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "31.5",
+"es": "salariales justas y competitivas, alineadas",
+"bbox": [
+1385,
+713,
+1763,
+795
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "31.6",
+"es": "con el mercado.",
+"bbox": [
+1439,
+794,
+1700,
+835
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "31.7",
+"es": "Midpoint",
+"bbox": [
+1492,
+161,
+1558,
+181
+],
+"size": 16.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "31.8",
+"es": "<b>MERCADO INICIAL FINAL</b>",
+"bbox": [
+1235,
+243,
+1808,
+272
+],
+"size": 21.7,
+"font": "tGardePro-Bold"
+},
+{
+"id": "31.9",
+"es": "Mìnimo Màximo",
+"bbox": [
+1189,
+161,
+1855,
+181
+],
+"size": 16.0,
+"font": "tGardePro-Bk"
+}
+],
+"32": [
+{
+"id": "32.1",
+"es": "Conceptos clave",
+"bbox": [
+400,
+16,
+883,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "32.2",
+"es": "<b>Matriz de Mérito</b>",
+"bbox": [
+189,
+583,
+471,
+628
+],
+"size": 34.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "32.3",
+"es": "Herramienta del proceso de revi- sión salarial que combina dos fac- tores importantes: • Desempeño • Comparatio",
+"bbox": [
+52,
+687,
+580,
+890
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "32.4",
+"es": "<b>Performance</b> Bajo el 80%",
+"bbox": [
+1269,
+263,
+1519,
+287
+],
+"size": 17.8,
+"font": "tGardePro-Bold"
+},
+{
+"id": "32.5",
+"es": "Excedido",
+"bbox": [
+1251,
+309,
+1312,
+326
+],
+"size": 14.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "32.6",
+"es": "Alcanzado",
+"bbox": [
+1251,
+344,
+1323,
+361
+],
+"size": 14.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "32.7",
+"es": "Parcialmente Alcanzado",
+"bbox": [
+1251,
+374,
+1341,
+408
+],
+"size": 14.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "32.8",
+"es": "Bajo cumplimiento",
+"bbox": [
+1251,
+418,
+1371,
+435
+],
+"size": 14.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "32.9",
+"es": "Entre 80%",
+"bbox": [
+1574,
+260,
+1633,
+275
+],
+"size": 12.7,
+"font": "tGardePro-Bk"
+},
+{
+"id": "32.10",
+"es": "Entre 100%",
+"bbox": [
+1676,
+260,
+1742,
+275
+],
+"size": 12.7,
+"font": "tGardePro-Bk"
+},
+{
+"id": "32.11",
+"es": "Sobre el 120%",
+"bbox": [
+1780,
+268,
+1860,
+284
+],
+"size": 12.7,
+"font": "tGardePro-Bk"
+}
+],
+"33": [
+{
+"id": "33.1",
+"es": "Determinan el nivel dentro de la organización y el rango salarial en función del mercado.",
+"bbox": [
+1435,
+735,
+1845,
+897
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.2",
+"es": "Conceptos clave",
+"bbox": [
+400,
+16,
+883,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "33.3",
+"es": "<b>Grados salariales</b>",
+"bbox": [
+176,
+583,
+485,
+628
+],
+"size": 34.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "33.4",
+"es": "Categorías que agrupan puestos similares según su responsabilidad y requisitos",
+"bbox": [
+52,
+687,
+606,
+809
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.5",
+"es": "KM/H BOOST",
+"bbox": [
+1284,
+787,
+1349,
+792
+],
+"size": 3.9,
+"font": "ro-Regular"
+},
+{
+"id": "33.6",
+"es": "Inchcape Band",
+"bbox": [
+1456,
+152,
+1586,
+174
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.7",
+"es": "Not banded",
+"bbox": [
+1472,
+202,
+1576,
+224
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.8",
+"es": "Not banded",
+"bbox": [
+1472,
+238,
+1576,
+260
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.9",
+"es": "Not banded",
+"bbox": [
+1472,
+274,
+1576,
+296
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.10",
+"es": "Not banded",
+"bbox": [
+1472,
+310,
+1576,
+332
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.11",
+"es": "Not banded",
+"bbox": [
+1472,
+346,
+1576,
+368
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.12",
+"es": "Not banded",
+"bbox": [
+1472,
+382,
+1576,
+404
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.13",
+"es": "Not banded",
+"bbox": [
+1472,
+418,
+1576,
+440
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.14",
+"es": "Not banded",
+"bbox": [
+1472,
+454,
+1576,
+476
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.15",
+"es": "Not banded",
+"bbox": [
+1472,
+490,
+1576,
+512
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.16",
+"es": "Not banded",
+"bbox": [
+1472,
+526,
+1576,
+548
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.17",
+"es": "Not banded",
+"bbox": [
+1472,
+562,
+1576,
+584
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.18",
+"es": "Not banded",
+"bbox": [
+1472,
+598,
+1576,
+620
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.19",
+"es": "Not banded",
+"bbox": [
+1472,
+632,
+1576,
+654
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "33.20",
+"es": "Pay Grade",
+"bbox": [
+1666,
+152,
+1757,
+174
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+}
+],
+"34": [
+{
+"id": "34.1",
+"es": "Conceptos clave",
+"bbox": [
+400,
+16,
+883,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "34.2",
+"es": "<b>Rangos salariales</b>",
+"bbox": [
+175,
+583,
+486,
+628
+],
+"size": 34.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "34.3",
+"es": "Deﬁne el salario mínimo, medio y máximo para cada puesto dentro del grado salarial. Los salarios pueden variar dentro del rango según la experiencia, habilidades y desempeño del colaborador.",
+"bbox": [
+52,
+687,
+1848,
+882
+],
+"size": 33.6,
+"font": "tGardePro-Bk"
+},
+{
+"id": "34.4",
+"es": "Grado Salarial",
+"bbox": [
+1351,
+160,
+1469,
+182
+],
+"size": 18.0,
+"font": "tGardePro-Bk"
+}
+],
+"35": [
+{
+"id": "35.1",
+"es": "Pista de carrera",
+"bbox": [
+400,
+16,
+878,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "35.2",
+"es": "Para avanzar y cruzar la meta, debemos liderar juntos el proceso de revisión salarial anual",
+"bbox": [
+435,
+177,
+1576,
+208
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "35.3",
+"es": "con precisión y alineación a los principios de Reward.",
+"bbox": [
+664,
+208,
+1347,
+239
+],
+"size": 26.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "35.4",
+"es": "Principios de",
+"bbox": [
+143,
+438,
+353,
+478
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "35.5",
+"es": "Reward",
+"bbox": [
+182,
+478,
+306,
+518
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "35.6",
+"es": "Conceptos clave",
+"bbox": [
+1039,
+447,
+1327,
+487
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "35.7",
+"es": "de Reward",
+"bbox": [
+1090,
+486,
+1267,
+526
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "35.8",
+"es": "Proceso de Revisión salarial",
+"bbox": [
+1475,
+771,
+1722,
+851
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"36": [
+{
+"id": "36.1",
+"es": "Veamos ejemplos donde aplicaremos lo aprendido en este proceso.",
+"bbox": [
+964,
+258,
+1361,
+308
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "36.2",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"37": [
+{
+"id": "37.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "37.2",
+"es": "<b>Parte 1: Preparación para la Revisión</b>",
+"bbox": [
+1062,
+185,
+1783,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "37.3",
+"es": "<b>Salarial</b>",
+"bbox": [
+1344,
+233,
+1490,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "37.4",
+"es": "Revisar el comparatio de cada colaborador y",
+"bbox": [
+1055,
+348,
+1803,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "37.5",
+"es": "asegurar que existan expectativas claras de",
+"bbox": [
+1070,
+389,
+1788,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "37.6",
+"es": "desempeño.",
+"bbox": [
+1322,
+430,
+1526,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "37.7",
+"es": "Deﬁne y comunica con anticipación las expectativas para cada colaborador: metas,",
+"bbox": [
+1062,
+602,
+1801,
+683
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "37.8",
+"es": "indicadores y áreas de desarrollo.",
+"bbox": [
+1156,
+684,
+1697,
+724
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"38": [
+{
+"id": "38.1",
+"es": "<b>Parte 1: Preparación para la Revisión</b>",
+"bbox": [
+1062,
+185,
+1783,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "38.2",
+"es": "<b>Salarial</b>",
+"bbox": [
+1344,
+233,
+1490,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "38.3",
+"es": "Revisar el comparatio de cada colaborador y",
+"bbox": [
+1055,
+348,
+1803,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.4",
+"es": "asegurar que existan expectativas claras de",
+"bbox": [
+1070,
+389,
+1788,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.5",
+"es": "desempeño.",
+"bbox": [
+1322,
+430,
+1526,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.6",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "38.7",
+"es": "Como líder, es clave que puedas saber el",
+"bbox": [
+139,
+573,
+376,
+627
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.8",
+"es": "comparatio de tu",
+"bbox": [
+155,
+625,
+360,
+653
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.9",
+"es": "equipo, pero al hablar con cada uno",
+"bbox": [
+134,
+651,
+381,
+705
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.10",
+"es": "no es necesario que",
+"bbox": [
+141,
+703,
+374,
+731
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.11",
+"es": "les compartas el resultado exacto.",
+"bbox": [
+157,
+729,
+352,
+783
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.12",
+"es": "<b>Comparatio</b>",
+"bbox": [
+965,
+573,
+1194,
+619
+],
+"size": 35.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "38.13",
+"es": "<b>de Julia</b>",
+"bbox": [
+1001,
+611,
+1147,
+657
+],
+"size": 35.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "38.14",
+"es": "(Por debajo del 80%",
+"bbox": [
+962,
+729,
+1192,
+757
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.15",
+"es": "esperado)",
+"bbox": [
+1016,
+755,
+1132,
+783
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "38.16",
+"es": "<b>Cálculo del comparatio:</b>",
+"bbox": [
+1409,
+593,
+1662,
+621
+],
+"size": 21.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "38.17",
+"es": "(Salario actual / Punto medio de la banda) x 100",
+"bbox": [
+1409,
+645,
+1751,
+696
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+}
+],
+"39": [
+{
+"id": "39.1",
+"es": "<b>Parte 1: Preparación para la Revisión</b>",
+"bbox": [
+1062,
+185,
+1783,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "39.2",
+"es": "<b>Salarial</b>",
+"bbox": [
+1344,
+233,
+1490,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "39.3",
+"es": "Revisar el comparatio de cada colaborador y",
+"bbox": [
+1055,
+348,
+1803,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "39.4",
+"es": "asegurar que existan expectativas claras de",
+"bbox": [
+1070,
+389,
+1788,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "39.5",
+"es": "desempeño.",
+"bbox": [
+1322,
+430,
+1526,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "39.6",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "39.7",
+"es": "Aplico un ajuste salarial alineado al",
+"bbox": [
+1158,
+583,
+1699,
+621
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "39.8",
+"es": "mercado.",
+"bbox": [
+1350,
+625,
+1499,
+663
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+}
+],
+"40": [
+{
+"id": "40.1",
+"es": "No hacer nada, ya que el salario es suﬁciente.",
+"bbox": [
+1146,
+347,
+1584,
+412
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "40.2",
+"es": "Considerar un incremento para acercar su salario al punto medio o rango mínimo.",
+"bbox": [
+1147,
+464,
+1593,
+561
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "40.3",
+"es": "Si el salario de Julia está por debajo del 74% del punto medio y su desempeño es excedido,",
+"bbox": [
+256,
+161,
+1644,
+198
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "40.4",
+"es": "¿qué debería hacer Carla?",
+"bbox": [
+738,
+198,
+1153,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "40.5",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "40.6",
+"es": "El salario que tenía la persona que ocupaba hace 2 años el rol de Julia y que ya no está en la compañía ganaba lo mismo, por lo tanto, Carla piensa que si Julio ganaba eso no hay necesidad de que Julia tenga un incremento.",
+"bbox": [
+1141,
+604,
+1712,
+700
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "40.7",
+"es": "Esperar mejor que Julia pueda tener un incremento por inﬂación que en su país por ley sí tienen.",
+"bbox": [
+1153,
+744,
+1655,
+841
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+}
+],
+"41": [
+{
+"id": "41.1",
+"es": "No hacer nada, ya que el salario es suﬁciente.",
+"bbox": [
+1146,
+347,
+1584,
+412
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.2",
+"es": "Considerar un incremento para acercar su salario al punto medio o rango mínimo.",
+"bbox": [
+1147,
+464,
+1593,
+561
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.3",
+"es": "Si el salario de Julia está por debajo del 74% del punto medio y su desempeño es excedido,",
+"bbox": [
+256,
+161,
+1644,
+198
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.4",
+"es": "¿qué debería hacer Carla?”",
+"bbox": [
+731,
+198,
+1160,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.5",
+"es": "El salario que tenía la persona que ocupaba hace 2 años el rol de Julia y que ya no está en la compañía ganaba lo mismo, por lo tanto, Carla piensa que si Julio ganaba eso no hay necesidad de que Julia tenga un incremento.",
+"bbox": [
+1141,
+604,
+1712,
+700
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.6",
+"es": "Esperar mejor que Julia pueda tener un incremento por inﬂación que en su país por ley sí tienen.",
+"bbox": [
+1153,
+744,
+1655,
+841
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.7",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.8",
+"es": "¡Muy bien!",
+"bbox": [
+1018,
+285,
+1424,
+397
+],
+"size": 93.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "41.9",
+"es": "Si el desempeño de Julia excede las",
+"bbox": [
+1001,
+418,
+1449,
+448
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.10",
+"es": "expectativas y su salario está signiﬁcativamente por debajo del punto medio, es adecuado ajustar su compensación para alinearla con el mercado, reconociendo su aporte",
+"bbox": [
+996,
+448,
+1454,
+598
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.11",
+"es": "al equipo.",
+"bbox": [
+1160,
+598,
+1283,
+628
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "41.12",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"42": [
+{
+"id": "42.1",
+"es": "No hacer nada, ya que el salario es suﬁciente.",
+"bbox": [
+1146,
+347,
+1584,
+412
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.2",
+"es": "Considerar un incremento para acercar su salario al punto medio o rango mínimo.",
+"bbox": [
+1147,
+464,
+1593,
+561
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.3",
+"es": "Si el salario de Julia está por debajo del 74% del punto medio y su desempeño es excedido,",
+"bbox": [
+256,
+161,
+1644,
+198
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.4",
+"es": "¿qué debería hacer Carla?”",
+"bbox": [
+731,
+198,
+1160,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.5",
+"es": "El salario que tenía la persona que ocupaba hace 2 años el rol de Julia y que ya no está en la compañía ganaba lo mismo, por lo tanto, Carla piensa que si Julio ganaba eso no hay necesidad de que Julia tenga un incremento.",
+"bbox": [
+1141,
+604,
+1712,
+700
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.6",
+"es": "Esperar mejor que Julia pueda tener un incremento por inﬂación que en su país por ley sí tienen.",
+"bbox": [
+1153,
+744,
+1655,
+841
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.7",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.8",
+"es": "La respuesta correcta es considerar un",
+"bbox": [
+986,
+390,
+1464,
+420
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.9",
+"es": "incremento. Ignorar el desempeño excedido de Julia o no ajustar su salario",
+"bbox": [
+980,
+420,
+1470,
+480
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.10",
+"es": "la desmotivaría y podría percibirlo como injusto. Además, basar la decisión",
+"bbox": [
+977,
+480,
+1473,
+540
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.11",
+"es": "en datos desactualizados o esperar ajustes por inﬂación no asegura una",
+"bbox": [
+1002,
+540,
+1447,
+600
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.12",
+"es": "compensación competitiva.",
+"bbox": [
+1049,
+600,
+1394,
+630
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "42.13",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "42.14",
+"es": "No es la respuesta",
+"bbox": [
+967,
+292,
+1462,
+371
+],
+"size": 66.0,
+"font": "T-ExtraBlackCondI"
+}
+],
+"43": [
+{
+"id": "43.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "43.2",
+"es": "<b>Parte 2: Evitando Sesgos en la</b>",
+"bbox": [
+1131,
+185,
+1715,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "43.3",
+"es": "<b>Evaluación</b>",
+"bbox": [
+1312,
+233,
+1522,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "43.4",
+"es": "Identiﬁcar y evitar sesgos comunes en la toma",
+"bbox": [
+1054,
+348,
+1803,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "43.5",
+"es": "de decisiones salariales, basándose en",
+"bbox": [
+1113,
+389,
+1745,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "43.6",
+"es": "desempeño y datos concretos.",
+"bbox": [
+1174,
+430,
+1739,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "43.7",
+"es": "Roberto es un colaborador experimentado con",
+"bbox": [
+1046,
+621,
+1817,
+661
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "43.8",
+"es": "12 años en la empresa.",
+"bbox": [
+1241,
+662,
+1613,
+702
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"44": [
+{
+"id": "44.1",
+"es": "<b>Comparatio de</b>",
+"bbox": [
+1087,
+556,
+1374,
+602
+],
+"size": 35.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "44.2",
+"es": "<b>Roberto</b>",
+"bbox": [
+1155,
+594,
+1296,
+640
+],
+"size": 35.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "44.3",
+"es": "(Por encima del punto",
+"bbox": [
+1100,
+724,
+1357,
+752
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "44.4",
+"es": "medio de su rango",
+"bbox": [
+1120,
+750,
+1338,
+778
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "44.5",
+"es": "salarial)",
+"bbox": [
+1183,
+776,
+1268,
+804
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "44.6",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "44.7",
+"es": "<b>Parte 2: Evitando Sesgos en la</b>",
+"bbox": [
+1131,
+185,
+1715,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "44.8",
+"es": "<b>Evaluación</b>",
+"bbox": [
+1312,
+233,
+1522,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "44.9",
+"es": "Identiﬁcar y evitar sesgos comunes en la toma",
+"bbox": [
+1054,
+348,
+1803,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "44.10",
+"es": "de decisiones salariales, basándose en",
+"bbox": [
+1113,
+389,
+1745,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "44.11",
+"es": "desempeño y datos concretos.",
+"bbox": [
+1174,
+430,
+1739,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "44.12",
+"es": "Salario competitivo",
+"bbox": [
+1572,
+639,
+1748,
+711
+],
+"size": 30.0,
+"font": "tGardePro-Bk"
+}
+],
+"45": [
+{
+"id": "45.1",
+"es": "<b>Desempeño parcialmente cumplido</b>",
+"bbox": [
+1100,
+592,
+1750,
+638
+],
+"size": 35.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "45.2",
+"es": "No recibirá un incremento",
+"bbox": [
+1279,
+683,
+1571,
+711
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "45.3",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "45.4",
+"es": "<b>Parte 2: Evitando Sesgos en la</b>",
+"bbox": [
+1131,
+185,
+1715,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "45.5",
+"es": "<b>Evaluación</b>",
+"bbox": [
+1312,
+233,
+1522,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "45.6",
+"es": "Identiﬁcar y evitar sesgos comunes en la toma",
+"bbox": [
+1054,
+348,
+1803,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "45.7",
+"es": "de decisiones salariales, basándose en",
+"bbox": [
+1113,
+389,
+1745,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "45.8",
+"es": "desempeño y datos concretos.",
+"bbox": [
+1174,
+430,
+1739,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"46": [
+{
+"id": "46.1",
+"es": "Sí, por antigüedad.",
+"bbox": [
+1071,
+365,
+1284,
+393
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "46.2",
+"es": "No, porque su desempeño no lo justiﬁca.",
+"bbox": [
+1072,
+486,
+1377,
+542
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "46.3",
+"es": "Roberto tiene un comparatio del 120%, pero su desempeño ha sido parcialmente cumplido. ¿Es",
+"bbox": [
+223,
+161,
+1676,
+198
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "46.4",
+"es": "adecuado otorgarle un incremento?",
+"bbox": [
+667,
+198,
+1225,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "46.5",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "46.6",
+"es": "Sí, porque Roberto le comentó a Julia que ha decidido comprar una casa y su esposa está embarazada.",
+"bbox": [
+1066,
+623,
+1689,
+679
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "46.7",
+"es": "No tendrá incremento en el proceso de revisión salarial, pero cuando termine el proceso se le puede brindar un bono extra debido a su antigüedad.",
+"bbox": [
+1078,
+745,
+1766,
+828
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+}
+],
+"47": [
+{
+"id": "47.1",
+"es": "Sí, por antigüedad.",
+"bbox": [
+1146,
+362,
+1395,
+394
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.2",
+"es": "No, porque su desempeño no lo justiﬁca.",
+"bbox": [
+1147,
+482,
+1503,
+547
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.3",
+"es": "Roberto tiene un comparatio del 120%, pero su desempeño ha sido parcialmente cumplido. ¿Es",
+"bbox": [
+223,
+161,
+1676,
+198
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.4",
+"es": "adecuado otorgarle un incremento?",
+"bbox": [
+667,
+198,
+1225,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.5",
+"es": "Sí, porque Roberto le comentó a Julia que ha decidido comprar una casa y su esposa está embarazada.",
+"bbox": [
+1141,
+602,
+1642,
+700
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.6",
+"es": "No tendrá incremento en el proceso de revisión salarial, pero cuando termine el proceso se le puede brindar un bono extra debido a su antigüedad.",
+"bbox": [
+1153,
+746,
+1622,
+842
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.7",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.8",
+"es": "¡Muy bien!",
+"bbox": [
+1018,
+285,
+1424,
+397
+],
+"size": 93.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "47.9",
+"es": "Aunque Roberto tiene un comparatio elevado, su desempeño",
+"bbox": [
+998,
+418,
+1452,
+478
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.10",
+"es": "no ha alcanzado los estándares",
+"bbox": [
+1027,
+478,
+1423,
+508
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.11",
+"es": "necesarios para justiﬁcar un incremento salarial, de acuerdo con",
+"bbox": [
+999,
+508,
+1451,
+568
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.12",
+"es": "los principios de Reward.",
+"bbox": [
+1071,
+568,
+1372,
+598
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "47.13",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"48": [
+{
+"id": "48.1",
+"es": "Sí, por antigüedad.",
+"bbox": [
+1146,
+362,
+1395,
+394
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.2",
+"es": "No, porque su desempeño no lo justiﬁca.",
+"bbox": [
+1147,
+482,
+1503,
+547
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.3",
+"es": "Roberto tiene un comparatio del 120%, pero su desempeño ha sido parcialmente cumplido. ¿Es",
+"bbox": [
+223,
+161,
+1676,
+198
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.4",
+"es": "adecuado otorgarle un incremento?",
+"bbox": [
+667,
+198,
+1225,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.5",
+"es": "Sí, porque Roberto le comentó a Julia que ha decidido comprar una casa y su esposa está embarazada.",
+"bbox": [
+1141,
+602,
+1642,
+700
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.6",
+"es": "No tendrá incremento en el proceso de revisión salarial, pero cuando termine el proceso se le puede brindar un bono extra debido a su antigüedad.",
+"bbox": [
+1153,
+746,
+1622,
+842
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.7",
+"es": "La respuesta correcta es que no es adecuado, ya que los incrementos",
+"bbox": [
+1008,
+390,
+1442,
+450
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.8",
+"es": "salariales deben basarse en el desempeño y no en factores como la",
+"bbox": [
+992,
+450,
+1458,
+510
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.9",
+"es": "antigüedad, situaciones personales o",
+"bbox": [
+995,
+510,
+1455,
+540
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.10",
+"es": "alternativas fuera del proceso establecido, para asegurar decisiones",
+"bbox": [
+989,
+540,
+1461,
+600
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.11",
+"es": "justas y objetivas.",
+"bbox": [
+1117,
+600,
+1326,
+630
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.12",
+"es": "No es la respuesta",
+"bbox": [
+967,
+292,
+1462,
+371
+],
+"size": 66.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "48.13",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "48.14",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"49": [
+{
+"id": "49.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "49.2",
+"es": "<b>Parte 3: Comunicación Transparente y</b>",
+"bbox": [
+1053,
+185,
+1792,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "49.3",
+"es": "<b>Clara</b>",
+"bbox": [
+1364,
+233,
+1470,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "49.4",
+"es": "Desarrollar habilidades para comunicar las",
+"bbox": [
+1081,
+348,
+1777,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "49.5",
+"es": "decisiones salariales de manera precisa y",
+"bbox": [
+1093,
+389,
+1765,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "49.6",
+"es": "empática, generando conﬁanza.",
+"bbox": [
+1156,
+430,
+1756,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "49.7",
+"es": "Julia, tu desempeño ha sido excelente y queremos asegurarnos de que tu salario esté alineado con el mercado.",
+"bbox": [
+444,
+261,
+691,
+382
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+}
+],
+"50": [
+{
+"id": "50.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "50.2",
+"es": "<b>Parte 3: Comunicación Transparente y</b>",
+"bbox": [
+1053,
+185,
+1792,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "50.3",
+"es": "<b>Clara</b>",
+"bbox": [
+1364,
+233,
+1470,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "50.4",
+"es": "Desarrollar habilidades para comunicar las",
+"bbox": [
+1081,
+348,
+1777,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "50.5",
+"es": "decisiones salariales de manera precisa y",
+"bbox": [
+1093,
+389,
+1765,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "50.6",
+"es": "empática, generando conﬁanza.",
+"bbox": [
+1156,
+430,
+1756,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "50.7",
+"es": "Por eso, recibirás un incremento para que estés dentro de los parámetros del rango salarial.",
+"bbox": [
+473,
+249,
+680,
+369
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+}
+],
+"51": [
+{
+"id": "51.1",
+"es": "Para que Julia entienda los criterios y se sienta valorada.",
+"bbox": [
+1215,
+347,
+1615,
+402
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "51.2",
+"es": "Para cumplir con un requisito burocrático.",
+"bbox": [
+1211,
+500,
+1686,
+528
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "51.3",
+"es": "Para que Julia se pueda mover a otro equipo.",
+"bbox": [
+1211,
+763,
+1589,
+818
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "51.4",
+"es": "¿Por qué es importante que Carla explique a Julia cómo se tomó la decisión sobre su salario?",
+"bbox": [
+242,
+202,
+1649,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "51.5",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "51.6",
+"es": "Porque si Carla no lo hace, el equipo de People no le genera el pago del nuevo salario a Julia.",
+"bbox": [
+1205,
+609,
+1662,
+693
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+}
+],
+"52": [
+{
+"id": "52.1",
+"es": "Para que Julia entienda los criterios y se sienta valorada.",
+"bbox": [
+1215,
+332,
+1535,
+429
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.2",
+"es": "Para cumplir con un requisito burocrático.",
+"bbox": [
+1211,
+482,
+1495,
+547
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.3",
+"es": "Para que Julia se pueda mover a otro equipo.",
+"bbox": [
+1211,
+759,
+1536,
+824
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.4",
+"es": "¿Por qué es importante que Carla explique a Julia cómo se tomó la decisión sobre su salario?",
+"bbox": [
+242,
+202,
+1649,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.5",
+"es": "Porque si Carla no lo hace, el equipo de People no le genera el pago del nuevo salario a Julia.",
+"bbox": [
+1205,
+609,
+1589,
+693
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.7",
+"es": "¡Muy bien!",
+"bbox": [
+1018,
+285,
+1424,
+397
+],
+"size": 93.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "52.8",
+"es": "Explicar las decisiones salariales de",
+"bbox": [
+1010,
+418,
+1440,
+448
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.9",
+"es": "manera clara y transparente refuerza la conﬁanza, motiva al",
+"bbox": [
+1031,
+448,
+1419,
+508
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.10",
+"es": "colaborador y asegura que comprenda cómo se valora su",
+"bbox": [
+1034,
+508,
+1415,
+568
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.11",
+"es": "desempeño dentro de la",
+"bbox": [
+1069,
+568,
+1381,
+598
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.12",
+"es": "organización.",
+"bbox": [
+1139,
+598,
+1304,
+628
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "52.13",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"53": [
+{
+"id": "53.1",
+"es": "Para que Julia entienda los criterios y se sienta valorada.",
+"bbox": [
+1215,
+332,
+1535,
+429
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.2",
+"es": "Para cumplir con un requisito burocrático.",
+"bbox": [
+1211,
+482,
+1495,
+547
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.3",
+"es": "Para que Julia se pueda mover a otro equipo.",
+"bbox": [
+1211,
+759,
+1536,
+824
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.4",
+"es": "¿Por qué es importante que Carla explique a Julia cómo se tomó la decisión sobre su salario?",
+"bbox": [
+242,
+202,
+1649,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.5",
+"es": "Porque si Carla no lo hace, el equipo de People no le genera el pago del nuevo salario a Julia.",
+"bbox": [
+1205,
+609,
+1589,
+693
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.7",
+"es": "La respuesta correcta es para que Julia entienda los criterios y se sienta",
+"bbox": [
+1001,
+405,
+1449,
+465
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.8",
+"es": "valorada. La explicación no es un",
+"bbox": [
+1016,
+465,
+1434,
+495
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.9",
+"es": "simple trámite ni un requisito administrativo, su propósito principal",
+"bbox": [
+1001,
+495,
+1449,
+555
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.10",
+"es": "es fortalecer la conﬁanza y el",
+"bbox": [
+1044,
+555,
+1406,
+585
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.11",
+"es": "compromiso.",
+"bbox": [
+1142,
+585,
+1301,
+615
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "53.12",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "53.13",
+"es": "No es la respuesta",
+"bbox": [
+967,
+318,
+1462,
+397
+],
+"size": 66.0,
+"font": "T-ExtraBlackCondI"
+}
+],
+"54": [
+{
+"id": "54.1",
+"es": "<b>Parte 3.1: Comunicación Transparente</b>",
+"bbox": [
+1052,
+185,
+1793,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "54.2",
+"es": "<b>y Clara y precisa</b>",
+"bbox": [
+1254,
+233,
+1580,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "54.3",
+"es": "Desarrollar habilidades para comunicar las",
+"bbox": [
+1081,
+348,
+1777,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.4",
+"es": "decisiones salariales de manera precisa y",
+"bbox": [
+1093,
+389,
+1765,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.5",
+"es": "empática, generando conﬁanza.",
+"bbox": [
+1156,
+430,
+1756,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.6",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "54.7",
+"es": "Como líder, es clave que puedas saber el",
+"bbox": [
+77,
+645,
+314,
+699
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.8",
+"es": "comparatio de tu",
+"bbox": [
+93,
+697,
+298,
+725
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.9",
+"es": "equipo, pero al hablar con cada uno",
+"bbox": [
+72,
+723,
+319,
+777
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.10",
+"es": "no es necesario que",
+"bbox": [
+79,
+775,
+312,
+803
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.11",
+"es": "les compartas el resultado exacto.",
+"bbox": [
+95,
+801,
+290,
+855
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.12",
+"es": "Juan:",
+"bbox": [
+1052,
+570,
+1116,
+599
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.13",
+"es": "•Su evaluación de desempeño fue cumplido, pero no sobrecumplido.",
+"bbox": [
+1052,
+628,
+1692,
+686
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "54.14",
+"es": "•Comparatio por encima del rango salarial establecido para su cargo (122%). Por ende, la matriz no sugiere un incremento.",
+"bbox": [
+1052,
+714,
+1804,
+772
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+}
+],
+"55": [
+{
+"id": "55.1",
+"es": "<b>Parte 3.1: Comunicación Transparente</b>",
+"bbox": [
+1052,
+185,
+1793,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "55.2",
+"es": "<b>y Clara y precisa</b>",
+"bbox": [
+1254,
+233,
+1580,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "55.3",
+"es": "Desarrollar habilidades para comunicar las",
+"bbox": [
+1081,
+348,
+1777,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "55.4",
+"es": "decisiones salariales de manera precisa y",
+"bbox": [
+1093,
+389,
+1765,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "55.5",
+"es": "empática, generando conﬁanza.",
+"bbox": [
+1156,
+430,
+1756,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "55.6",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "55.7",
+"es": "Juan, valoramos tu trabajo y el hecho de que cumplas con las expectativas del equipo. Sin embargo, tu salario está por encima del rango para tu puesto, por lo que la matriz de mérito no contempla un incremento este año. Queremos ser transparentes, y estas decisiones se basan en tu desempeño y posicionamiento salarial.",
+"bbox": [
+323,
+132,
+772,
+300
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+}
+],
+"56": [
+{
+"id": "56.1",
+"es": "<b>Parte 3.1: Comunicación Transparente</b>",
+"bbox": [
+1052,
+185,
+1793,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "56.2",
+"es": "<b>y Clara y precisa</b>",
+"bbox": [
+1254,
+233,
+1580,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "56.3",
+"es": "Desarrollar habilidades para comunicar las",
+"bbox": [
+1081,
+348,
+1777,
+389
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "56.4",
+"es": "decisiones salariales de manera precisa y",
+"bbox": [
+1093,
+389,
+1765,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "56.5",
+"es": "empática, generando conﬁanza.",
+"bbox": [
+1156,
+430,
+1756,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "56.6",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "56.7",
+"es": "Aunque este año no haya un incremento, podemos trabajar juntos para identiﬁcar el camino que te permita seguir desarrollándote y aprovechando nuevas oportunidades dentro de la empresa.",
+"bbox": [
+288,
+140,
+577,
+332
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "56.8",
+"es": "Entiendo, muchas gracias por explicármelo de esa manera y brindarme opciones.",
+"bbox": [
+660,
+205,
+903,
+301
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+}
+],
+"57": [
+{
+"id": "57.1",
+"es": "Ser clara sobre los motivos y ofrecer alternativas para el desarrollo del colaborador.",
+"bbox": [
+1078,
+350,
+1679,
+406
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "57.2",
+"es": "No explicar la decisión y simplemente decir que no habrá incremento.",
+"bbox": [
+1079,
+486,
+1656,
+542
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "57.3",
+"es": "¿Cómo debería Carla manejar la situación cuando un colaborador cumple con las expectativas, pero no es elegible para un incremento debido a su posicionamiento salarial?",
+"bbox": [
+251,
+161,
+1641,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "57.4",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "57.5",
+"es": "Darle un incremento a Juan ya que igual sus resultados fueron cumplidos y no importa que siga estando sobrepagado.",
+"bbox": [
+1073,
+612,
+1695,
+696
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "57.6",
+"es": "Pedirle a Juan que se vaya a otra empresa ya que no podrá tener un incremento más adelante.",
+"bbox": [
+1085,
+765,
+1694,
+821
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+}
+],
+"58": [
+{
+"id": "58.1",
+"es": "¿Cómo debería Carla manejar la situación cuando un colaborador cumple con las expectativas, pero no es elegible para un incremento debido a su posicionamiento salarial?",
+"bbox": [
+251,
+161,
+1641,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.2",
+"es": "Ser clara sobre los motivos y ofrecer alternativas para el desarrollo del colaborador.",
+"bbox": [
+1146,
+332,
+1619,
+429
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.3",
+"es": "Considerar un incremento para acercar su salario al punto medio o rango mínimo.",
+"bbox": [
+1147,
+464,
+1593,
+561
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.4",
+"es": "El salario que tenía la persona que ocupaba hace 2 años el rol de Julia y que ya no está en la compañía ganaba lo mismo, por lo tanto, Carla piensa que si Julio ganaba eso no hay necesidad de que Julia tenga un incremento.",
+"bbox": [
+1141,
+604,
+1712,
+700
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.5",
+"es": "Esperar mejor que Julia pueda tener un incremento por inﬂación que en su país por ley sí tienen.",
+"bbox": [
+1153,
+744,
+1655,
+841
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.7",
+"es": "¡Muy bien!",
+"bbox": [
+1018,
+285,
+1424,
+397
+],
+"size": 93.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "58.8",
+"es": "Explicar los motivos y ofrecer",
+"bbox": [
+1048,
+418,
+1402,
+448
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.9",
+"es": "alternativas fomenta transparencia y mantiene la motivación del colaborador.",
+"bbox": [
+1047,
+448,
+1400,
+538
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "58.10",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"59": [
+{
+"id": "59.1",
+"es": "Ser clara sobre los motivos y ofrecer alternativas para el desarrollo del colaborador.",
+"bbox": [
+1146,
+332,
+1619,
+429
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.2",
+"es": "Considerar un incremento para acercar su salario al punto medio o rango mínimo.",
+"bbox": [
+1147,
+464,
+1593,
+561
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.3",
+"es": "¿Cómo debería Carla manejar la situación cuando un colaborador cumple con las expectativas, pero no es elegible para un incremento debido a su posicionamiento salarial?",
+"bbox": [
+251,
+161,
+1641,
+235
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.4",
+"es": "El salario que tenía la persona que ocupaba hace 2 años el rol de Julia y que ya no está en la compañía ganaba lo mismo, por lo tanto, Carla piensa que si Julio ganaba eso no hay necesidad de que Julia tenga un incremento.",
+"bbox": [
+1141,
+604,
+1712,
+700
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.5",
+"es": "Esperar mejor que Julia pueda tener un incremento por inﬂación que en su país por ley sí tienen.",
+"bbox": [
+1153,
+744,
+1655,
+841
+],
+"size": 26.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.7",
+"es": "La respuesta correcta es ser clara",
+"bbox": [
+1017,
+405,
+1433,
+435
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.8",
+"es": "sobre los motivos y ofrecer",
+"bbox": [
+1061,
+435,
+1389,
+465
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.9",
+"es": "alternativas. No explicar genera desconﬁanza, dar",
+"bbox": [
+992,
+465,
+1458,
+525
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.10",
+"es": "un incremento rompe las políticas salariales, y sugerir que se vaya es",
+"bbox": [
+1016,
+525,
+1434,
+585
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.11",
+"es": "poco profesional y desmotivador .",
+"bbox": [
+1017,
+585,
+1426,
+615
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "59.12",
+"es": "No es la respuesta",
+"bbox": [
+967,
+318,
+1462,
+397
+],
+"size": 66.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "59.13",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"60": [
+{
+"id": "60.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "60.2",
+"es": "<b>Parte 4: Manejo de Situaciones</b>",
+"bbox": [
+1121,
+185,
+1725,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "60.3",
+"es": "<b>Difíciles</b>",
+"bbox": [
+1343,
+233,
+1491,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "60.4",
+"es": "Gestionar casos complejos donde no se aplican incrementos salariales, ofreciendo",
+"bbox": [
+1086,
+348,
+1772,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "60.5",
+"es": "alternativas de desarrollo y bienestar.",
+"bbox": [
+1126,
+430,
+1768,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "60.6",
+"es": "Roberto, colaborador experimentado que, después de la revisión salarial y acorde a las",
+"bbox": [
+1073,
+585,
+1790,
+666
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "60.7",
+"es": "políticas, se concluyó que no tendrá un",
+"bbox": [
+1110,
+667,
+1753,
+707
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "60.8",
+"es": "incremento.",
+"bbox": [
+1330,
+708,
+1524,
+748
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+}
+],
+"61": [
+{
+"id": "61.1",
+"es": "Este año, basándonos en tu desempeño y las políticas de la empresa, no aplicaremos un incremento salarial. Sin embargo, quiero que sepas que tu salario es competitivo en relación con el mercado. Y que de todas maneras me gustaría que trabajemos juntos en un plan para seguir impulsando tu desarrollo dentro de la empresa.",
+"bbox": [
+375,
+154,
+785,
+346
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "61.2",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "61.3",
+"es": "<b>Parte 4: Manejo de Situaciones</b>",
+"bbox": [
+1121,
+185,
+1725,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "61.4",
+"es": "<b>Difíciles</b>",
+"bbox": [
+1343,
+233,
+1491,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "61.5",
+"es": "Gestionar casos complejos donde no se aplican incrementos salariales, ofreciendo",
+"bbox": [
+1086,
+348,
+1772,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "61.6",
+"es": "alternativas de desarrollo y bienestar.",
+"bbox": [
+1126,
+430,
+1768,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "61.7",
+"es": "Roberto, valoramos mucho tu experiencia y la contribución que has hecho al equipo.",
+"bbox": [
+52,
+241,
+260,
+337
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+}
+],
+"62": [
+{
+"id": "62.1",
+"es": "Quiero asegurarme de que cuentes con el apoyo necesario para tu bienestar. Tendrás días libres para tu licencia de paternidad. Además, te invito a considerar participar en los programas de desarrollo profesional y bienestar, como sesiones de coaching y actividades de manejo del estrés. Queremos que te sientas respaldado y motivado para seguir creciendo con nosotros.",
+"bbox": [
+290,
+133,
+707,
+349
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "62.2",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "62.3",
+"es": "<b>Parte 4: Manejo de Situaciones</b>",
+"bbox": [
+1121,
+185,
+1725,
+234
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "62.4",
+"es": "<b>Difíciles</b>",
+"bbox": [
+1343,
+233,
+1491,
+282
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "62.5",
+"es": "Gestionar casos complejos donde no se aplican incrementos salariales, ofreciendo",
+"bbox": [
+1086,
+348,
+1772,
+429
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "62.6",
+"es": "alternativas de desarrollo y bienestar.",
+"bbox": [
+1126,
+430,
+1768,
+470
+],
+"size": 33.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "62.7",
+"es": "Gracias por la claridad, Carla. Entiendo la situación y aprecio el apoyo que me ofreces.",
+"bbox": [
+760,
+255,
+970,
+375
+],
+"size": 20.0,
+"font": "tGardePro-Bk"
+}
+],
+"63": [
+{
+"id": "63.1",
+"es": "Simplemente decir que no habrá incremento.",
+"bbox": [
+1212,
+500,
+1730,
+528
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "63.2",
+"es": "¿Qué elementos clave debería incluir Carla en su conversación con Roberto?",
+"bbox": [
+359,
+202,
+1532,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "63.3",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "63.4",
+"es": "Reconocer su contribución, explicar la decisión y ofrecer un plan de desarrollo.",
+"bbox": [
+1205,
+620,
+1740,
+676
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "63.5",
+"es": "No comunicarle nada a Roberto. Ni sabrá por qué tendrá unos días libres por su licencia de paternidad.",
+"bbox": [
+1216,
+334,
+1758,
+421
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "63.6",
+"es": "Actuar como una líder furiosa y culpar que él mismo fue el que se consiguió no tener un incremento por tener un desempeño de no cumplido.",
+"bbox": [
+1209,
+748,
+1798,
+832
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+}
+],
+"64": [
+{
+"id": "64.1",
+"es": "Simplemente decir que no habrá incremento.",
+"bbox": [
+1212,
+500,
+1730,
+528
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.2",
+"es": "¿Qué elementos clave debería incluir Carla en su conversación con Roberto?",
+"bbox": [
+359,
+202,
+1532,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.3",
+"es": "Reconocer su contribución, explicar la decisión y ofrecer un plan de desarrollo.",
+"bbox": [
+1205,
+620,
+1740,
+676
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.4",
+"es": "No comunicarle nada a Roberto. Ni sabrá por qué tendrá unos días libres por su licencia de paternidad.",
+"bbox": [
+1216,
+334,
+1758,
+421
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.5",
+"es": "Actuar como una líder furiosa y culpar que él mismo fue el que se consiguió no tener un incremento por tener un desempeño de no cumplido.",
+"bbox": [
+1209,
+748,
+1798,
+832
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.7",
+"es": "¡Muy bien!",
+"bbox": [
+1018,
+285,
+1424,
+397
+],
+"size": 93.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "64.8",
+"es": "Reconocer su contribución, explicar la decisión y ofrecer un",
+"bbox": [
+1029,
+418,
+1421,
+478
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.9",
+"es": "plan de desarrollo demuestra empatía y fomenta motivación, alineándose con los principios de",
+"bbox": [
+1019,
+478,
+1431,
+568
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.10",
+"es": "comunicación transparente y",
+"bbox": [
+1041,
+568,
+1409,
+598
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.11",
+"es": "apoyo al bienestar.",
+"bbox": [
+1104,
+598,
+1339,
+628
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "64.12",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"65": [
+{
+"id": "65.1",
+"es": "Simplemente decir que no habrá incremento.",
+"bbox": [
+1212,
+500,
+1730,
+528
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.2",
+"es": "¿Qué elementos clave debería incluir Carla en su conversación con Roberto?",
+"bbox": [
+359,
+202,
+1532,
+239
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.3",
+"es": "Reconocer su contribución, explicar la decisión y ofrecer un plan de desarrollo.",
+"bbox": [
+1205,
+620,
+1740,
+676
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.4",
+"es": "No comunicarle nada a Roberto. Ni sabrá por qué tendrá unos días libres por su licencia de paternidad.",
+"bbox": [
+1216,
+334,
+1758,
+421
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.5",
+"es": "Actuar como una líder furiosa y culpar que él mismo fue el que se consiguió no tener un incremento por tener un desempeño de no cumplido.",
+"bbox": [
+1209,
+748,
+1798,
+832
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.6",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.7",
+"es": "No comunicar o solo negar el incremento carece de empatía y",
+"bbox": [
+1017,
+405,
+1433,
+465
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.8",
+"es": "puede desmotivar a Roberto.",
+"bbox": [
+1042,
+465,
+1408,
+495
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.9",
+"es": "Asimismo, culparlo es poco profesional y puede afectar tanto la",
+"bbox": [
+1001,
+495,
+1449,
+555
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.10",
+"es": "conﬁanza como el clima laboral.",
+"bbox": [
+1022,
+555,
+1422,
+585
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "65.11",
+"es": "No es la respuesta",
+"bbox": [
+967,
+318,
+1462,
+397
+],
+"size": 66.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "65.12",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"66": [
+{
+"id": "66.1",
+"es": "Es esencial comprender cómo funciona el proceso de revisión salarial en el sistema People Hub y qué herramientas están a nuestra disposición.",
+"bbox": [
+1083,
+308,
+1497,
+409
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "66.2",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "66.3",
+"es": "<b>Parte 5: Proceso de Revisión Salarial en el Sistema People Hub</b>",
+"bbox": [
+364,
+159,
+1556,
+208
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+}
+],
+"67": [
+{
+"id": "67.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "67.2",
+"es": "<b>Parte 5: Proceso de Revisión Salarial en el Sistema People Hub</b>",
+"bbox": [
+364,
+159,
+1556,
+208
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "67.3",
+"es": "1. Propuesta Incremento",
+"bbox": [
+305,
+256,
+481,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "67.4",
+"es": "Salarial",
+"bbox": [
+341,
+323,
+438,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "67.5",
+"es": "2. Revisión y Validación de",
+"bbox": [
+669,
+256,
+869,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "67.6",
+"es": "Propuestas",
+"bbox": [
+691,
+323,
+839,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "67.7",
+"es": "3. Revisión Ejecutiva",
+"bbox": [
+1059,
+274,
+1206,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "67.8",
+"es": "4. Generación de Cartas y Pago",
+"bbox": [
+1383,
+274,
+1631,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+}
+],
+"68": [
+{
+"id": "68.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "68.2",
+"es": "<b>Parte 5: Proceso de Revisión Salarial en el Sistema People Hub</b>",
+"bbox": [
+364,
+159,
+1556,
+208
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "68.3",
+"es": "1. Propuesta Incremento",
+"bbox": [
+305,
+256,
+481,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "68.4",
+"es": "Salarial",
+"bbox": [
+341,
+323,
+438,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "68.5",
+"es": "2. Revisión y Validación de",
+"bbox": [
+669,
+256,
+869,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "68.6",
+"es": "Propuestas",
+"bbox": [
+691,
+323,
+839,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "68.7",
+"es": "3. Revisión Ejecutiva",
+"bbox": [
+1059,
+274,
+1206,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "68.8",
+"es": "4. Generación de Cartas y Pago",
+"bbox": [
+1383,
+274,
+1631,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+}
+],
+"69": [
+{
+"id": "69.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "69.2",
+"es": "<b>Parte 5: Proceso de Revisión Salarial en el Sistema People Hub</b>",
+"bbox": [
+364,
+159,
+1556,
+208
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "69.3",
+"es": "1. Propuesta Incremento",
+"bbox": [
+305,
+256,
+481,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "69.4",
+"es": "Salarial",
+"bbox": [
+341,
+323,
+438,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "69.5",
+"es": "2. Revisión y Validación de",
+"bbox": [
+669,
+256,
+869,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "69.6",
+"es": "Propuestas",
+"bbox": [
+691,
+323,
+839,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "69.7",
+"es": "3. Revisión Ejecutiva",
+"bbox": [
+1059,
+274,
+1206,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "69.8",
+"es": "4. Generación de Cartas y Pago",
+"bbox": [
+1383,
+274,
+1631,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "69.9",
+"es": "<b>Compensation planner manager</b>",
+"bbox": [
+75,
+583,
+648,
+628
+],
+"size": 34.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "69.10",
+"es": "•Revisa las propuestas en People Hub.",
+"bbox": [
+56,
+694,
+579,
+728
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "69.11",
+"es": "•Aprueba, modiﬁca o devuelve los formularios para ajustes antes de continuar.",
+"bbox": [
+56,
+761,
+542,
+863
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+}
+],
+"70": [
+{
+"id": "70.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "70.2",
+"es": "<b>Parte 5: Proceso de Revisión Salarial en el Sistema People Hub</b>",
+"bbox": [
+364,
+159,
+1556,
+208
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "70.3",
+"es": "1. Propuesta Incremento",
+"bbox": [
+305,
+256,
+481,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.4",
+"es": "Salarial",
+"bbox": [
+341,
+323,
+438,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.5",
+"es": "2. Revisión y Validación de",
+"bbox": [
+669,
+256,
+869,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.6",
+"es": "Propuestas",
+"bbox": [
+691,
+323,
+839,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.7",
+"es": "3. Revisión Ejecutiva",
+"bbox": [
+1059,
+274,
+1206,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.8",
+"es": "4. Generación de Cartas y Pago",
+"bbox": [
+1383,
+274,
+1631,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.9",
+"es": "Equipo de Reward local y",
+"bbox": [
+383,
+779,
+740,
+813
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.10",
+"es": "regional",
+"bbox": [
+502,
+813,
+613,
+847
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.11",
+"es": "Una vez aprobada la propuesta,",
+"bbox": [
+1074,
+758,
+1526,
+792
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.12",
+"es": "se le envía al CEO regional para",
+"bbox": [
+1077,
+792,
+1523,
+826
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "70.13",
+"es": "su conformidad.",
+"bbox": [
+1185,
+825,
+1407,
+859
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+}
+],
+"71": [
+{
+"id": "71.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "71.2",
+"es": "<b>Parte 5: Proceso de Revisión Salarial en el Sistema People Hub</b>",
+"bbox": [
+364,
+159,
+1556,
+208
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "71.3",
+"es": "1. Propuesta Incremento",
+"bbox": [
+305,
+256,
+481,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "71.4",
+"es": "Salarial",
+"bbox": [
+341,
+323,
+438,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "71.5",
+"es": "2. Revisión y Validación de",
+"bbox": [
+669,
+256,
+869,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "71.6",
+"es": "Propuestas",
+"bbox": [
+691,
+323,
+839,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "71.7",
+"es": "3. Revisión Ejecutiva",
+"bbox": [
+1059,
+274,
+1206,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "71.8",
+"es": "4. Generación de Cartas y Pago",
+"bbox": [
+1383,
+274,
+1631,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "71.9",
+"es": "Se generan las cartas de compensación con los resultados del proceso, disponibles en:",
+"bbox": [
+90,
+568,
+553,
+669
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "71.10",
+"es": "Employee Central. •Perﬁl de People Hub de cada colaborador.",
+"bbox": [
+90,
+702,
+518,
+804
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+}
+],
+"72": [
+{
+"id": "72.1",
+"es": "<b>Parte 5: Proceso de Revisión Salarial en el Sistema People Hub</b>",
+"bbox": [
+364,
+159,
+1556,
+208
+],
+"size": 37.0,
+"font": "tGardePro-Bold"
+},
+{
+"id": "72.2",
+"es": "1. Propuesta Incremento",
+"bbox": [
+305,
+256,
+481,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.3",
+"es": "Salarial",
+"bbox": [
+341,
+323,
+438,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.4",
+"es": "2. Revisión y Validación de",
+"bbox": [
+669,
+256,
+869,
+324
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.5",
+"es": "Propuestas",
+"bbox": [
+691,
+323,
+839,
+358
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.6",
+"es": "3. Revisión Ejecutiva",
+"bbox": [
+1059,
+274,
+1206,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.7",
+"es": "4. Generación de Cartas y Pago",
+"bbox": [
+1383,
+274,
+1631,
+342
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.8",
+"es": "Se generan las cartas de compensación con los resultados del proceso, disponibles en:",
+"bbox": [
+90,
+568,
+553,
+669
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.9",
+"es": "Employee Central. •Perﬁl de People Hub de cada colaborador.",
+"bbox": [
+90,
+702,
+518,
+804
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.10",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "72.11",
+"es": "La carta (compensation statement) se podrá ver en el Employee",
+"bbox": [
+553,
+235,
+1443,
+269
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "72.12",
+"es": "Central de esta manera:",
+"bbox": [
+827,
+269,
+1162,
+303
+],
+"size": 28.0,
+"font": "tGardePro-Bk"
+}
+],
+"73": [
+{
+"id": "73.1",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "73.2",
+"es": "Al ﬁnalizar el proceso, cumplimos con el objetivo de aplicar los principios de Reward de manera efectiva. Además, nos aseguramos de que cada colaborador entienda las decisiones tomadas y cómo pueden seguir creciendo.",
+"bbox": [
+402,
+210,
+922,
+336
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+}
+],
+"74": [
+{
+"id": "74.1",
+"es": "Competitividad, sesgo, opacidad, y compromiso.",
+"bbox": [
+1078,
+363,
+1639,
+393
+],
+"size": 23.9,
+"font": "tGardePro-Bk"
+},
+{
+"id": "74.2",
+"es": "Competitividad con el mercado, libre de sesgos, transparencia y claridad, compromiso con las personas.",
+"bbox": [
+1079,
+486,
+1711,
+542
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "74.3",
+"es": "¿Cuáles son los principios de Reward que Carla aplicó durante todo el proceso?",
+"bbox": [
+339,
+161,
+1552,
+198
+],
+"size": 31.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "74.4",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "74.5",
+"es": "Promoción, Comparatio, libre de sesgo y compromiso.",
+"bbox": [
+1073,
+637,
+1681,
+665
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "74.6",
+"es": "Compromiso, libre de sesgo, competitividad y grado salarial.",
+"bbox": [
+1085,
+765,
+1679,
+821
+],
+"size": 23.0,
+"font": "tGardePro-Bk"
+}
+],
+"75": [
+{
+"id": "75.1",
+"es": "Al ﬁnalizar el proceso, cumplimos con el objetivo de aplicar los principios de Reward de manera efectiva. Además, nos aseguramos de que cada colaborador entienda las decisiones tomadas y cómo pueden seguir creciendo.",
+"bbox": [
+402,
+210,
+922,
+336
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "75.2",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "75.3",
+"es": "¡Muy bien!",
+"bbox": [
+1018,
+285,
+1424,
+397
+],
+"size": 93.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "75.4",
+"es": "Competitividad, libre de sesgos, transparencia y compromiso con las personas reﬂejan los principios",
+"bbox": [
+1020,
+436,
+1430,
+526
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "75.5",
+"es": "clave de Reward aplicados durante el proceso de revisión",
+"bbox": [
+1038,
+526,
+1412,
+586
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "75.6",
+"es": "salarial anterior.",
+"bbox": [
+1126,
+586,
+1317,
+616
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "75.7",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"76": [
+{
+"id": "76.1",
+"es": "Al ﬁnalizar el proceso, cumplimos con el objetivo de aplicar los principios de Reward de manera efectiva. Además, nos aseguramos de que cada colaborador entienda las decisiones tomadas y cómo pueden seguir creciendo.",
+"bbox": [
+402,
+210,
+922,
+336
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "76.2",
+"es": "No es la respuesta",
+"bbox": [
+967,
+318,
+1462,
+397
+],
+"size": 66.0,
+"font": "T-ExtraBlackCondI"
+},
+{
+"id": "76.3",
+"es": "Continuar",
+"bbox": [
+1148,
+655,
+1263,
+684
+],
+"size": 24.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "76.4",
+"es": "Competitividad, libre de sesgos, transparencia y compromiso con las",
+"bbox": [
+1001,
+436,
+1449,
+496
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "76.5",
+"es": "personas reﬂejan los principios clave",
+"bbox": [
+1002,
+496,
+1448,
+526
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "76.6",
+"es": "de Reward aplicados durante el proceso de revisión salarial anterior.",
+"bbox": [
+1005,
+526,
+1438,
+586
+],
+"size": 25.0,
+"font": "tGardePro-Bk"
+},
+{
+"id": "76.7",
+"es": "Proceso de revisión salarial",
+"bbox": [
+400,
+16,
+1225,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+}
+],
+"77": [
+{
+"id": "77.1",
+"es": "Conclusión",
+"bbox": [
+400,
+16,
+720,
+88
+],
+"size": 60.0,
+"font": "T-BoldItalic"
+},
+{
+"id": "77.2",
+"es": "Como líder, ahora comprendes tu papel para que el proceso de Reward sea justo y motivador. Aplicando los principios es como todos avanzamos juntos hacia el éxito.",
+"bbox": [
+416,
+222,
+911,
+323
+],
+"size": 21.0,
+"font": "tGardePro-Bk"
+}
+],
+"78": [
+{
+"id": "78.1",
+"es": "Has completado esta unidad. Nos vemos en la siguiente.",
+"bbox": [
+121,
+848,
+772,
+954
+],
+"size": 44.0,
+"font": "tGardePro-Bk"
+}
+]
+}
