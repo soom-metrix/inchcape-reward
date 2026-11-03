@@ -1,8 +1,8 @@
-# Generados o pesados (ver README: cómo regenerarlos)
 *.pdf
 final*/
-pack.json
-review-page/*/pack.json
 __pycache__/
 *.pyc
 node_modules/
+pack.json
+!site/*/pack.json
+review-page/*/pack.json
