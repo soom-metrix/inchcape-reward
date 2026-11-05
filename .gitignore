@@ -6,3 +6,4 @@ node_modules/
 pack.json
 !site/*/pack.json
 review-page/*/pack.json
+!docs/*/pack.json
