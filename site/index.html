@@ -85,6 +85,7 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
 #sched td.dt.sel{outline:2px solid #1b2430;outline-offset:-2px}
 #sched .vsel{font:inherit;font-size:11.5px;border:1px solid #c9ced6;border-radius:6px;padding:3px 4px;background:#fff;color:#1b2430;max-width:150px;cursor:pointer}
 #sched td.vc{background:#fff}
+#sched td.em{font-size:11px;word-break:break-all;background:#fff}
 #sched .fase{font-weight:600}
 #sched .fase.ps{background:#fff}
 #sched .fase.dv{background:#FFE599}
@@ -153,7 +154,6 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
 }
 @media print{.bar,.heads,#drawer,.hint{display:none}#scroll{overflow:visible}}
 </style>
-</head><body>
 <div id="app" class="cm">
   <div class="bar">
     <h1>Inchcape · Rally Reward — Translation Review</h1>
@@ -200,7 +200,7 @@ const REPLY_EMAIL = "soom@soompersonas.com";       // where "Send to reviewer" o
 const STORE_KEY   = "inchcape-reward-review-v1";
 const LANGS = [
   {c:"fr", n:"Français",   e:"French"},
-  {c:"nl", n:"Nederlands", e:"Dutch"},
+  {c:"nl", n:"Nederlands", e:"Dutch (Flemish)"},
   {c:"el", n:"Ελληνικά",   e:"Greek"},
   {c:"pl", n:"Polski",     e:"Polish"},
   {c:"bg", n:"Български",  e:"Bulgarian"},
@@ -524,34 +524,35 @@ const SCHED = `
   </div>
 </section>`;
 function initSched(){
-  const COLS=[["Language","h0","l"],["Phase","h0"],["Main reviewer\n(Inchcape)","h0"],["Type","h0"],["Chosen voice","h0"],["Delivery format","h0"],
+  const COLS=[["Language","h0","l"],["Phase","h0"],["People Lead\n(keep in 'cc')","h0"],["People Translator\n(directs requests; sign-off)","h0"],["Copy also","h0"],["Type","h0"],["Voice","h0"],["Delivery format","h0"],
     ["Translation delivery\n(Metrix)","hm"],["Script review and approval\n(Inchcape)","hi"],["Course translation\n(Metrix)","hm"],["Course review\n(Inchcape)","hi"],["Implementing corrections\n(Metrix)","hm"],["Approval and sign-off\n(Inchcape)","hi"]];
   const OWN=["m","i","m","i","m","i"];
   const D=(y,m,d)=>new Date(y,m-1,d);
   const R=[["French",[6,13,25,27,30,1],[11,11,11,11,11,12]],["Finnish",[6,13,30,2,3,4],[11,11,11,12,12,12]],["Dutch",[6,13,4,9,10,11],[11,11,12,12,12,12]],["Polish",[6,13,4,9,10,11],[11,11,12,12,12,12]],["Greek",[6,13,10,14,15,16],[11,11,12,12,12,12]],["Bulgarian",[6,13,10,14,15,16],[11,11,12,12,12,12]],["Lithuanian",[6,13,10,14,15,16],[11,11,12,12,12,12]],["Latvian",[6,13,16,18,21,22],[11,11,12,12,12,12]],["Estonian",[6,13,21,22,29,31],[11,11,12,12,12,12]]]
     .map(r=>({n:r[0],d:r[1].map((x,i)=>D(2026,r[2][i],x))}));
+  const CT={French:["valerie.debaere@inchcape.be","Gilles.DHooghe@inchcape.be","","V1"],Finnish:["maciej.rutkowski@inchcape.com","tiina.raitosola@inchcape.fi","johanna.sinerkari@inchcape.fi","V2"],Dutch:["valerie.debaere@inchcape.be","Gilles.DHooghe@inchcape.be","","Flemish voice required (neither V1 nor V2)"],Polish:["maciej.rutkowski@inchcape.com","marta.niewiarowska@bmw-imp.pl","dorota.rakowska-glejzer@bmw-imp.pl","V1"],Greek:["maria.kalogeropoulou@inchcape.gr","eva.valavani@inchcape.gr","kimonas.konstantelos@inchcape.gr","V1"],Bulgarian:["Nina.Mihaylova@inchcape.bg","Albena.Ivanova@toyota.bg","","V1"],Lithuanian:["maciej.rutkowski@inchcape.com","inga.antulyte@inchcape.lt","marina.puzauskiene@inchcape.lt","V1"],Latvian:["maciej.rutkowski@inchcape.com","zanda.smate@inchcape.lv","inese.rence@inchcape.lv","V1"],Estonian:["maciej.rutkowski@inchcape.com","kristiina.lohmus@inchcape.ee","maris.veske@inchcape.ee","V1"]};
   const VOICES=["To be confirmed","AI voice","Human voice-over","No voice (subtitles only)"];
   let VOICE={}; try{ VOICE=JSON.parse(localStorage.getItem(STORE_KEY+"-voice")||"{}"); }catch(e){}
   const now=new Date(); now.setHours(0,0,0,0);
   const DAY=864e5, f=d=>d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
   $("#schToday").textContent="Today: "+f(now);
   let sk=null, sd=1, selK=null;
-  const state=r=>{ const done=r.d.filter(x=>x<=now).length; return done===6?["Completed","ok"]:done>0?["In progress","dv"]:["Not started","ps"]; };
+  const state=r=>{ const done=r.d.filter(x=>x<=now).length; return done===6?["Completed","ok"]:["In translation","dv"]; };
   function draw(){
     let rows=R.slice();
     if(sk!==null) rows.sort((a,b)=>sk===-1?sd*a.n.localeCompare(b.n,"en"):sd*(a.d[sk]-b.d[sk]));
     const hd=(t,c,i,cls)=>`<th class="${c} ${cls||""} ${i<0?"":"sortable"}" ${i<0?"":`data-s="${i}"`}>${t.replace(/\n/g,"<br>")}${sk===i?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}</th>`;
-    let h=`<thead><tr><th colspan="6" class="g1">Product details</th><th colspan="2" class="g2">Translation</th><th colspan="4" class="g2">Course (80 slides)</th></tr><tr>`;
-    COLS.forEach((c,i)=>{ h+=`<th class="${c[1]} ${c[2]||""} ${i===0?"sortable":""}" ${i===0?'data-s="-1"':''} style="padding:7px 6px">${c[0].replace(/\n/g,"<br>")}${i===0&&sk===-1?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}${i>=6&&sk===i-6?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}</th>`; });
+    let h=`<thead><tr><th colspan="8" class="g1">Product details</th><th colspan="2" class="g2">Translation</th><th colspan="4" class="g2">Course (80 slides)</th></tr><tr>`;
+    COLS.forEach((c,i)=>{ h+=`<th class="${c[1]} ${c[2]||""} ${i===0?"sortable":""}" ${i===0?'data-s="-1"':''} style="padding:7px 6px">${c[0].replace(/\n/g,"<br>")}${i===0&&sk===-1?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}${i>=8&&sk===i-8?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}</th>`; });
     h+=`</tr></thead><tbody>`;
     rows.forEach(r=>{ const [st,sc]=state(r); let firstOpen=r.d.findIndex(x=>x>now);
-      h+=`<tr><td class="l" style="font-weight:600">${r.n}</td><td class="fase ${sc}">${st}</td><td>To be confirmed</td><td>Course translation</td><td class="vc">To be confirmed</td><td>SCORM</td>`;
+      h+=`<tr><td class="l" style="font-weight:600">${r.n==="Dutch"?"Dutch (Flemish)":r.n}</td><td class="fase ${sc}">${st}</td><td class="em">${CT[r.n][0]}</td><td class="em"><b>${CT[r.n][1]}</b></td><td class="em">${CT[r.n][2]||"-"}</td><td>Course translation</td><td class="vc"${r.n==="Dutch"?' style="color:#c00;font-style:italic"':""}>${r.n==="Dutch"?"Neither V1 nor V2: Flemish (Belgian Dutch) voice required, as spoken in Belgium":CT[r.n][3]}</td><td>SCORM</td>`;
       r.d.forEach((d,i)=>{ let c=OWN[i]; if(d<=now) c="ok"; else if(sc==="dv"&&i===firstOpen) c="dev";
         h+=`<td class="dt ${c} ${selK===r.n+i?"sel":""}" data-r="${r.n}" data-i="${i}">${f(d)}</td>`; });
       h+=`</tr>`; });
     $("#schT").innerHTML=h+`</tbody>`;
     const thead=$("#schT").querySelector("thead tr:nth-child(2)"); 
-    thead.querySelectorAll("th").forEach((th,i)=>{ if(i>=6){ th.classList.add("sortable"); th.dataset.s=i-6; } });
+    thead.querySelectorAll("th").forEach((th,i)=>{ if(i>=8){ th.classList.add("sortable"); th.dataset.s=i-8; } });
   }
   const NAMES=["Translation delivery (Metrix)","Script review and approval (Inchcape)","Course translation (Metrix)","Course review (Inchcape)","Implementing corrections (Metrix)","Approval and sign-off (Inchcape)"];
   $("#schT").addEventListener("change",e=>{ const v=e.target.closest("select.vsel"); if(!v) return; VOICE[v.dataset.v]=v.value; try{ localStorage.setItem(STORE_KEY+"-voice",JSON.stringify(VOICE)); }catch(x){} toast("Voice for "+v.dataset.v+": "+v.value); });
@@ -580,5 +581,3 @@ function initGuide(){
 }
 renderTabs(); build(); initSched(); initGuide();
 </script>
-
-</body></html>
