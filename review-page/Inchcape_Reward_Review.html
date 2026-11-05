@@ -537,8 +537,7 @@ const SCHED = `
 <section id="sched" aria-label="Schedule">
   <div class="sh" id="schH"><b>SCHEDULE: INCHCAPE REWARD – SOOM METRIX · COURSE TRANSLATION INTO 9 LANGUAGES</b><span class="td" id="schToday"></span><span class="tg" id="schTg">Hide ▲</span></div>
   <div class="sb">
-    <div class="stabs" id="schTabs"><button data-t="dat" class="on">Dates</button><button data-t="det">Contacts &amp; voice</button></div>
-    <div class="sw"><table id="schT" class="tdat"></table></div>
+    <div class="sw"><table id="schT"></table></div>
     <div class="info" id="schInfo">Select a date to see how many days remain. Select a column header to sort the table.</div>
     <div class="lg"><span><i style="background:#FFE599"></i>In progress</span><span><i style="background:#B6D7A8"></i>Completed tasks</span><span><i style="background:#C9DAF8"></i>Inchcape activities</span><span><i style="background:#D5A6BD"></i>SOOM Metrix activities</span><span class="hl" id="schHolB">Public holidays / non-working days in Peru</span></div>
     <div class="hol" id="schHol" hidden><table><thead><tr><th>Date</th><th class="l">Reason</th></tr></thead><tbody><tr><td>8 Dec 2026</td><td class="l">Immaculate Conception (Peru)</td></tr><tr><td>25 Dec 2026</td><td class="l">Christmas Day</td></tr><tr><td>1 Jan 2027</td><td class="l">New Year's Day</td></tr></tbody></table></div>
@@ -559,13 +558,12 @@ function initSched(){
   const DAY=864e5, f=d=>d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
   $("#schToday").textContent="Today: "+f(now);
   let sk=null, sd=1, selK=null, TAB="dat";
-  $("#schTabs").addEventListener("click",e=>{ const b=e.target.closest("button[data-t]"); if(!b) return; TAB=b.dataset.t; $("#schTabs").querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b)); draw(); });
   const state=r=>{ const done=r.d.filter(x=>x<=now).length; return done===6?["Completed","ok"]:["In translation","dv"]; };
   function draw(){
     let rows=R.slice();
     if(sk!==null) rows.sort((a,b)=>sk===-1?sd*a.n.localeCompare(b.n,"en"):sd*(a.d[sk]-b.d[sk]));
     const hd=(t,c,i,cls)=>`<th class="${c} ${cls||""} ${i<0?"":"sortable"}" ${i<0?"":`data-s="${i}"`}>${t.replace(/\n/g,"<br>")}${sk===i?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}</th>`;
-    let h=`<thead><tr>${TAB==="det"?`<th colspan="8" class="g1">Product details</th>`:`<th colspan="2" class="g1">Product details</th><th colspan="2" class="g2">Translation</th><th colspan="4" class="g2">Course (80 slides)</th>`}</tr><tr>`;
+    let h=`<thead><tr><th colspan="8" class="g1">Product details</th><th colspan="2" class="g2">Translation</th><th colspan="4" class="g2">Course (80 slides)</th></tr><tr>`;
     COLS.forEach((c,i)=>{ h+=`<th class="${c[1]} ${c[2]||""} ${i===0?"sortable":""}" ${i===0?'data-s="-1"':''} style="padding:7px 6px">${c[0].replace(/\n/g,"<br>")}${i===0&&sk===-1?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}${i>=8&&sk===i-8?`<span class="ar">${sd>0?"▲":"▼"}</span>`:""}</th>`; });
     h+=`</tr></thead><tbody>`;
     rows.forEach(r=>{ const [st,sc]=state(r); let firstOpen=r.d.findIndex(x=>x>now);
@@ -573,7 +571,7 @@ function initSched(){
       r.d.forEach((d,i)=>{ let c=OWN[i]; if(d<=now) c="ok"; else if(sc==="dv"&&i===firstOpen) c="dev";
         h+=`<td class="dt ${c} ${selK===r.n+i?"sel":""}" data-r="${r.n}" data-i="${i}">${f(d)}</td>`; });
       h+=`</tr>`; });
-    $("#schT").className=TAB==="det"?"tdet":"tdat"; $("#schT").innerHTML=h+`</tbody>`;
+    $("#schT").innerHTML=h+`</tbody>`;
     const thead=$("#schT").querySelector("thead tr:nth-child(2)"); 
     thead.querySelectorAll("th").forEach((th,i)=>{ if(i>=8){ th.classList.add("sortable"); th.dataset.s=i-8; } });
   }
