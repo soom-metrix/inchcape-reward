@@ -1,0 +1,201 @@
+<title>Propuestas de cronograma</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{--bg:#f3f5f8;--card:#fff;--ink:#1b2430;--muted:#667284;--line:#dde3ea;--brand:#12355b;--accent:#0f8b8d;
+--mx:#c27ba0;--mxs:#f1dde8;--ic:#6fa8dc;--ics:#dbe9f7;--ok:#2e9e5b;--now:#e4572e;--hol:#f6e3b4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121821;--card:#1a2230;--ink:#e6ebf2;--muted:#9aa6b6;--line:#2c3748;--brand:#8db6e6;--accent:#4fc3c5;--mx:#d48fb4;--mxs:#41283a;--ic:#6fa8dc;--ics:#23364d;--ok:#5cc58a;--now:#ff7a52;--hol:#4a4126;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121821;--card:#1a2230;--ink:#e6ebf2;--muted:#9aa6b6;--line:#2c3748;--brand:#8db6e6;--accent:#4fc3c5;--mx:#d48fb4;--mxs:#41283a;--ic:#6fa8dc;--ics:#23364d;--ok:#5cc58a;--now:#ff7a52;--hol:#4a4126;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-block:20px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1100px;margin:0 auto}
+h1{font-size:20px;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 14px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tabs button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:10px;cursor:pointer}
+.tabs button.on{background:var(--brand);color:var(--bg);border-color:var(--brand);font-weight:650}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.note{color:var(--muted);font-size:13px;margin:0 0 12px}
+.leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;margin:0 0 12px;color:var(--muted)}
+.leg i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.mx{background:var(--mx)}.ic{background:var(--ic)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+.kpi{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.kpi b{display:block;font-size:19px}.kpi span{font-size:12px;color:var(--muted)}
+.scroll{overflow-x:auto}
+/* gantt */
+.g{min-width:760px;position:relative}
+.gh,.gr{display:grid;grid-template-columns:96px 1fr;align-items:center}
+.gh{font-size:11px;color:var(--muted);margin-bottom:4px}
+.axis{position:relative;height:26px;border-bottom:1px solid var(--line)}
+.axis span{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap}
+.axis span.m{font-weight:650;color:var(--ink)}
+.gr{height:38px;border-bottom:1px solid var(--line)}
+.gr .lang{font-weight:650;font-size:13px}
+.lane{position:relative;height:100%}
+.bar{position:absolute;top:9px;height:20px;border-radius:5px;cursor:pointer;opacity:.95}
+.bar.mx{background:var(--mx)}.bar.ic{background:var(--ic)}
+.bar:hover,.bar.sel{outline:2px solid var(--ink)}
+.dot{position:absolute;top:12px;width:14px;height:14px;margin-left:-7px;border-radius:50%;border:2px solid var(--card);cursor:pointer}
+.hol{position:absolute;top:0;bottom:0;background:var(--hol);opacity:.7}
+.today{position:absolute;top:0;bottom:0;width:2px;background:var(--now);z-index:3}
+.today b{position:absolute;top:-2px;left:4px;font-size:10px;color:var(--now);white-space:nowrap}
+.tip{margin-top:12px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px;background:var(--bg)}
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.cd{border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer}
+.cd:hover{border-color:var(--accent)}
+.cd h3{margin:0 0 2px;font-size:16px;display:flex;justify-content:space-between;gap:8px}
+.cd .pill{font-size:11px;font-weight:600;padding:2px 8px;border-radius:99px;background:var(--mxs);white-space:nowrap}
+.prog{height:6px;background:var(--line);border-radius:4px;margin:8px 0 10px;overflow:hidden}
+.prog div{height:100%;background:var(--ok)}
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:5px}
+.steps li{display:grid;grid-template-columns:18px 1fr auto;gap:8px;align-items:center;font-size:12.5px}
+.steps .d{width:12px;height:12px;border-radius:50%;border:2px solid var(--line);justify-self:center}
+.steps li.mx .d{border-color:var(--mx)}.steps li.ic .d{border-color:var(--ic)}
+.steps li.past .d{background:var(--ok);border-color:var(--ok)}
+.steps li.next{font-weight:650}.steps li.next .d{background:var(--accent);border-color:var(--accent)}
+.steps time{color:var(--muted);font-variant-numeric:tabular-nums}
+.cd.open .steps li:not(.keep){}
+/* agenda */
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chips button{font:inherit;font-size:12.5px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:4px 10px;border-radius:99px;cursor:pointer}
+.chips button.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.ag{display:grid;gap:14px}
+.day h4{margin:0 0 6px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.ev{display:flex;gap:10px;align-items:center;border-left:4px solid var(--line);padding:6px 10px;margin-bottom:4px;background:var(--bg);border-radius:0 8px 8px 0;font-size:13px}
+.ev.mx{border-color:var(--mx)}.ev.ic{border-color:var(--ic)}
+.ev b{min-width:78px}.ev span{color:var(--muted)}
+.ev.past{opacity:.55}
+/* calendar */
+.cal-h{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.cal-h h3{margin:0;font-size:17px;min-width:150px;text-align:center}
+.cal-h button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:5px 11px;cursor:pointer}
+.cal-h button:disabled{opacity:.35;cursor:default}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.cal .wd{font-size:11px;color:var(--muted);text-align:center;padding:4px 0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);text-transform:uppercase}
+.cal .c{min-height:92px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:3px;position:relative;cursor:default;min-width:0}
+.cal .c.out{background:var(--bg);opacity:.5}
+.cal .c.we{background:var(--bg)}
+.cal .c.hol{background:var(--hol)}
+.cal .c.td{box-shadow:inset 0 0 0 2px var(--now)}
+.cal .n{font-size:11px;color:var(--muted);display:flex;justify-content:space-between}
+.cal .n em{font-style:normal;color:var(--ink);font-size:9.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cal .c.has{cursor:pointer}
+.cal .c.has:hover,.cal .c.pick{outline:2px solid var(--accent);outline-offset:-2px}
+.pl{display:block;font-size:10.5px;line-height:1.25;padding:1px 4px;margin-top:2px;border-radius:4px;color:#10202e;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pl.mx{background:var(--mx)}.pl.ic{background:var(--ic)}
+.pl.more{background:none;color:var(--muted);padding:0 2px}
+.dtl{margin-top:12px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg);min-height:46px}
+.dtl .ev{background:var(--card)}
+@media (max-width:640px){.cal .c{min-height:64px}.pl{font-size:9.5px}.cal .n em{display:none}}
+</style>
+<div class="wrap">
+<h1>Cronograma · Inchcape Reward</h1>
+<p class="sub">Inchcape Reward · traducción de curso a 9 idiomas · cuatro formas de mostrarlo al inicio de la página de revisión (con tus fechas reales).</p>
+<div class="tabs" id="tabs"></div>
+<div class="panel" id="p"></div>
+</div>
+<script>
+const MS=[
+ {k:"F",n:"Entrega de traducción",o:"mx"},{k:"G",n:"Revisión y aprobación del guion",o:"ic"},
+ {k:"H",n:"Traducción de curso",o:"mx"},{k:"I",n:"Revisión del curso",o:"ic"},
+ {k:"J",n:"Levantamiento de correcciones",o:"mx"},{k:"K",n:"Aprobación y cierre",o:"ic"}];
+const D=(s)=>new Date(s+"T00:00:00");
+const ROWS=[
+ ["Francés","2026-11-25","2026-11-27","2026-11-30","2026-12-01"],
+ ["Finés","2026-11-30","2026-12-02","2026-12-03","2026-12-04"],
+ ["Neerlandés","2026-12-04","2026-12-09","2026-12-10","2026-12-11"],
+ ["Polaco","2026-12-04","2026-12-09","2026-12-10","2026-12-11"],
+ ["Griego","2026-12-10","2026-12-14","2026-12-15","2026-12-16"],
+ ["Búlgaro","2026-12-10","2026-12-14","2026-12-15","2026-12-16"],
+ ["Lituano","2026-12-10","2026-12-14","2026-12-15","2026-12-16"],
+ ["Letón","2026-12-16","2026-12-18","2026-12-21","2026-12-22"],
+ ["Estonio","2026-12-21","2026-12-22","2026-12-29","2026-12-31"]];
+const LANG=ROWS.map(r=>({n:r[0],d:[D("2026-11-06"),D("2026-11-13"),...r.slice(1).map(D)]}));
+const HOL=[["2026-12-08","Inmaculada Concepción"],["2026-12-25","Navidad"],["2027-01-01","Año Nuevo"]].map(h=>[D(h[0]),h[1]]);
+const NOW=(()=>{const t=new Date();t.setHours(0,0,0,0);return t})();
+const fmt=d=>d.toLocaleDateString("es-PE",{day:"2-digit",month:"short"}).replace(".","");
+const fmtL=d=>d.toLocaleDateString("es-PE",{weekday:"long",day:"numeric",month:"long"});
+const DAY=864e5;
+const T0=D("2026-11-02"),T1=D("2027-01-04"),SPAN=T1-T0;
+const pc=d=>((d-T0)/SPAN*100).toFixed(2)+"%";
+const nextIdx=l=>l.d.findIndex(x=>x>=NOW);
+const doneN=l=>l.d.filter(x=>x<NOW).length;
+const TABS=[["D","Calendario"],["A","A · Línea de tiempo"],["B","B · Tarjetas por idioma"],["C","C · Agenda filtrable"]];
+let cur="D",calM=0,pick=null,sel=null,flt={o:"all",l:"all"};
+function tabs(){document.getElementById("tabs").innerHTML=TABS.map(t=>`<button class="${t[0]===cur?"on":""}" data-t="${t[0]}">${t[1]}</button>`).join("");}
+document.getElementById("tabs").onclick=e=>{const b=e.target.closest("button");if(!b)return;cur=b.dataset.t;render()};
+const legend=`<div class="leg"><span><i class="mx"></i>Actividades de SOOM Metrix</span><span><i class="ic"></i>Actividades de Inchcape</span></div>`;
+function kpis(){
+ const all=LANG.flatMap(l=>l.d.map((d,i)=>({d,i,l:l.n}))).filter(x=>x.d>=NOW).sort((a,b)=>a.d-b.d)[0];
+ const last=new Date(Math.max(...LANG.map(l=>l.d[5])));
+ const tot=LANG.length*6,done=LANG.reduce((s,l)=>s+doneN(l),0);
+ return `<div class="kpis"><div class="kpi"><b>${Math.round(done/tot*100)}%</b><span>hitos cumplidos (${done} de ${tot})</span></div>
+ <div class="kpi"><b>${all?fmt(all.d):"—"}</b><span>próximo hito: ${all?MS[all.i].n+" · "+all.l:""}</span></div>
+ <div class="kpi"><b>${fmt(last)}</b><span>cierre del último idioma</span></div>
+ <div class="kpi"><b>9</b><span>idiomas · SCORM</span></div></div>`;}
+function A(){
+ const ticks=[];for(let d=new Date(T0);d<=T1;d=new Date(+d+7*DAY)){ticks.push(d)}
+ const ax=ticks.map(d=>`<span class="${d.getDate()<=7?"m":""}" style="left:${pc(d)}">${d.getDate()<=7?fmt(d):d.getDate()}</span>`).join("");
+ const hol=HOL.filter(h=>h[0]<=T1).map(h=>`<div class="hol" title="${h[1]}" style="left:${pc(h[0])};width:${(DAY/SPAN*100).toFixed(2)}%"></div>`).join("");
+ const td=NOW>=T0&&NOW<=T1?`<div class="today" style="left:${pc(NOW)}"><b>Hoy</b></div>`:"";
+ const rows=LANG.map((l,li)=>{
+  let bars="";
+  for(let i=1;i<6;i++){const s=l.d[i-1],e=l.d[i];
+   // el tramo hacia el hito i lo ejecuta el dueño de ese hito
+   bars+=`<div class="bar ${MS[i].o}" data-l="${li}" data-i="${i}" style="left:${pc(s)};width:${Math.max(.6,(e-s)/SPAN*100).toFixed(2)}%"></div>`;}
+  const dots=l.d.map((d,i)=>`<div class="dot ${MS[i].o}" data-l="${li}" data-i="${i}" style="left:${pc(d)};background:var(--${MS[i].o==="mx"?"mx":"ic"})"></div>`).join("");
+  return `<div class="gr"><div class="lang">${l.n}</div><div class="lane">${bars}${dots}</div></div>`}).join("");
+ return `<p class="note">Una vista completa de un vistazo: cada fila es un idioma y cada tramo muestra quién tiene la pelota. Toca una barra o un punto para ver el detalle. Franjas amarillas = feriados.</p>${legend}${kpis()}
+ <div class="scroll"><div class="g"><div class="gh"><div></div><div class="axis">${ax}</div></div>
+ <div style="position:relative"><div style="position:absolute;left:96px;right:0;top:0;bottom:0;pointer-events:none">${hol}${td}</div>${rows}</div></div></div>
+ <div class="tip" id="tip">Selecciona un tramo para ver el detalle.</div>`}
+function Aevents(){document.querySelectorAll(".bar,.dot").forEach(el=>el.onclick=()=>{
+ const l=LANG[+el.dataset.l],i=+el.dataset.i;const m=MS[i];
+ document.querySelectorAll(".bar,.dot").forEach(x=>x.classList.remove("sel"));el.classList.add("sel");
+ const days=el.classList.contains("bar")?Math.round((l.d[i]-l.d[i-1])/DAY):null;
+ document.getElementById("tip").innerHTML=`<b>${l.n} · ${m.n}</b> — ${fmtL(l.d[i])}<br><span style="color:var(--muted)">${m.o==="mx"?"A cargo de SOOM Metrix":"A cargo de Inchcape"}${days!==null?` · ${days} días desde el hito anterior`:""}</span>`})}
+function B(){
+ const cs=LANG.map(l=>{const ni=nextIdx(l),pr=Math.round(doneN(l)/6*100);
+  const st=ni<0?"Cerrado":(ni===0?"Por iniciar":MS[ni].n);
+  return `<div class="cd"><h3>${l.n}<span class="pill">${st}</span></h3>
+  <div style="font-size:12px;color:var(--muted)">Cierre previsto: ${fmt(l.d[5])}</div>
+  <div class="prog"><div style="width:${pr}%"></div></div>
+  <ul class="steps">${l.d.map((d,i)=>`<li class="${MS[i].o} ${d<NOW?"past":""} ${i===ni?"next":""}"><span class="d"></span><span>${MS[i].n}</span><time>${fmt(d)}</time></li>`).join("")}</ul></div>`}).join("");
+ return `<p class="note">Una tarjeta por idioma, pensada para que cada revisor encuentre rápido “lo suyo”: estado actual, barra de avance y los 6 hitos con su fecha. El punto relleno indica el próximo hito.</p>${legend}${kpis()}<div class="cards">${cs}</div>`}
+function C(){
+ const evs=LANG.flatMap(l=>l.d.map((d,i)=>({d,i,l:l.n,m:MS[i]}))).filter(e=>(flt.o==="all"||e.m.o===flt.o)&&(flt.l==="all"||e.l===flt.l)).sort((a,b)=>a.d-b.d||a.i-b.i);
+ const by={};evs.forEach(e=>{(by[+e.d]=by[+e.d]||[]).push(e)});
+ const chipO=[["all","Todos"],["mx","SOOM Metrix"],["ic","Inchcape"]].map(x=>`<button data-o="${x[0]}" class="${flt.o===x[0]?"on":""}">${x[1]}</button>`).join("");
+ const chipL=[["all","Todos los idiomas"],...LANG.map(l=>[l.n,l.n])].map(x=>`<button data-l="${x[0]}" class="${flt.l===x[0]?"on":""}">${x[1]}</button>`).join("");
+ const html=Object.keys(by).map(k=>{const d=new Date(+k);const hol=HOL.find(h=>+h[0]===+d);
+  return `<div class="day"><h4>${fmtL(d)}${hol?" · "+hol[1]:""}</h4>${by[k].map(e=>`<div class="ev ${e.m.o} ${e.d<NOW?"past":""}"><b>${e.l}</b>${e.m.n}<span>${e.m.o==="mx"?"Metrix":"Inchcape"}</span></div>`).join("")}</div>`}).join("")||"<p>Sin resultados.</p>";
+ return `<p class="note">Lista cronológica con filtros: quien revisa por Inchcape ve solo sus fechas, y el equipo de Metrix ve las suyas. Las fechas pasadas se atenúan.</p>${kpis()}<div class="chips" id="co">${chipO}</div><div class="chips" id="cl">${chipL}</div><div class="ag">${html}</div>`}
+function Dv(){
+ const base=new Date(2026,10+calM,1);
+ const y=base.getFullYear(),m=base.getMonth();
+ const first=new Date(y,m,1),off=(first.getDay()+6)%7,dim=new Date(y,m+1,0).getDate();
+ const evs=LANG.flatMap(l=>l.d.map((d,i)=>({d,i,l:l.n,m:MS[i]}))).filter(e=>(flt.o==="all"||e.m.o===flt.o)&&(flt.l==="all"||e.l===flt.l));
+ let cells="";
+ for(let k=0;k<Math.ceil((off+dim)/7)*7;k++){
+  const d=new Date(y,m,1-off+k),out=d.getMonth()!==m,wd=(d.getDay()+6)%7;
+  const h=HOL.find(x=>+x[0]===+d),es=evs.filter(e=>+e.d===+d).sort((a,b)=>a.i-b.i);
+  const show=es.slice(0,3);
+  cells+=`<div class="c ${out?"out":""} ${wd>4?"we":""} ${h?"hol":""} ${+d===+NOW?"td":""} ${es.length?"has":""} ${pick&&+pick===+d?"pick":""}" data-d="${+d}"><div class="n"><span>${d.getDate()}</span>${h?`<em>${h[1]}</em>`:""}</div>${show.map(e=>`<span class="pl ${e.m.o}" title="${e.l} · ${e.m.n}">${e.l}</span>`).join("")}${es.length>3?`<span class="pl more">+${es.length-3} más</span>`:""}</div>`}
+ const chipO=[["all","Todos"],["mx","SOOM Metrix"],["ic","Inchcape"]].map(x=>`<button data-o="${x[0]}" class="${flt.o===x[0]?"on":""}">${x[1]}</button>`).join("");
+ const chipL=[["all","Todos los idiomas"],...LANG.map(l=>[l.n,l.n])].map(x=>`<button data-l="${x[0]}" class="${flt.l===x[0]?"on":""}">${x[1]}</button>`).join("");
+ let dt="Toca un día con actividades para ver el detalle.";
+ if(pick){const es=evs.filter(e=>+e.d===+pick).sort((a,b)=>a.i-b.i);const h=HOL.find(x=>+x[0]===+pick);
+  dt=`<b>${fmtL(new Date(+pick)).replace(/^./,c=>c.toUpperCase())}</b>${h?" · "+h[1]:""}<div style="margin-top:6px">${es.map(e=>`<div class="ev ${e.m.o}"><b>${e.l}</b>${e.m.n}<span>${e.m.o==="mx"?"Metrix":"Inchcape"}</span></div>`).join("")||"Sin actividades."}</div>`}
+ return `<p class="note">Vista de calendario: cada día muestra los idiomas que tienen un hito ese día (color = responsable). Navega por meses, filtra y toca un día para ver qué hito corresponde.</p>${legend}${kpis()}
+ <div class="chips" id="co">${chipO}</div><div class="chips" id="cl">${chipL}</div>
+ <div class="cal-h"><button id="pv" ${calM<=0?"disabled":""}>‹</button><h3>${base.toLocaleDateString("es-PE",{month:"long",year:"numeric"}).replace(/^./,c=>c.toUpperCase())}</h3><button id="nx" ${calM>=2?"disabled":""}>›</button></div>
+ <div class="cal">${["lun","mar","mié","jue","vie","sáb","dom"].map(x=>`<div class="wd">${x}</div>`).join("")}${cells}</div><div class="dtl" id="dtl">${dt}</div>`}
+function render(){tabs();const p=document.getElementById("p");p.innerHTML=({A,B,C,D:Dv})[cur]();
+ if(cur==="A")Aevents();
+ if(cur==="D"){p.querySelectorAll("#co button").forEach(b=>b.onclick=()=>{flt.o=b.dataset.o;render()});p.querySelectorAll("#cl button").forEach(b=>b.onclick=()=>{flt.l=b.dataset.l;render()});
+  document.getElementById("pv").onclick=()=>{calM--;pick=null;render()};document.getElementById("nx").onclick=()=>{calM++;pick=null;render()};
+  p.querySelectorAll(".c.has").forEach(c=>c.onclick=()=>{pick=new Date(+c.dataset.d);render()})}
+ if(cur==="C"){p.querySelectorAll("#co button").forEach(b=>b.onclick=()=>{flt.o=b.dataset.o;render()});p.querySelectorAll("#cl button").forEach(b=>b.onclick=()=>{flt.l=b.dataset.l;render()})}}
+render();
+</script>
