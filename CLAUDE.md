@@ -41,5 +41,5 @@ con captura**), guía inicial, exportación CSV/JSON/copiar.
 - Las traducciones son de IA con revisión de estilo; no afirmar que fueron revisadas por nativos.
 
 ## Publicación en GitHub Pages
-`site/` es la versión autónoma (index.html + `<L>/pack.json`). En GitHub: Settings → Pages → Deploy from branch → carpeta `/site`.
+`site/` y `docs/` son la versión autónoma (index.html + `<L>/pack.json`). En GitHub: Settings → Pages → Deploy from branch → carpeta `/docs` (copia de `site/`).
 Fuera de claude.ai no existe la base de datos compartida: los comentarios quedan solo en el navegador de cada revisor (localStorage) y se envían con Exportar/Copiar. Tras cambiar traducciones, regenerar con `tools/assemble_packs.py` y copiar el HTML y los pack.json a `site/` (el HTML de `site/` lleva doctype/meta añadidos).
