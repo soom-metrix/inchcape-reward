@@ -45,10 +45,14 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
 .txt.pending{color:var(--muted);background:repeating-linear-gradient(135deg,#fafbfc,#fafbfc 10px,#f4f6f8 10px,#f4f6f8 20px)}
 .ribbon{position:absolute;top:8px;left:8px;background:rgba(18,53,91,.85);color:#fff;font-size:11px;padding:2px 8px;border-radius:99px;pointer-events:none}
 /* guide */
-#guide{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:12px;padding:20px 22px;margin-bottom:26px}
+#guide{position:fixed;z-index:60;left:50%;top:50%;transform:translate(-50%,-50%);width:min(820px,calc(100vw - 32px));max-height:calc(100vh - 40px);overflow:auto;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:14px;padding:22px 24px;box-shadow:0 24px 70px rgba(10,20,40,.35)}
+#guide[hidden]{display:none}
+#guideBg{position:fixed;inset:0;z-index:59;background:rgba(15,25,40,.55)}
+#guideBg[hidden]{display:none}
+#guide .x{position:absolute;right:12px;top:10px;border:0;background:none;font-size:20px;line-height:1;cursor:pointer;color:var(--muted)}
 #guide h2{margin:0 0 4px;font-size:20px}
 #guide .lead{margin:0 0 16px;color:var(--muted);max-width:75ch}
-#guide .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+#guide .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
 #guide .st{border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-width:0}
 #guide .st b{display:block;margin-bottom:4px}
 #guide .st p{margin:0;font-size:13.5px}
@@ -188,6 +192,7 @@ body.vsc #schView{display:block}
       <div class="tabs" id="tabs"></div>
     </div>
   </div>
+  <div id="guideBg" hidden></div>
   <div id="scroll"></div>
   <div id="schView" hidden></div>
 </div>
@@ -513,7 +518,8 @@ function dbDel(id){ if(dbc) dbc.doc(id).delete().catch(()=>{}); }
   }catch(e){}
 })();
 const GUIDE = `
-<section id="guide" aria-label="How to review this course">
+<section id="guide" role="dialog" aria-modal="true" aria-label="How to review this course">
+  <button class="x" id="gdX" aria-label="Close">✕</button>
   <h2>How to review this course</h2>
   <p class="lead">This page shows the original English course (left) alongside its translation (right). Please review the wording, terminology and tone, and leave your comments directly on the slides.</p>
   <div class="steps">
@@ -524,7 +530,7 @@ const GUIDE = `
   </div>
   <div class="tips"><b>Commenting on part of an image:</b> with <i>Comment mode</i> on, click and drag to draw a box over any area of a slide image. When you release the mouse button, a screenshot of that area is attached to your comment and the area stays outlined on the slide. A single click still places a pin.</div>
   <div class="tips"><b>Good to know:</b> “Translation pending…” means that text is still being prepared. Until a localized image is ready, the right-hand column shows the source slide. To copy text, switch off <i>Comment mode</i> in the top bar.</div>
-  <div class="go"><button class="pri" id="gdStart">Start reviewing</button><button id="gdHide">Hide this guide</button></div>
+  <div class="go"><button class="pri" id="gdStart">Start reviewing</button><button id="gdHide">Close</button></div>
 </section>`;
 
 const SCHED = `
@@ -586,11 +592,13 @@ function initSched(){
   $("#schHolB").onclick=()=>{ const h=$("#schHol"); h.hidden=!h.hidden; };
   setCol(false); draw();
 }
-function setGuide(show){ const g=$("#guide"); g.hidden=!show; try{ localStorage.setItem(STORE_KEY+"-guide", show?"0":"1"); }catch(e){} }
+function setGuide(show){ const g=$("#guide"); g.hidden=!show; $("#guideBg").hidden=!show; try{ localStorage.setItem(STORE_KEY+"-guide", show?"0":"1"); }catch(e){} }
 function initGuide(){
   let h=false; try{ h = localStorage.getItem(STORE_KEY+"-guide")==="1"; }catch(e){}
-  $("#guide").hidden = h;
-  $("#gdBtn").onclick = ()=>{ setGuide(true); sc.scrollTo({top:0}); };
+  $("#guide").hidden = h; $("#guideBg").hidden = h;
+  $("#gdX").onclick = ()=>setGuide(false); $("#guideBg").onclick = ()=>setGuide(false);
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!$("#guide").hidden) setGuide(false); });
+  $("#gdBtn").onclick = ()=>setGuide(true);
   $("#gdStart").onclick = ()=>{ setGuide(false); $("#s1").scrollIntoView(); };
   $("#gdHide").onclick = ()=>setGuide(false);
 }
