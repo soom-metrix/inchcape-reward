@@ -155,11 +155,21 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
   .row,.heads{grid-template-columns:1fr}
   .heads .head:first-child{display:none}
 }
+.vtabs{display:flex;gap:4px;margin-left:6px}
+.vtabs button{font:600 13px inherit;font-family:inherit;border:1px solid rgba(255,255,255,.35);background:transparent;color:inherit;border-radius:8px;padding:6px 14px;cursor:pointer}
+.vtabs button.on{background:#fff;color:#12355b;border-color:#fff}
+#schView{flex:1;min-height:0;overflow:auto;padding:18px max(16px,env(safe-area-inset-right,0px)) 40px max(16px,env(safe-area-inset-left,0px))}
+#schView #sched{margin-bottom:0}
+#sched .tg{display:none}
+#sched .sh{cursor:default}
+body.vsc .heads,body.vsc #scroll,body.vsc .prog,body.vsc .jump,body.vsc #gdBtn,body.vsc #cmBtn{display:none}
+body.vsc #schView{display:block}
 @media print{.bar,.heads,#drawer,.hint{display:none}#scroll{overflow:visible}}
 </style>
 <div id="app" class="cm">
   <div class="bar">
     <h1>Inchcape · Rally Reward — Translation Review</h1>
+    <nav class="vtabs" id="vtabs"><button data-v="tr" class="on">Translations</button><button data-v="sc">Schedule</button></nav>
     <div class="jump">Slide <input id="jump" type="number" min="1" value="1"> / <span id="total"></span></div>
     <span class="sp"></span>
     <button class="btn" id="gdBtn">? Guide</button>
@@ -179,6 +189,7 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
     </div>
   </div>
   <div id="scroll"></div>
+  <div id="schView" hidden></div>
 </div>
 
 <aside id="drawer" aria-label="Comments">
@@ -236,7 +247,7 @@ const langName = c => c==="en" ? "English (base)" : (LANGS.find(l=>l.c===c)||{})
 /* ---------- render ---------- */
 function build(){
   $("#total").textContent = SLIDES.length; $("#jump").max = SLIDES.length;
-  $("#scroll").innerHTML = SCHED + GUIDE + SLIDES.map(s => `
+  $("#scroll").innerHTML = GUIDE + SLIDES.map(s => `
     <section class="row" id="s${s.n}" data-n="${s.n}">
       <div class="num">SLIDE ${s.n}</div>
       <div class="card" data-n="${s.n}" data-side="en">
@@ -528,6 +539,7 @@ const SCHED = `
   </div>
 </section>`;
 function initSched(){
+  $("#schView").innerHTML=SCHED;
   const COLS=[["Language","h0","l"],["Phase","h0"],["People Lead\n(keep in 'cc')","h0"],["People Translator\n(directs requests; sign-off)","h0"],["Copy also","h0"],["Type","h0"],["Voice","h0"],["Delivery format","h0"],
     ["Translation delivery\n(Metrix)","hm"],["Script review and approval\n(Inchcape)","hi"],["Course translation\n(Metrix)","hm"],["Course review\n(Inchcape)","hi"],["Implementing corrections\n(Metrix)","hm"],["Approval and sign-off\n(Inchcape)","hi"]];
   const OWN=["m","i","m","i","m","i"];
@@ -571,10 +583,8 @@ function initSched(){
     $("#schInfo").innerHTML=`<b>${r.n} · ${NAMES[i]}</b> — ${d.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"})} · ${when}`;
   });
   const setCol=c=>{ $("#sched").classList.toggle("col",c); $("#schTg").textContent=c?"Show ▼":"Hide ▲"; try{localStorage.setItem(STORE_KEY+"-sched",c?"1":"0");}catch(e){} };
-  $("#schH").onclick=()=>setCol(!$("#sched").classList.contains("col"));
   $("#schHolB").onclick=()=>{ const h=$("#schHol"); h.hidden=!h.hidden; };
-  let c=false; try{ c=localStorage.getItem(STORE_KEY+"-sched")==="1"; }catch(e){}
-  setCol(c); draw();
+  setCol(false); draw();
 }
 function setGuide(show){ const g=$("#guide"); g.hidden=!show; try{ localStorage.setItem(STORE_KEY+"-guide", show?"0":"1"); }catch(e){} }
 function initGuide(){
@@ -585,4 +595,9 @@ function initGuide(){
   $("#gdHide").onclick = ()=>setGuide(false);
 }
 renderTabs(); build(); initSched(); initGuide();
+function showView(v){ document.body.classList.toggle("vsc",v==="sc"); $("#schView").hidden=(v!=="sc");
+  document.querySelectorAll("#vtabs button").forEach(b=>b.classList.toggle("on",b.dataset.v===v));
+  try{ history.replaceState(null,"",v==="sc"?"#schedule":"#translations"); }catch(e){} }
+document.querySelectorAll("#vtabs button").forEach(b=>b.onclick=()=>showView(b.dataset.v));
+showView(location.hash==="#schedule"?"sc":"tr");
 </script>
