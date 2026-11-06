@@ -43,3 +43,8 @@ con captura**), guía inicial, exportación CSV/JSON/copiar.
 ## Publicación en GitHub Pages
 `site/` y `docs/` son la versión autónoma (index.html + `<L>/pack.json`). En GitHub: Settings → Pages → Deploy from branch → carpeta `/docs` (copia de `site/`).
 Fuera de claude.ai no existe la base de datos compartida: los comentarios quedan solo en el navegador de cada revisor (localStorage) y se envían con Exportar/Copiar. Tras cambiar traducciones, regenerar con `tools/assemble_packs.py` y copiar el HTML y los pack.json a `site/` (el HTML de `site/` lleva doctype/meta añadidos).
+
+## Comentarios en GitHub
+- Fuente compartida: base de datos del Artifact (colección `comments`). Copia en el repo: `comments/comments.json` (volcar con ArtifactData `list` y subir).
+- En el panel de comentarios, cada comentario tiene el enlace «Save to GitHub as an issue» (Issue prellenado en `soom-metrix/inchcape-reward`, etiqueta `review`; requiere cuenta de GitHub; sin captura).
+- GitHub Pages no puede escribir en el repo (no poner tokens en una página pública).

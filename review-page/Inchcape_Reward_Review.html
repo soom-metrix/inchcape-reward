@@ -122,6 +122,7 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
 .pin.flash{animation:fl 1s 3}
 @keyframes fl{50%{transform:rotate(-45deg) scale(1.5)}}
 /* popover */
+.ci a.gh{display:inline-block;margin-top:6px;font-size:12px;color:var(--accent);text-decoration:underline}
 .dbstat{margin:8px 14px 0;padding:7px 10px;border-radius:8px;font-size:12px;line-height:1.4}
 .dbstat.on{background:#e3f4e6;color:#1d5a2b}
 .dbstat.off{background:#fdeceb;color:#8a1c14}
@@ -439,6 +440,13 @@ $("#scroll").addEventListener("click", e=>{
 document.addEventListener("keydown", e=>{ if(e.key==="Escape"){ closePop(); $("#drawer").classList.remove("open"); } });
 
 /* ---------- drawer / list ---------- */
+const GH_REPO = "soom-metrix/inchcape-reward";
+function ghUrl(c){
+  const title = "[Review] Slide "+c.slide+" · "+c.lang+" — "+(c.text||"").replace(/\s+/g," ").slice(0,60);
+  const body = "**Slide:** "+c.slide+"\n**Language:** "+c.lang+"\n**Author:** "+(c.author||"Anonymous")+"\n**Date:** "+(c.ts||"")+"\n"
+    +(c.quote?"\n> "+c.quote.replace(/\n/g,"\n> ")+"\n":"")+"\n**Comment:**\n"+c.text+"\n"+(c.shot?"\n_(An image area was selected; attach it from the exported JSON if needed.)_\n":"")+"\n`id: "+c.id+"`";
+  return "https://github.com/"+GH_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body.slice(0,4500))+"&labels=review";
+}
 function renderList(){
   const list = comments.map((c,i)=>({c,i})).filter(o=>!filterCur || o.c.side==="en" || o.c.side===cur)
     .sort((a,b)=>a.c.slide-b.c.slide || a.i-b.i);
@@ -447,10 +455,12 @@ function renderList(){
       <div class="t"><b>#${i+1} · Slide ${c.slide}</b><span>${esc(c.lang)}</span><span>${esc(c.author||"Anonymous")}</span>${c.resolved?"<span>✓ resolved</span>":""}</div>
       ${c.quote?`<div class="q">“${esc(c.quote)}”</div>`:""}
       ${c.shot?`<img class="shot" alt="Selected area" src="${c.shot}">`:""}
-      <div class="x">${esc(c.text)}</div></div>`).join("") : `<div class="empty">No comments yet.<br>Click on a slide, or drag over an area of the image, to add one.</div>`;
+      <div class="x">${esc(c.text)}</div>
+      <a class="gh" target="_blank" rel="noopener" href="${ghUrl(c)}">Save to GitHub as an issue ↗</a></div>`).join("") : `<div class="empty">No comments yet.<br>Click on a slide, or drag over an area of the image, to add one.</div>`;
   $("#bFilt").textContent = "Showing: " + (filterCur ? "base + "+langName(cur) : "all languages");
 }
 $("#clist").addEventListener("click", e=>{
+  if(e.target.closest("a.gh")) return;
   const it = e.target.closest(".ci"); if(!it) return;
   const c = comments.find(k=>k.id===it.dataset.id); if(!c) return;
   if(c.side!=="en" && c.side!==cur){ cur=c.side; save(); renderRight(); }
