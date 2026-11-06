@@ -358,7 +358,7 @@ function openNew(card, x, y, quote, reg){
     const text = ta.value.trim(); if(!text){ ta.focus(); return; }
     author = pop.querySelector("#pName").value.trim();
     comments.push({id:"c"+Date.now().toString(36)+Math.random().toString(36).slice(2,5), slide:n, side, lang:langName(side), x:+x.toFixed(2), y:+y.toFixed(2), quote:quote||"", text, author,...(reg&&reg.shot?{shot:reg.shot,rx:reg.rx,ry:reg.ry,rw:reg.rw,rh:reg.rh}:{}), ts:new Date().toISOString(), resolved:false});
-    save(); dbPut(comments[comments.length-1]); closePop(); renderPins(); renderList(); toast(dbc?"Saving to the shared database…":"Comment saved in this browser only");
+    save(); sheetPost(comments[comments.length-1],true); dbPut(comments[comments.length-1]); closePop(); renderPins(); renderList(); toast(dbc?"Saving to the shared database…":"Comment saved in this browser only");
   };
   pop.querySelector("#pSave").onclick = doSave;
   pop.querySelector("#pCancel").onclick = closePop;
@@ -377,7 +377,7 @@ function openView(id){
     <div class="acts"><button class="dng" id="vDel">Delete</button><button id="vRes">${c.resolved?"Reopen":"Mark resolved"}</button><button id="vClose">Close</button></div>`;
   placePop(card, c.x, c.y);
   pop.querySelector("#vClose").onclick = closePop;
-  pop.querySelector("#vRes").onclick = ()=>{ c.resolved=!c.resolved; save(); dbPut(c); closePop(); renderPins(); renderList(); };
+  pop.querySelector("#vRes").onclick = ()=>{ c.resolved=!c.resolved; save(); sheetPost(c,false); dbPut(c); closePop(); renderPins(); renderList(); };
   const dl = pop.querySelector("#vDel");
   dl.onclick = ()=>{ if(!dl.dataset.sure){ dl.dataset.sure=1; dl.textContent="Confirm delete"; return; } comments=comments.filter(k=>k!==c); save(); dbDel(c.id); closePop(); renderPins(); renderList(); };
 }
@@ -531,6 +531,14 @@ $("#jump").addEventListener("change", e=>{ const n=Math.min(SLIDES.length,Math.m
 let dbc = null, dbPending = new Set();
 const clean = c => JSON.parse(JSON.stringify(c));
 function dbStatus(kind, msg){ const e=$("#dbStat"); if(!e) return; e.className="dbstat "+kind; e.textContent=msg; }
+const SHEET_URL="https://script.google.com/macros/s/AKfycbxGcb3zCS2V9ICnOxujnz0szd5_RbU4sta_3TMGY_TidrX5a8CsnAOMyZEVtjHwaCevLg/exec", SHEET_TOKEN="irr-2026-Kq7Zx3mVb9";
+function sheetPost(c, withShot){
+  try{
+    const d=clean(c); d.token=SHEET_TOKEN; d.source=location.hostname||"page";
+    if(!withShot) delete d.shot;
+    fetch(SHEET_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(d)}).catch(()=>{});
+  }catch(e){}
+}
 function dbPut(c){
   if(!c) return Promise.resolve();
   if(!dbc){ dbPending.add(c.id); return Promise.resolve(); }
