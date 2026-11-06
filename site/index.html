@@ -456,7 +456,6 @@ function renderList(){
     <div class="ci ${c.resolved?'done':''}" data-id="${c.id}">
       <div class="t"><b>#${i+1} · Slide ${c.slide}</b><span>${esc(c.lang)}</span><span>${esc(c.author||"Anonymous")}</span>${c.resolved?"<span>✓ resolved</span>":""}</div>
       ${c.quote?`<div class="q">“${esc(c.quote)}”</div>`:""}
-      ${c.shot?`<img class="shot" alt="Selected area" src="${c.shot}">`:""}
       <div class="x">${esc(c.text)}</div>
       </div>`).join("") : `<div class="empty">No comments yet.<br>Click on a slide, or drag over an area of the image, to add one.</div>`;
   $("#bFilt").textContent = "Showing: " + (filterCur ? "base + "+langName(cur) : "all languages");
