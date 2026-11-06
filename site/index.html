@@ -534,13 +534,25 @@ let dbc = null, dbPending = new Set();
 const clean = c => JSON.parse(JSON.stringify(c));
 function dbStatus(kind, msg){ const e=$("#dbStat"); if(!e) return; e.className="dbstat "+kind; e.textContent=msg; }
 const SHEET_URL="https://script.google.com/macros/s/AKfycbxGcb3zCS2V9ICnOxujnz0szd5_RbU4sta_3TMGY_TidrX5a8CsnAOMyZEVtjHwaCevLg/exec", SHEET_TOKEN="irr-2026-Kq7Zx3mVb9";
-function sheetPost(c, withShot){
-  try{
-    const d=clean(c); d.token=SHEET_TOKEN; d.source=location.hostname||"page";
-    if(!withShot) delete d.shot;
-    fetch(SHEET_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(d)}).catch(()=>{});
-  }catch(e){}
+let sheetSent=new Set(); try{ sheetSent=new Set(JSON.parse(localStorage.getItem("irrSheetSent")||"[]")); }catch(e){}
+function sheetMark(id){ sheetSent.add(id); try{ localStorage.setItem("irrSheetSent",JSON.stringify([...sheetSent])); }catch(e){} }
+function sheetPost(c, withShot, quiet){
+  if(!c) return Promise.resolve();
+  const d=clean(c); d.token=SHEET_TOKEN; d.source=location.hostname||"page";
+  if(!withShot) delete d.shot;
+  const body=JSON.stringify(d), opt={method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body};
+  return fetch(SHEET_URL,opt).then(r=>r.json()).then(j=>{
+      if(j&&j.ok){ sheetMark(c.id); if(!quiet) toast("Comment also saved to the Google Sheet"); }
+      else throw new Error((j&&j.error)||"rejected");
+    })
+    .catch(err=>{
+      // fallback: send without reading the reply
+      return fetch(SHEET_URL,{...opt,mode:"no-cors"}).then(()=>{ if(!quiet) toast("Sent to the Google Sheet (no confirmation available)"); sheetMark(c.id); })
+        .catch(()=>{ if(!quiet) toast("Could not reach the Google Sheet from this view. Use the GitHub Pages version."); });
+    });
 }
+function sheetResync(){ comments.filter(c=>!sheetSent.has(c.id)).forEach(c=>sheetPost(c,true,true)); }
+setTimeout(sheetResync,4000);
 function dbPut(c){
   if(!c) return Promise.resolve();
   if(!dbc){ dbPending.add(c.id); return Promise.resolve(); }
