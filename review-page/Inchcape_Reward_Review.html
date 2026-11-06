@@ -648,7 +648,7 @@ function initSched(){
   const DAY=864e5, f=d=>d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
   $("#schToday").textContent="Today: "+f(now);
   let sk=null, sd=1, selK=null, TAB="dat";
-  const state=r=>{ const done=r.d.filter(x=>x<=now).length; return done===6?["Completed","ok"]:["In translation","dv"]; };
+  const state=r=>{ const done=r.d.filter(x=>x<=now).length; return done===6?["Completed","ok"]:["Under Inchcape review","dv"]; };
   function draw(){
     let rows=R.slice();
     if(sk!==null) rows.sort((a,b)=>sk===-1?sd*a.n.localeCompare(b.n,"en"):sd*(a.d[sk]-b.d[sk]));
