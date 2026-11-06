@@ -122,6 +122,7 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
 .pin.flash{animation:fl 1s 3}
 @keyframes fl{50%{transform:rotate(-45deg) scale(1.5)}}
 /* popover */
+#bFilt{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer;max-width:100%}
 .ci a.gh{display:inline-block;margin-top:6px;font-size:12px;color:var(--accent);text-decoration:underline}
 .dbstat{margin:8px 14px 0;padding:7px 10px;border-radius:8px;font-size:12px;line-height:1.4}
 .dbstat.on{background:#e3f4e6;color:#1d5a2b}
@@ -210,7 +211,7 @@ body.vsc #schView{display:block}
     <button id="bJson" hidden style="display:none">⬇ JSON</button>
     <button id="bCopy" hidden style="display:none">Copy</button>
     <button id="bImp" hidden style="display:none">Import…</button>
-    <button id="bFilt">Showing: all languages</button>
+    <select id="bFilt" aria-label="Filter comments by language"></select>
   </div>
   <div id="dbStat" class="dbstat off">Checking shared database…</div>
   <div id="clist"></div>
@@ -251,7 +252,7 @@ const SLIDES = [{"n": 1, "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQAB
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
-let comments = [], author = "", cur = LANGS[0].c, commentMode = true, filterCur = false;
+let comments = [], author = "", cur = LANGS[0].c, commentMode = true, filterCur = false, filterLang = "all";
 try{ const s = JSON.parse(localStorage.getItem(STORE_KEY)||"{}"); comments = s.comments||[]; author = s.author||""; cur = s.lang||cur; }catch(e){}
 function save(){ try{ localStorage.setItem(STORE_KEY, JSON.stringify({comments,author,lang:cur})); }catch(e){} }
 function toast(m){ const t=$("#toast"); t.textContent=m; t.classList.add("show"); clearTimeout(toast.t); toast.t=setTimeout(()=>t.classList.remove("show"),2200); }
@@ -448,7 +449,7 @@ function ghUrl(c){
   return "https://github.com/"+GH_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body.slice(0,4500))+"&labels=review";
 }
 function renderList(){
-  const list = comments.map((c,i)=>({c,i})).filter(o=>!filterCur || o.c.side==="en" || o.c.side===cur)
+  const list = comments.map((c,i)=>({c,i})).filter(o=>filterLang==="all" || o.c.side===filterLang)
     .sort((a,b)=>a.c.slide-b.c.slide || a.i-b.i);
   $("#clist").innerHTML = list.length ? list.map(({c,i})=>`
     <div class="ci ${c.resolved?'done':''}" data-id="${c.id}">
@@ -456,7 +457,6 @@ function renderList(){
       ${c.quote?`<div class="q">“${esc(c.quote)}”</div>`:""}
       <div class="x">${esc(c.text)}</div>
       </div>`).join("") : `<div class="empty">No comments yet.<br>Click on a slide, or drag over an area of the image, to add one.</div>`;
-  $("#bFilt").textContent = "Showing: " + (filterCur ? "base + "+langName(cur) : "all languages");
 }
 $("#clist").addEventListener("click", e=>{
   if(e.target.closest("a.gh")) return;
@@ -468,7 +468,8 @@ $("#clist").addEventListener("click", e=>{
 });
 $("#drBtn").onclick = ()=>{ $("#drawer").classList.toggle("open"); renderList(); };
 $("#drClose").onclick = ()=>$("#drawer").classList.remove("open");
-$("#bFilt").onclick = ()=>{ filterCur=!filterCur; renderList(); };
+$("#bFilt").innerHTML = '<option value="all">All languages</option><option value="en">English (base)</option>' + LANGS.map(l=>`<option value="${l.c}">${l.e}</option>`).join("");
+$("#bFilt").onchange = e=>{ filterLang=e.target.value; renderList(); };
 $("#cmBtn").onclick = ()=>{ commentMode=!commentMode; $("#cmBtn").classList.toggle("on",commentMode); $("#app").classList.toggle("cm",commentMode); toast(commentMode?"Comment mode ON":"Comment mode OFF – you can select/copy text freely"); };
 
 /* ---------- export / import ---------- */
