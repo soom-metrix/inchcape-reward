@@ -205,11 +205,11 @@ body.vsc #schView{display:block}
 <aside id="drawer" aria-label="Comments">
   <header><h2>All comments</h2><button id="drClose">Close ✕</button></header>
   <div class="tools">
-    <button class="pri" id="bMail">✉ Send to reviewer</button>
-    <button id="bCsv">⬇ CSV</button>
-    <button id="bJson">⬇ JSON</button>
-    <button id="bCopy">Copy</button>
-    <button id="bImp">Import…</button>
+    <button class="pri" id="bMail" hidden style="display:none">✉ Send to reviewer</button>
+    <button id="bCsv" hidden style="display:none">⬇ CSV</button>
+    <button id="bJson" hidden style="display:none">⬇ JSON</button>
+    <button id="bCopy" hidden style="display:none">Copy</button>
+    <button id="bImp" hidden style="display:none">Import…</button>
     <button id="bFilt">Showing: all languages</button>
   </div>
   <div id="dbStat" class="dbstat off">Checking shared database…</div>
@@ -456,7 +456,7 @@ function renderList(){
       ${c.quote?`<div class="q">“${esc(c.quote)}”</div>`:""}
       ${c.shot?`<img class="shot" alt="Selected area" src="${c.shot}">`:""}
       <div class="x">${esc(c.text)}</div>
-      <a class="gh" target="_blank" rel="noopener" href="${ghUrl(c)}">Save to GitHub as an issue ↗</a></div>`).join("") : `<div class="empty">No comments yet.<br>Click on a slide, or drag over an area of the image, to add one.</div>`;
+      </div>`).join("") : `<div class="empty">No comments yet.<br>Click on a slide, or drag over an area of the image, to add one.</div>`;
   $("#bFilt").textContent = "Showing: " + (filterCur ? "base + "+langName(cur) : "all languages");
 }
 $("#clist").addEventListener("click", e=>{
@@ -584,7 +584,7 @@ function dbPut(c){
 }
 function dbDel(id){ sheetDelete(id); if(dbc) dbc.doc(id).delete().catch(()=>{}); }
 function dbRefresh(){
-  if(!dbc){ dbStatus("off","Shared database not available in this view: comments are saved only in this browser. Open the page from its claude.ai link while signed in, or use Export / Send to reviewer."); return; }
+  if(!dbc){ dbStatus("off","Shared database not available in this view: comments are saved only in this browser. Comments are kept in this browser."); return; }
   if(dbPending.size) dbStatus("sync", dbPending.size+" comment(s) not yet saved to the shared database. They will be retried automatically.");
   else dbStatus("on","Shared database connected: all "+comments.length+" comment(s) are saved and visible to every reviewer.");
 }
