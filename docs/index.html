@@ -195,7 +195,7 @@ body.vsc #schView{display:block}
     </div>
     <div class="head">
       <div class="lbl">Translation · select a language</div>
-      <div class="ttl" id="rTitle">Français</div>
+      <div class="ttl" id="rTitle">French</div>
       <div class="tabs" id="tabs"></div>
     </div>
   </div>
@@ -226,15 +226,15 @@ body.vsc #schView{display:block}
 const REPLY_EMAIL = "soom@soompersonas.com";       // where "Send to reviewer" opens an email
 const STORE_KEY   = "inchcape-reward-review-v1";
 const LANGS = [
-  {c:"fr", n:"Français",   e:"French"},
-  {c:"nl", n:"Nederlands", e:"Dutch (Flemish)"},
-  {c:"el", n:"Ελληνικά",   e:"Greek"},
-  {c:"pl", n:"Polski",     e:"Polish"},
-  {c:"bg", n:"Български",  e:"Bulgarian"},
-  {c:"lt", n:"Lietuvių",   e:"Lithuanian"},
-  {c:"fi", n:"Suomi",      e:"Finnish"},
-  {c:"et", n:"Eesti",      e:"Estonian"},
-  {c:"lv", n:"Latviešu",   e:"Latvian"}
+  {c:"fr", n:"French",           e:"French"},
+  {c:"fi", n:"Finnish",          e:"Finnish"},
+  {c:"nl", n:"Dutch (Flemish)",  e:"Dutch (Flemish)"},
+  {c:"pl", n:"Polish",           e:"Polish"},
+  {c:"el", n:"Greek",            e:"Greek"},
+  {c:"bg", n:"Bulgarian",        e:"Bulgarian"},
+  {c:"lt", n:"Lithuanian",       e:"Lithuanian"},
+  {c:"lv", n:"Latvian",          e:"Latvian"},
+  {c:"et", n:"Estonian",         e:"Estonian"}
 ];
 /* Paste translations here: TR.fr = {3:"Carla : Bonjour ! …", 4:"…"}  (key = slide number)
    Optional localized slide images: IMG.fr = {3:"fr/slide03.jpg"} (relative path or data URI) */
@@ -282,7 +282,7 @@ function fmt(t){
 }
 function renderRight(){
   const L = LANGS.find(l=>l.c===cur);
-  $("#rTitle").textContent = L.n + "  ·  " + L.e;
+  $("#rTitle").textContent = L.e;
   loadPack(cur);
   document.querySelectorAll('.card[data-side="tr"]').forEach(card=>{
     const n = +card.dataset.n, s = SLIDES[n-1];
