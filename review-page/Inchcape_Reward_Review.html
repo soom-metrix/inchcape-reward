@@ -122,6 +122,10 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
 .pin.flash{animation:fl 1s 3}
 @keyframes fl{50%{transform:rotate(-45deg) scale(1.5)}}
 /* popover */
+.dbstat{margin:8px 14px 0;padding:7px 10px;border-radius:8px;font-size:12px;line-height:1.4}
+.dbstat.on{background:#e3f4e6;color:#1d5a2b}
+.dbstat.off{background:#fdeceb;color:#8a1c14}
+.dbstat.sync{background:#fff4d6;color:#7a5a00}
 .pop{position:fixed;z-index:90;width:min(320px,calc(100vw - 16px));max-height:calc(100vh - 16px);overflow:auto;overscroll-behavior:contain;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 30px rgba(10,20,40,.28);padding:12px;cursor:default}
 .pop label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:8px 0 3px;font-weight:650}
 .pop label:first-child{margin-top:0}
@@ -207,6 +211,7 @@ body.vsc #schView{display:block}
     <button id="bImp">Import…</button>
     <button id="bFilt">Showing: all languages</button>
   </div>
+  <div id="dbStat" class="dbstat off">Checking shared database…</div>
   <div id="clist"></div>
   <input type="file" id="fImp" accept=".json,application/json" hidden>
 </aside>
@@ -352,7 +357,7 @@ function openNew(card, x, y, quote, reg){
     const text = ta.value.trim(); if(!text){ ta.focus(); return; }
     author = pop.querySelector("#pName").value.trim();
     comments.push({id:"c"+Date.now().toString(36)+Math.random().toString(36).slice(2,5), slide:n, side, lang:langName(side), x:+x.toFixed(2), y:+y.toFixed(2), quote:quote||"", text, author,...(reg&&reg.shot?{shot:reg.shot,rx:reg.rx,ry:reg.ry,rw:reg.rw,rh:reg.rh}:{}), ts:new Date().toISOString(), resolved:false});
-    save(); dbPut(comments[comments.length-1]); closePop(); renderPins(); renderList(); toast(dbc?"Comment saved and shared":"Comment saved");
+    save(); dbPut(comments[comments.length-1]); closePop(); renderPins(); renderList(); toast(dbc?"Saving to the shared database…":"Comment saved in this browser only");
   };
   pop.querySelector("#pSave").onclick = doSave;
   pop.querySelector("#pCancel").onclick = closePop;
@@ -513,23 +518,42 @@ sc.addEventListener("scroll", ()=>{
 $("#jump").addEventListener("change", e=>{ const n=Math.min(SLIDES.length,Math.max(1,+e.target.value||1)); $("#s"+n).scrollIntoView(); });
 
 
-let dbc = null;
+let dbc = null, dbPending = new Set();
 const clean = c => JSON.parse(JSON.stringify(c));
-function dbPut(c){ if(dbc && c) dbc.doc(c.id).set(clean(c)).catch(()=>{}); }
+function dbStatus(kind, msg){ const e=$("#dbStat"); if(!e) return; e.className="dbstat "+kind; e.textContent=msg; }
+function dbPut(c){
+  if(!c) return Promise.resolve();
+  if(!dbc){ dbPending.add(c.id); return Promise.resolve(); }
+  let d = clean(c);
+  if(JSON.stringify(d).length > 240000 && d.shot){ delete d.shot; d.shotDropped = true; }
+  return dbc.doc(c.id).set(d).then(()=>{ dbPending.delete(c.id); dbRefresh(); })
+    .catch(err=>{ dbPending.add(c.id); dbRefresh(); toast("Not saved to the shared database ("+((err&&(err.code||err.message))||"error")+"). It is kept in this browser."); });
+}
 function dbDel(id){ if(dbc) dbc.doc(id).delete().catch(()=>{}); }
+function dbRefresh(){
+  if(!dbc){ dbStatus("off","Shared database not available in this view: comments are saved only in this browser. Open the page from its claude.ai link while signed in, or use Export / Send to reviewer."); return; }
+  if(dbPending.size) dbStatus("sync", dbPending.size+" comment(s) not yet saved to the shared database. They will be retried automatically.");
+  else dbStatus("on","Shared database connected: all "+comments.length+" comment(s) are saved and visible to every reviewer.");
+}
 (async()=>{
   try{
-    const db = await claude.use("db"); if(!db) return;
+    const db = await claude.use("db");
+    if(!db){ dbRefresh(); return; }
     dbc = db.collection("comments"); let first = true;
     dbc.onSnapshot(snap=>{
       const remote = snap.docs.map(d=>d.data()).filter(Boolean);
-      if(first){ first=false; const ids = new Set(remote.map(r=>r.id)); comments.filter(c=>!ids.has(c.id)).forEach(dbPut); comments.forEach(c=>{}); }
+      const ids = new Set(remote.map(r=>r.id));
+      if(first){ first=false; comments.filter(c=>!ids.has(c.id)).forEach(c=>dbPending.add(c.id)); }
+      remote.forEach(r=>dbPending.delete(r.id));
       const byId = new Map(remote.map(r=>[r.id,r]));
       comments.forEach(c=>{ if(!byId.has(c.id)) byId.set(c.id,c); });
       comments = [...byId.values()].sort((a,b)=>String(a.ts).localeCompare(String(b.ts)));
       save(); if(!pop){ renderPins(); } renderList();
-    }, ()=>{ dbc=null; });
-  }catch(e){}
+      comments.filter(c=>dbPending.has(c.id)).forEach(c=>dbPut(c));
+      dbRefresh();
+    }, ()=>{ dbc=null; dbRefresh(); });
+    setInterval(()=>{ if(dbc && dbPending.size) comments.filter(c=>dbPending.has(c.id)).forEach(c=>dbPut(c)); }, 15000);
+  }catch(e){ dbRefresh(); }
 })();
 const GUIDE = `
 <section id="guide" role="dialog" aria-modal="true" aria-label="How to review this course">
