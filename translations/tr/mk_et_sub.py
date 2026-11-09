@@ -1,11 +1,11 @@
 import json
 T={}
 T[3]="Carla: Tere! Mina olen Carla ja tahan, et liituksid minuga kõige keerulisemal Rally Rewardil!\nAlustamiseks klõpsa"
-T[4]="Carla: See pole tavaline väljakutse. Edasi liikumiseks ja sihtjoone ületamiseks peame juhtima iga-aastast palgaülevaatuse protsessi täpselt ja kooskõlas Rewardi põhimõtetega, mida Inchcape'is järgime."
+T[4]="Carla: See pole tavaline väljakutse. Selleks et edukalt edasi liikuda ja eesmärgini jõuda, peame iga-aastast palgaülevaatuse protsessi juhtima täpselt ning kooskõlas tasustamise põhimõtetega, mida Inchcape'is järgime."
 T[5]="Carla: Iga meie tehtud otsus mõjutab meie meeskonna motivatsiooni, pühendumust ja edu, sest töötasu ja hüvitised, mida pakume, ei peegelda mitte ainult seda, kui palju me nende pingutusi väärtustame, vaid tagavad ka, et nad tunneksid end õiglaselt ja konkurentsivõimeliselt tasustatuna."
 T[6]="Carla: See ralli ei seisne kahtlemata pelgalt numbrites..."
 T[7]="Carla: ... See annab meile vajalikud tööriistad, et viia oma palgaotsused kooskõlla ettevõtte strateegiliste eesmärkidega."
-T[8]="Carla: Pea meeles, et meie inimesed on meie suurim vara ning Rewardi põhimõtteid rakendades ei tugevda me mitte ainult meeskonna usaldust ja motivatsiooni, vaid tagame ka Inchcape'i pikaajalise edu."
+T[8]="Carla: Pea meeles, et meie inimesed on meie suurim vara ning tasustamise põhimõtteid rakendades ei tugevda me mitte ainult meeskonna usaldust ja motivatsiooni, vaid tagame ka Inchcape'i pikaajalise edu."
 T[9]="Carla: Sellel teekonnal juhendan sind…\nValdkonna valdamisel: tasustamise viimisel vastavusse turuga, et meelitada ligi ja hoida võtmetalente.\nÕigel teel püsimisel: eelarvamuste kõrvaldamisel ja andmepõhiste otsuste tegemisel.\nJõulises ja selges suhtluses: iga otsuse läbipaistval selgitamisel, et hoida meeskonna usaldus kõrge.\nJa sihtjoone edukal ületamisel: selgete eesmärkide seadmisel ja iga kaastöötaja pingutuse õiglasel tasustamisel."
 T[10]="Carla: Ära muretse, sul on edu saavutamiseks vajalikud vahendid: usaldusväärsed andmed, selged strateegiad ja parimad Rewardi praktikad. Kasutame neid maksimaalselt ära."
 T[11]="Carla: Alustame!"
