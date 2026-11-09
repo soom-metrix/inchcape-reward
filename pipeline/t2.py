@@ -1,6 +1,9 @@
 import fitz
 NAVY=(17/255,35/255,56/255);YEL=(0.93,0.89,0.0);CY=(0,177/255,223/255)
+import os
 LANGS=['Español','English','Français','Nederlands','Ελληνικά','Polski','Български','Lietuvių','Suomi','Eesti','Latviešu']
+GR=os.environ.get('LANGC')=='el'
+if GR: LANGS=['Ισπανικά','Αγγλικά','Γαλλικά','Ολλανδικά','Ελληνικά','Πολωνικά','Βουλγάρικα','Λιθουανικά','Φινλανδικά','Εσθονικά','Λετονικά']
 def fix2(p):
     R=fitz.Rect(380,655,1540,860)
     p.add_redact_annot(fitz.Rect(560,690,1500,760))
@@ -16,7 +19,7 @@ def fix2(p):
             b=fitz.Rect(x,y,x+W,y+H)
             p.draw_rect(b,color=None,fill=YEL)
             p.draw_rect(fitz.Rect(x,y,x+9,y+H),color=None,fill=CY)
-            f=fd if name in('Ελληνικά','Български') else fa
+            f=fd if (GR or name in('Ελληνικά','Български')) else fa
             sz=28;tw=f.text_length(name,fontsize=sz)
             tw_=fitz.TextWriter(p.rect)
             tw_.append((x+9+(W-9-tw)/2,y+H/2+sz*0.33),name,font=f,fontsize=sz)

@@ -1,6 +1,6 @@
 import json,re
 T={}
-T[3]="Carla : Bonjour ! Je suis Carla, et je voudrais que vous m’accompagniez dans le « Rally Reward » le plus exigeant !\nCliquez pour commencer"
+T[3]="Carla : Bonjour ! Je suis Carla. Rejoignez-moi pour relever le défi du « Rally Reward » le plus exigeant !\nCliquez pour commencer"
 T[4]="Carla : Ce n’est pas un défi ordinaire. Pour avancer et franchir la ligne d’arrivée, nous devons mener le processus annuel de révision salariale avec précision et en cohérence avec les principes Reward que nous défendons chez Inchcape."
 T[5]="Carla : Chaque décision que nous prenons aura un impact sur la motivation, l’engagement et la réussite de notre équipe, car la rémunération et les avantages que nous offrons reflètent non seulement la valeur que nous accordons aux efforts de chacun, mais garantissent aussi que les collaborateurs se sentent rémunérés de façon équitable et compétitive."
 T[6]="Carla : Sans aucun doute, ce rallye représente bien plus que de simples chiffres…"
