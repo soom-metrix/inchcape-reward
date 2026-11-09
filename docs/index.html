@@ -157,6 +157,15 @@ body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:va
 .ci .t b{color:var(--ink)}
 .ci .q{background:var(--hl);border-radius:5px;padding:2px 6px;font-size:12.5px;margin-top:5px}
 .ci .x{margin-top:4px;white-space:pre-wrap}
+.rp{margin:8px 0 0 10px;padding:6px 9px;border-left:3px solid var(--line);font-size:13px;background:rgba(127,127,127,.06);border-radius:0 8px 8px 0}
+.rp .rh{color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:8px}
+.rp .rh a{color:var(--muted);cursor:pointer;text-decoration:underline}
+.rp .rt{white-space:pre-wrap;margin-top:2px}
+.rbtn{display:inline-block;margin-top:8px;font-size:12px;color:var(--accent);cursor:pointer;text-decoration:underline}
+.rbox{margin-top:8px;display:flex;flex-direction:column;gap:6px}
+.rbox input,.rbox textarea{font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);width:100%;box-sizing:border-box}
+.rbox textarea{min-height:56px;resize:vertical}
+.rbox button{align-self:flex-start;font:inherit;font-size:13px;padding:5px 12px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
 .ci.done{opacity:.6}
 .empty{color:var(--muted);text-align:center;padding:40px 10px}
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1b2430;color:#fff;padding:9px 16px;border-radius:99px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:99}
@@ -304,22 +313,43 @@ function renderTabs(){
 
 /* ---------- pins ---------- */
 function sideOf(card){ return card.dataset.side==="en" ? "en" : card.dataset.lang; }
+const roots = ()=>comments.filter(c=>!c.parent);
+const rootNum = c => roots().indexOf(c)+1;
+const repliesOf = id => comments.filter(r=>r.parent===id).sort((a,b)=>String(a.ts).localeCompare(String(b.ts)));
+function repliesHTML(c){
+  return repliesOf(c.id).map(r=>`<div class="rp" data-rid="${r.id}"><div class="rh"><span><b>${esc(r.author||"Anonymous")}</b> · ${new Date(r.ts).toLocaleString()}</span><a class="rdel" data-rid="${r.id}">Delete</a></div><div class="rt">${esc(r.text)}</div></div>`).join("")
+    + `<a class="rbtn" data-id="${c.id}">↩ Reply</a>`;
+}
+function replyBox(id){
+  return `<div class="rbox" data-id="${id}"><input class="rname" placeholder="Your name" value="${esc(author||"")}"><textarea class="rtxt" placeholder="Write a reply…"></textarea><button class="rsend">Send reply</button></div>`;
+}
+function submitReply(parentId, name, text){
+  const par = comments.find(k=>k.id===parentId); text=(text||"").trim(); if(!par||!text){ toast("Write a reply first"); return false; }
+  name=(name||"").trim(); if(name){ author=name; }
+  const r = {id:"c"+Date.now().toString(36)+Math.random().toString(36).slice(2,5), parent:par.id, slide:par.slide, side:par.side, lang:par.lang, x:par.x, y:par.y, quote:"", text, author:name||author||"", ts:new Date().toISOString(), resolved:false};
+  comments.push(r); save(); sheetPost(r,false); dbPut(r); renderPins(); renderList(); toast("Reply saved"); return true;
+}
+function deleteReply(rid){
+  const r=comments.find(k=>k.id===rid); if(!r) return;
+  comments=comments.filter(k=>k!==r); save(); dbDel(rid); renderList();
+}
+function isTyping(){ const a=document.activeElement; return !!(a && a.closest && a.closest("#clist") && /INPUT|TEXTAREA/.test(a.tagName)); }
 function renderPins(){
   document.querySelectorAll(".pin,.regbox").forEach(p=>p.remove());
   const idx = {};
-  comments.forEach(c=>{
+  roots().forEach(c=>{
     const card = document.querySelector(`.card[data-n="${c.slide}"][data-side="${c.side==="en"?"en":"tr"}"]`);
     if(!card) return;
     if(c.side!=="en" && c.side!==cur) return;
     const p = document.createElement("div");
     p.className = "pin"+(c.resolved?" done":""); p.dataset.id = c.id;
     p.style.left = c.x+"%"; p.style.top = c.y+"%";
-    p.innerHTML = `<span>${comments.indexOf(c)+1}</span>`;
+    p.innerHTML = `<span>${rootNum(c)}</span>`;
     card.appendChild(p);
     if(c.shot && c.rw){ const b=document.createElement("div"); b.className="regbox"+(c.resolved?" done":""); b.dataset.id=c.id;
       b.style.cssText=`left:${c.rx}%;top:${c.ry}%;width:${c.rw}%;height:${c.rh}%`; card.appendChild(b); }
   });
-  $("#cnt").textContent = comments.length;
+  $("#cnt").textContent = roots().length;
 }
 
 /* ---------- popover ---------- */
@@ -373,16 +403,23 @@ function openView(id){
   closePop();
   pop = document.createElement("div"); pop.className="pop";
   pop.innerHTML = `
-    <div class="meta">#${comments.indexOf(c)+1} · Slide ${c.slide} · ${esc(c.lang)}<br>${esc(c.author||"Anonymous")} · ${new Date(c.ts).toLocaleString()}</div>
+    <div class="meta">#${rootNum(c)} · Slide ${c.slide} · ${esc(c.lang)}<br>${esc(c.author||"Anonymous")} · ${new Date(c.ts).toLocaleString()}</div>
     ${c.quote?`<div class="quote">“${esc(c.quote)}”</div>`:""}
     ${c.shot?`<img class="shot" alt="Selected area" src="${c.shot}">`:""}
     <div class="body">${esc(c.text)}</div>
+    <div id="vReplies">${repliesHTML(c)}</div>
     <div class="acts"><button class="dng" id="vDel">Delete</button><button id="vRes">${c.resolved?"Reopen":"Mark resolved"}</button><button id="vClose">Close</button></div>`;
   placePop(card, c.x, c.y);
   pop.querySelector("#vClose").onclick = closePop;
+  pop.querySelector("#vReplies").addEventListener("click", e=>{
+    const t=e.target;
+    if(t.classList.contains("rbtn")){ t.outerHTML=replyBox(c.id); const ta=pop.querySelector(".rtxt"); if(ta) ta.focus(); }
+    else if(t.classList.contains("rsend")){ const b=t.closest(".rbox"); if(submitReply(c.id,b.querySelector(".rname").value,b.querySelector(".rtxt").value)){ closePop(); openView(c.id); } }
+    else if(t.classList.contains("rdel")){ deleteReply(t.dataset.rid); closePop(); openView(c.id); }
+  });
   pop.querySelector("#vRes").onclick = ()=>{ c.resolved=!c.resolved; save(); sheetPost(c,false); dbPut(c); closePop(); renderPins(); renderList(); };
   const dl = pop.querySelector("#vDel");
-  dl.onclick = ()=>{ if(!dl.dataset.sure){ dl.dataset.sure=1; dl.textContent="Confirm delete"; return; } comments=comments.filter(k=>k!==c); save(); dbDel(c.id); closePop(); renderPins(); renderList(); };
+  dl.onclick = ()=>{ if(!dl.dataset.sure){ dl.dataset.sure=1; dl.textContent="Confirm delete"; return; } repliesOf(c.id).forEach(r=>dbDel(r.id)); comments=comments.filter(k=>k!==c && k.parent!==c.id); save(); dbDel(c.id); closePop(); renderPins(); renderList(); };
 }
 
 /* ---------- image region selection ---------- */
@@ -451,16 +488,24 @@ function ghUrl(c){
   return "https://github.com/"+GH_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body.slice(0,4500))+"&labels=review";
 }
 function renderList(){
-  const list = comments.map((c,i)=>({c,i})).filter(o=>filterLang==="all" || o.c.side===filterLang)
+  if(isTyping()) return;
+  const rs = roots();
+  const list = rs.map((c,i)=>({c,i})).filter(o=>filterLang==="all" || o.c.side===filterLang)
     .sort((a,b)=>a.c.slide-b.c.slide || a.i-b.i);
   $("#clist").innerHTML = list.length ? list.map(({c,i})=>`
     <div class="ci ${c.resolved?'done':''}" data-id="${c.id}">
       <div class="t"><b>#${i+1} · Slide ${c.slide}</b><span>${esc(c.lang)}</span><span>${esc(c.author||"Anonymous")}</span>${c.resolved?"<span>✓ resolved</span>":""}</div>
       ${c.quote?`<div class="q">“${esc(c.quote)}”</div>`:""}
       <div class="x">${esc(c.text)}</div>
+      ${repliesHTML(c)}
       </div>`).join("") : `<div class="empty">No comments yet.<br>Click on a slide, or drag over an area of the image, to add one.</div>`;
 }
 $("#clist").addEventListener("click", e=>{
+  const t=e.target;
+  if(t.classList.contains("rbtn")){ const id=t.dataset.id; t.outerHTML=replyBox(id); const ta=$("#clist").querySelector(`.rbox[data-id="${id}"] .rtxt`); if(ta) ta.focus(); return; }
+  if(t.classList.contains("rsend")){ const b=t.closest(".rbox"); submitReply(b.dataset.id,b.querySelector(".rname").value,b.querySelector(".rtxt").value); return; }
+  if(t.classList.contains("rdel")){ deleteReply(t.dataset.rid); return; }
+  if(t.closest(".rbox")||t.closest(".rp")) return;
   if(e.target.closest("a.gh")) return;
   const it = e.target.closest(".ci"); if(!it) return;
   const c = comments.find(k=>k.id===it.dataset.id); if(!c) return;
