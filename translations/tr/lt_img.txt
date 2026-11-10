@@ -51,16 +51,16 @@ Pripažįstame ir švenčiame kiekvieno darbuotojo pasiekimus
 Šeštasis principas – Komandos gerovė. Mums svarbu, kad darbuotojai turėtų reikiamų išteklių ir galimybių rūpintis savo fizine bei emocine sveikata ir nuolat tobulėti profesinėje srityje.
 Pagrindinės sąvokos
 Compa-ratio (arba pozicionavimas)
-Nuopelnų matrica
+Atlyginimo didinimo matrica
 Atlyginimų lygiai
-Atlyginimų diapazonai
+Atlyginimo intervalai
 <b>Compa-ratio (arba pozicionavimas)</b>
-Šis rodiklis vertina, ar darbuotojo atlyginimas dera su jo pareigoms nustatytu atlyginimų diapazonu.
+Šis rodiklis vertina, ar darbuotojo atlyginimas dera su jo pareigoms nustatytu atlyginimo intervalu.
 Padeda priimti teisingus, konkurencingus atlyginimų sprendimus pagal rinką.
 Vidurio taškas
 x
 Minimumas Maksimumas
-<b>Nuopelnų matrica</b>
+<b>Atlyginimo didinimo matrica</b>
 Atlyginimų peržiūros procese naudojama priemonė, jungianti du svarbius veiksnius:
 * Veiklos rezultatai
 * Compa-ratio
@@ -72,14 +72,14 @@ Prasti rezultatai
 Tarp 80% ir 100%
 Tarp 100% ir 120%
 Virš 120%
-Jie lemia pareigų lygį ir atlyginimų diapazoną pagal rinkos sąlygas.
+Jie lemia pareigų lygį ir atlyginimo intervalą pagal rinkos sąlygas.
 <b>Atlyginimų lygiai</b>
 Kategorijos, jungiančios panašias pareigas pagal atsakomybes ir reikalavimus
 Inchcape juosta
 Be juostos
 Atlyginimo lygis
-<b>Atlyginimų diapazonai</b>
-Nustato minimalią, vidurinę ir maksimalią sumą, kurią galima mokėti šio lygio darbuotojui. Atlyginimai šiame diapazone gali skirtis pagal darbuotojo patirtį, įgūdžius ir rezultatus.
+<b>Atlyginimo intervalai</b>
+Nustato minimalią, vidurinę ir maksimalią sumą, kurią galima mokėti šio lygio darbuotojui. Atlyginimai šiame intervale gali skirtis pagal darbuotojo patirtį, įgūdžius ir rezultatus.
 Atlyginimų lygiai
 Pažvelkime į pavyzdžius, kuriuose pritaikysime tai, ką išmokome.
 <b>1 dalis: Pasiruošimas atlyginimų peržiūrai</b>
@@ -92,7 +92,7 @@ Vadovui labai svarbu žinoti savo komandos compa-ratio, tačiau pokalbyje su kie
 (Dabartinis atlyginimas / Diapazono vidurio taškas) x 100
 Koreguoju atlyginimą pagal rinką.
 Nieko nedaryti, nes atlyginimo pakanka.
-Apsvarstyti atlyginimo didinimą, priartinant jį prie diapazono vidurio taško ar minimumo.
+Apsvarstyti atlyginimo didinimą, priartinant jį prie intervalo vidurio taško ar minimumo.
 Jei Julijos atlyginimas yra mažesnis nei 74% vidurio taško, o jos rezultatai viršija lūkesčius, ką turėtų daryti Carla?
 Prieš dvejus metus Julijos pareigas ėjęs ir jau išėjęs darbuotojas uždirbo tiek pat, todėl Carla mano, kad Julijai priedo nereikia.
 Palaukti, kol Julijai bus indeksuotas atlyginimas pagal infliaciją, kaip privaloma jos šalyje.
@@ -102,7 +102,7 @@ Teisingas atsakymas – apsvarstyti padidinimą. Ignoruojant puikius Julijos rez
 Atpažink ir užkirsk kelią dažniausiam šališkumui priimant atlyginimų sprendimus: remkis rezultatais ir konkrečiais duomenimis.
 Roberto – patyręs darbuotojas, įmonėje dirbantis 12 metų.
 <b>Roberto compa-ratio</b>
-Virš jo diapazono vidurio taško.
+Virš jo intervalo vidurio taško.
 Konkurencingas atlyginimas
 <b>Iš dalies pasiekti rezultatai</b>
 Priedo negaus.
@@ -116,7 +116,7 @@ Teisingas atsakymas – netikslinga, nes priedai turi būti grindžiami rezultat
 <b>3 dalis: Skaidri ir aiški komunikacija</b>
 Ugdyk įgūdžius tiksliai ir empatiškai paaiškinti atlyginimų sprendimus ir taip kurti pasitikėjimą.
 Julija, tavo rezultatai puikūs ir norime užtikrinti, kad tavo atlyginimas atitiktų rinką.
-Todėl tavo atlyginimas bus padidintas ir pateks į nustatytą diapazoną.
+Todėl tavo atlyginimas bus padidintas ir pateks į nustatytą intervalą.
 Kad Julija suprastų kriterijus ir jaustųsi vertinama.
 Kad būtų įvykdytas biurokratinis reikalavimas.
 Kad Julija galėtų pereiti į kitą komandą.
@@ -126,8 +126,8 @@ Aiškus ir skaidrus atlyginimų sprendimų paaiškinimas stiprina pasitikėjimą
 Teisingas atsakymas – kad Julija suprastų kriterijus ir jaustųsi vertinama. Paaiškinimas nėra vien formalumas ar administracinis reikalavimas; pagrindinis jo tikslas – sustiprinti pasitikėjimą ir įsipareigojimą.
 <b>3.1 dalis: Skaidri, aiški ir tiksli komunikacija</b>
 Vadovui būtina žinoti savo komandos compa-ratio, tačiau pokalbyje su kiekvienu darbuotoju tikslaus rezultato atskleisti nebūtina.
-Chuanas:\n• Jo veiklos vertinimo rezultatas buvo „atitinka lūkesčius“, bet ne „viršija lūkesčius“.\n• Jo compa-ratio viršija pareigoms nustatytą atlyginimų diapazoną (122%). Todėl matrica nesiūlo didinti atlyginimo.
-Chuanai, vertiname tavo darbą. Tavo atlyginimas viršija pareigų diapazoną, todėl nuopelnų matrica šiemet priedo nenumato. Sprendimai grindžiami rezultatais ir atlyginimo pozicija.
+Chuanas:\n• Jo veiklos vertinimo rezultatas buvo „atitinka lūkesčius“, bet ne „viršija lūkesčius“.\n• Jo compa-ratio viršija pareigoms nustatytą atlyginimo intervalą (122%). Todėl matrica nesiūlo didinti atlyginimo.
+Chuanai, vertiname tavo darbą. Tavo atlyginimas viršija pareigų intervalą, todėl atlyginimo didinimo matrica šiemet priedo nenumato. Sprendimai grindžiami rezultatais ir atlyginimo pozicija.
 Nors šiemet priedo nebus, kartu galime numatyti tavo tobulėjimo kelią įmonėje.
 Suprantu, labai ačiū, kad man taip paaiškinai ir pasiūlei galimybių.
 Aiškiai paaiškinti priežastis ir pasiūlyti darbuotojo tobulėjimo alternatyvų.
