@@ -81,38 +81,38 @@ Atlyginimo lygis
 <b>Atlyginimo intervalai</b>
 Nustato minimalią, vidurinę ir maksimalią sumą, kurią galima mokėti šio lygio darbuotojui. Atlyginimai šiame intervale gali skirtis pagal darbuotojo patirtį, įgūdžius ir rezultatus.
 Atlyginimų lygiai
-Pažvelkime į pavyzdžius, kuriuose pritaikysime tai, ką išmokome.
+Pažvelkime į keletą praktinių pavyzdžių ir pritaikykime tai, ką jau išmokome!
 <b>1 dalis: Pasiruošimas atlyginimų peržiūrai</b>
 Peržiūrėk kiekvieno darbuotojo compa-ratio ir įsitikink, kad veiklos lūkesčiai aiškūs.
 Iš anksto apibrėžk ir aptark lūkesčius su kiekvienu darbuotoju: tikslus, rodiklius ir tobulėjimo sritis.
-Vadovui labai svarbu žinoti savo komandos compa-ratio, tačiau pokalbyje su kiekvienu darbuotoju tikslaus rezultato atskleisti nebūtina.
+Vadovui labai svarbu žinoti savo komandos compa-ratio, tačiau pokalbyje su kiekvienu darbuotoju tikslų rezultatą atskleisti nėra būtina.
 <b>Julijos compa-ratio</b>
 (Žemiau numatyto 80%)
 <b>Compa-ratio skaičiavimas:</b>
 (Dabartinis atlyginimas / Intervalo vidurio taškas) x 100
 Koreguoju atlyginimą pagal rinką.
 Nieko nedaryti, nes atlyginimo pakanka.
-Apsvarstyti atlyginimo didinimą, priartinant jį prie intervalo vidurio taško ar minimumo.
+Apsvarstyti atlyginimo didinimą, priartinant jį prie intervalo vidurio taško ar bent jau minimumo.
 Jei Julijos atlyginimas yra mažesnis nei 74% vidurio taško, o jos rezultatai viršija lūkesčius, ką turėtų daryti Carla?
 Prieš dvejus metus Julijos pareigas ėjęs ir jau išėjęs darbuotojas uždirbo tiek pat, todėl Carla mano, kad Julijai priedo nereikia.
 Palaukti, kol Julijai bus indeksuotas atlyginimas pagal infliaciją, kaip privaloma jos šalyje.
 Jei Julijos rezultatai viršija lūkesčius, o jos atlyginimas gerokai žemesnis už vidurio tašką, tikslinga pakoreguoti atlyginimą pagal rinką ir taip pripažinti jos indėlį į komandą.
 Teisingas atsakymas – apsvarstyti padidinimą. Ignoruojant puikius Julijos rezultatus ar nekoreguojant jos atlyginimo, ji prarastų motyvaciją, o tai galėtų būti vertinama kaip neteisybė. Be to, sprendimas pagal pasenusius duomenis ar laukimas infliacinio koregavimo konkurencingo atlygio neužtikrina.
 <b>2 dalis: Šališkumo išvengimas vertinant</b>
-Atpažink ir užkirsk kelią dažniausiam šališkumui priimant atlyginimų sprendimus: remkis rezultatais ir konkrečiais duomenimis.
+Atpažink ir užkirsk kelią šališkumui priimant atlyginimų sprendimus: remkis rezultatais ir duomenimis.
 Roberto – patyręs darbuotojas, įmonėje dirbantis 12 metų.
 <b>Roberto compa-ratio</b>
 Virš jo intervalo vidurio taško.
 Konkurencingas atlyginimas
 <b>Iš dalies pasiekti rezultatai</b>
-Priedo negaus.
+Atlyginimas nedidės
 Taip, dėl stažo.
 Ne, nes jo rezultatai to nepateisina.
-Roberto compa-ratio yra 120%, tačiau jo rezultatai lūkesčius atitiko tik iš dalies. Ar tikslinga skirti jam priedą?
+Roberto compa-ratio yra 120%, tačiau jo rezultatai lūkesčius atitiko tik iš dalies. Ar tikslinga didinti jam atlyginimą?
 Taip, nes Roberto Julijai užsiminė, kad nusprendė pirkti namą, o jo žmona laukiasi.
 Per atlyginimų peržiūrą atlyginimas jam nedidės, tačiau pasibaigus procesui už stažą galima skirti papildomą premiją.
-Nors Roberto compa-ratio aukštas, jo rezultatai neatitinka standartų, kurių reikia priedui pagrįsti pagal Atlygio principus.
-Teisingas atsakymas – netikslinga, nes priedai turi būti grindžiami rezultatais, o ne stažu, asmenine padėtimi ar sprendimais už nustatytos tvarkos ribų – taip užtikrinami teisingi ir objektyvūs sprendimai.
+Nors Roberto compa-ratio aukštas, jo rezultatai neatitinka standartų, kurių reikia atlyginimo didinimui pagrįsti pagal Atlygio principus.
+Teisingas atsakymas – netikslinga, nes atlyginimo didinimai turi būti grindžiami rezultatais, o ne stažu, asmenine padėtimi ar sprendimais už nustatytos tvarkos ribų – taip užtikrinami teisingi ir objektyvūs sprendimai.
 <b>3 dalis: Skaidri ir aiški komunikacija</b>
 Ugdyk įgūdžius tiksliai ir empatiškai paaiškinti atlyginimų sprendimus ir taip kurti pasitikėjimą.
 Julija, tavo rezultatai puikūs ir norime užtikrinti, kad tavo atlyginimas atitiktų rinką.
@@ -121,30 +121,30 @@ Kad Julija suprastų kriterijus ir jaustųsi vertinama.
 Kad būtų įvykdytas biurokratinis reikalavimas.
 Kad Julija galėtų pereiti į kitą komandą.
 Kodėl svarbu, kad Carla paaiškintų Julijai, kaip buvo priimtas sprendimas dėl jos atlyginimo?
-Nes jei Carla to nepadarys, People komanda neapdoros naujo Julijos atlyginimo išmokėjimo.
+Nes jei Carla to nepadarys, People komanda nepatvirtins naujo Julijos atlyginimo išmokėjimo.
 Aiškus ir skaidrus atlyginimų sprendimų paaiškinimas stiprina pasitikėjimą, motyvuoja darbuotoją ir padeda jam suprasti, kaip organizacijoje vertinami jo rezultatai.
 Teisingas atsakymas – kad Julija suprastų kriterijus ir jaustųsi vertinama. Paaiškinimas nėra vien formalumas ar administracinis reikalavimas; pagrindinis jo tikslas – sustiprinti pasitikėjimą ir įsipareigojimą.
 <b>3.1 dalis: Skaidri, aiški ir tiksli komunikacija</b>
-Vadovui būtina žinoti savo komandos compa-ratio, tačiau pokalbyje su kiekvienu darbuotoju tikslaus rezultato atskleisti nebūtina.
+Vadovui būtina žinoti savo komandos compa-ratio, tačiau pokalbyje su kiekvienu darbuotoju tikslų rezultatą atskleisti nėra būtina.
 Chuanas:\n• Jo veiklos vertinimo rezultatas buvo „atitinka lūkesčius“, bet ne „viršija lūkesčius“.\n• Jo compa-ratio viršija pareigoms nustatytą atlyginimo intervalą (122%). Todėl matrica nesiūlo didinti atlyginimo.
-Chuanai, vertiname tavo darbą. Tavo atlyginimas viršija pareigų intervalą, todėl atlyginimo didinimo matrica šiemet priedo nenumato. Sprendimai grindžiami rezultatais ir atlyginimo pozicija.
+Chuanai, vertiname tavo darbą. Tavo atlyginimas viršija intervalą, todėl pagal atlygio didinimo matricą šiemet tau atlygio didinimas nenumatomas. Sprendimai grindžiami rezultatais ir atlyginimo pozicija.
 Nors šiemet priedo nebus, kartu galime numatyti tavo tobulėjimo kelią įmonėje.
-Suprantu, labai ačiū, kad man taip paaiškinai ir pasiūlei galimybių.
+Suprantu, labai ačiū, kad man paaiškinai ir pasiūlei planą.
 Aiškiai paaiškinti priežastis ir pasiūlyti darbuotojo tobulėjimo alternatyvų.
-Nepaaiškinti sprendimo ir tiesiog pasakyti, kad priedo nebus.
+Nepaaiškinti sprendimo ir tiesiog pasakyti, kad atlyginimo didėjimo nebus.
 Kaip Carla turėtų pasielgti, kai darbuotojas atitinka lūkesčius, bet dėl atlyginimo pozicijos negali gauti priedo?
 Vis tiek skirti Chuanui priedą: lūkesčius jis atitinka, o kad jam ir taip permokama, nesvarbu.
-Pasiūlyti Chuanui ieškoti darbo kitur, nes ateityje priedo jis negaus.
+Pasiūlyti Chuanui ieškoti darbo kitur, nes ateityje didesnio atlyginimo jis negaus.
 Priežasčių paaiškinimas ir alternatyvų siūlymas didina skaidrumą ir išlaiko darbuotojo motyvaciją.
 Teisingas atsakymas – aiškiai paaiškinti priežastis ir pasiūlyti alternatyvų. Nepaaiškinus sprendimo kyla nepasitikėjimas, priedo skyrimas pažeistų atlyginimų politiką, o raginimas išeiti neprofesionalus ir demotyvuoja.
 <b>4 dalis: Sudėtingų situacijų valdymas</b>
 Sudėtingi atvejai, kai atlyginimas nedidinamas: siūlome tobulėjimo ir gerovės alternatyvas.
-Roberto, patyręs darbuotojas: po atlyginimų peržiūros pagal įmonės politiką nuspręsta, kad priedo jis negaus.
-Šiemet priedo nebus, bet tavo atlyginimas konkurencingas. Norėčiau kartu parengti tavo tobulėjimo planą įmonėje.
+Roberto, patyręs darbuotojas: po atlyginimų peržiūros pagal įmonės politiką nuspręsta, kad atlyginimo didinimas jam nenumatomas.
+Šiemet tavo atlyginimas nesikeis, bet yra konkurencingas. Norėčiau kartu parengti tavo tobulėjimo planą įmonėje.
 Roberto, labai vertiname tavo patirtį.
 Gausi laisvų dienų tėvystės atostogoms. Skatinu dalyvauti tobulėjimo ir gerovės programose, pvz., koučinge ir streso valdyme. Norime, kad jaustumeisi palaikomas.
 Ačiū už aiškumą, Carla. Vertinu tavo paramą.
-Tiesiog pasakyti, kad priedo nebus.
+Tiesiog pasakyti, kad jo atlyginimas nesikeis.
 Ką svarbiausia Carla turėtų aptarti per pokalbį su Roberto?
 Pripažinti jo indėlį, paaiškinti sprendimą ir pasiūlyti tobulėjimo planą.
 Nieko nesakyti Roberto. Jis net nesupras, kodėl gauna laisvų dienų tėvystės atostogoms.
