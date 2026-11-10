@@ -3,7 +3,7 @@ Ralio trasa
 Kad judėtume pirmyn ir kirstume finišo liniją, metinę atlyginimų peržiūrą turime vykdyti tiksliai ir laikydamiesi Reward principų.
 Reward principai
 Pagrindinės Reward sąvokos
-Atlyginimų peržiūros procesas
+Atlygio peržiūros procesas
 Atlygio derinimas su rinka, siekiant pritraukti ir išlaikyti svarbiausius talentus.
 Šališkumo šalinimas ir sprendimų priėmimas remiantis duomenimis.
 Skaidrus kiekvieno sprendimo paaiškinimas, siekiant išlaikyti komandos pasitikėjimą.

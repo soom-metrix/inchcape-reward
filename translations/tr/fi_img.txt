@@ -2,19 +2,19 @@ Aloita
 Ralliradalla
 Edetäksemme ja ylittääksemme maaliviivan meidän on johdettava vuosittainen palkantarkistusprosessi tarkasti ja Reward-periaatteiden mukaisesti.
 Reward-periaatteet
-Rewardin keskeiset käsitteet
+Keskeiset Reward-käsitteet
 Palkantarkistusprosessi
-Palkitsemisen yhdenmukaistaminen markkinoiden kanssa avainosaajien houkuttelemiseksi ja pitämiseksi.
+Palkitsemisen yhdenmukaistaminen markkinoiden kanssa avainosaajien houkuttelemiseksi ja sitouttamiseksi.
 Ennakkoluulojen poistaminen ja dataan perustuvien päätösten tekeminen.
 Jokaisen päätöksen avoin perustelu tiimin vahvan luottamuksen säilyttämiseksi.
 Selkeiden tavoitteiden asettaminen ja jokaisen tekijän panoksen oikeudenmukainen palkitseminen.
 Tällä matkalla opastan sinua…
 HÄTÄPAKETTI
 Aloitetaan!
-Rally Reward simuloi, miten esihenkilöt johtavat palkantarkistusprosessia Rewardin perusperiaatteita soveltaen.
+Rally Reward simuloi, miten esihenkilöt johtavat palkantarkistusprosessia Reward-perusperiaatteita soveltaen.
 Määritelmä
 Mitä Reward on?
-Se on toiminto, joka suunnittelee strategian, työkalut ja käytännöt, joilla yritys <b>palkitsee</b> työntekijöitä heidän työstään ja panoksestaan <b>houkutellakseen, pitääkseen ja motivoidakseen osaajia.</b>
+Se on toiminto, joka suunnittelee strategian, työkalut ja käytännöt, joilla yritys <b>palkitsee</b> työntekijöitä heidän työstään ja panoksestaan <b>houkutellakseen, sitouttaakseen ja motivoidakseen osaajia.</b>
 Palkkaus
 Edut
 Liikkuvuus
@@ -23,12 +23,12 @@ REWARD-TOIMINTO
 <b>Reward</b> palkkauksena
 Reward ei mittaa vain lukuja; se rakentaa myös luottamusta ja vahvistaa sitoutumista.
 Markkinakilpailukyky
-Ennakkoluuloton
+Ennakkoluulottomuus
 Läpinäkyvä, tarkka ja selkeä
 Selkeät suoritusodotukset
 Työntekijät osallisina menestyksessämme
 Työntekijöiden hyvinvoinnin tukeminen
-Markkinatrendien mukainen, osaajien pitämiseksi ja houkuttelemiseksi.
+Markkinatrendien mukainen, osaajien sitouttamiseksi ja houkuttelemiseksi.
 Käytämme apuna palkkatutkimuksia esimerkiksi Mercerin tai KornFerryn kaltaisilta yrityksiltä.
 A) Menetämme osaajia.
 B) Se lisää työntekijöiden sitoutumista.
@@ -43,13 +43,13 @@ Oikea vastaus on, että menetämme osaajia, sillä markkinoita vastaamaton palkk
 Palkkapäätökset perustuvat dataan
 Edistämme tasa-arvoa ja läpinäkyvyyttä.
 Selkeä viestintä siitä, miten palkkapäätös tehtiin.
-Kiitos selityksestä! Olen motivoitunut jatkamaan näin.
+Kiitos perustelusta! Olen motivoitunut jatkamaan näin.
 Ana, onnittelut erinomaisesta suorituksestasi tällä neljänneksellä. Tulostesi perusteella päätimme antaa sinulle palkankorotuksen.
 Korotus kuvastaa tiimille tuomaasi arvoa ja varmistaa lisäksi, että palkkasi pysyy kilpailukykyisenä ja oikeudenmukaisena markkinoiden vastaaviin tehtäviin verrattuna.
 Viestimme tavoitteet, menestysindikaattorit ja odotukset tarkasti arviointikierroksen aikana.
 Juhlistamme jokaisen työntekijän saavutuksia
 Asetamme tiimin hyvinvoinnin etusijalle tarjoamalla työntekijöille resursseja, jotka tukevat heidän fyysistä ja henkistä terveyttään sekä ammatillista kehittymistään.
-Keskeiset käsitteet
+Keskeiset Reward-käsitteet
 Compa-ratio (eli sijoittuminen)
 Meriittimatriisi
 Palkkaluokat
@@ -100,7 +100,7 @@ Jos Julian suoritus ylittää odotukset ja hänen palkkansa on selvästi keskipi
 Oikea vastaus on harkita korotusta. Julian erinomaisen suorituksen sivuuttaminen tai palkan tarkistamatta jättäminen heikentäisi hänen motivaatiotaan ja voisi tuntua epäoikeudenmukaiselta. Lisäksi päätöksen perustaminen vanhentuneeseen dataan tai inflaatiotarkistusten odottamiseen ei takaa kilpailukykyistä palkkausta.
 <b>Osa 2: Ennakkoluulojen välttäminen arvioinnissa</b>
 Tunnista ja ehkäise yleisiä ennakkoluuloja palkkapäätöksissä keskittymällä suoritukseen ja konkreettiseen dataan.
-Roberto on kokenut työntekijä, jolla on 12 vuotta yrityksessä.
+Roberto on kokenut työntekijä, joka on ollut yrityksessä 12 vuotta.
 <b>Robertin compa-ratio</b>
 Palkkahaarukkansa keskipisteen yläpuolella.
 Kilpailukykyinen palkka

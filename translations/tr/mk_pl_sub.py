@@ -2,8 +2,8 @@ import json
 T={}
 T[3]="Carla: Cześć! Jestem Carla i zapraszam Cię do wspólnego udziału w najbardziej wymagającym „Rally Reward”!\nKliknij, aby rozpocząć"
 T[4]="Carla: To nie jest zwykłe wyzwanie. Aby ruszyć naprzód i przekroczyć linię mety, musimy prowadzić roczny proces przeglądu wynagrodzeń z precyzją i zgodnie z zasadami Reward, których przestrzegamy w Inchcape."
-T[5]="Carla: Każda nasza decyzja wpłynie na motywację, zaangażowanie i sukces naszego zespołu, ponieważ wynagrodzenie i benefity, które oferujemy, nie tylko odzwierciedlają, jak bardzo cenimy ich wysiłek, ale też sprawiają, że czują się nagradzani sprawiedliwie i konkurencyjnie."
-T[6]="Carla: Bez wątpienia ten rajd to coś znacznie więcej niż same liczby..."
+T[5]="Carla: Każda nasza decyzja wpłynie na motywację, zaangażowanie i sukces naszego zespołu, ponieważ wynagrodzenie i benefity, które oferujemy, nie tylko odzwierciedlają, jak bardzo cenimy ich wysiłek, ale też sprawiają, że czują się wynagradzani sprawiedliwie i konkurencyjnie."
+T[6]="Carla: Bez wątpienia, ten rajd to coś znacznie więcej niż same liczby..."
 T[7]="Carla: ... Da nam narzędzia, dzięki którym dostosujemy nasze decyzje płacowe do strategicznych celów firmy."
 T[8]="Carla: Pamiętaj, że nasi ludzie są naszym największym atutem, a stosując zasady Reward, nie tylko wzmacniamy zaufanie i motywację w zespole, ale też zapewniamy długoterminowy sukces Inchcape."
 T[9]="Carla: W tej podróży poprowadzę Cię przez…\nOpanowanie obszaru: dopasowanie wynagrodzeń do rynku, aby przyciągać i zatrzymywać kluczowe talenty.\nTrzymanie się właściwej drogi: eliminowanie uprzedzeń i podejmowanie decyzji opartych na danych.\nKomunikację z siłą i jasnością: przejrzyste wyjaśnianie każdej decyzji, by utrzymać wysokie zaufanie zespołu.\nI skuteczne przekroczenie linii mety: wyznaczanie jasnych celów i sprawiedliwe nagradzanie wysiłku każdego współpracownika."

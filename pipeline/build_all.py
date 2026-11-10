@@ -24,10 +24,12 @@ only=[int(x) for x in sys.argv[1:]] or None
 report=[]
 import t78
 import tD
-import t2,t10
+import t2,t10,t12,fix44
 def n_has78(d,off):
     if off==0 and LANGC: t10.fix10(d[9],EXTRA.get('KIT','EMERGENCY KIT'))
     if off==0: t2.fix2(d[1])
+    if off==0 and EXTRA.get('START'): t12.fix12(d[11],EXTRA['START'])
+    if off==36: fix44.fix44(d[7])
     if off==36:
         t78.fix78(d[41],EXTRA['CONG']); return True
     return False
