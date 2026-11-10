@@ -61,9 +61,9 @@ Vidurio taškas
 x
 Minimumas Maksimumas
 <b>Atlyginimo didinimo matrica</b>
-Atlyginimų peržiūros procese naudojama priemonė, jungianti du svarbius veiksnius:
-* Veiklos rezultatai
-* Compa-ratio
+Atlygio peržiūros procese naudojama priemonė, apjungianti du svarbius veiksnius:
+* Darbuotojo veiklos rezultatai
+* Atlygio pozicionavimo rodiklis (compa-ratio)
 <b>Veiklos rezultatai</b> Žemiau 80%
 Viršyta
 Pasiekta
@@ -75,8 +75,8 @@ Virš 120%
 Jie lemia pareigų lygį ir atlyginimo intervalą pagal rinkos sąlygas.
 <b>Atlyginimų lygiai</b>
 Kategorijos, jungiančios panašias pareigas pagal atsakomybes ir reikalavimus
-Inchcape juosta
-Be juostos
+Inchcape Band
+Neturi band
 Atlyginimo lygis
 <b>Atlyginimo intervalai</b>
 Nustato minimalią, vidurinę ir maksimalią sumą, kurią galima mokėti šio lygio darbuotojui. Atlyginimai šiame intervale gali skirtis pagal darbuotojo patirtį, įgūdžius ir rezultatus.
@@ -89,7 +89,7 @@ Vadovui labai svarbu žinoti savo komandos compa-ratio, tačiau pokalbyje su kie
 <b>Julijos compa-ratio</b>
 (Žemiau numatyto 80%)
 <b>Compa-ratio skaičiavimas:</b>
-(Dabartinis atlyginimas / Diapazono vidurio taškas) x 100
+(Dabartinis atlyginimas / Intervalo vidurio taškas) x 100
 Koreguoju atlyginimą pagal rinką.
 Nieko nedaryti, nes atlyginimo pakanka.
 Apsvarstyti atlyginimo didinimą, priartinant jį prie intervalo vidurio taško ar minimumo.
