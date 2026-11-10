@@ -104,7 +104,7 @@ Roberto ir pieredzējis darbinieks ar 12 gadu stāžu uzņēmumā.
 <b>Roberto compa-ratio</b>
 Virs viņa algu diapazona viduspunkta.
 Konkurētspējīga alga
-<b>Daļēji sasniegts sniegums</b>
+<b>Daļēji atbilstošs sniegums</b>
 Algas palielinājumu nesaņems.
 Jā, stāža dēļ.
 Nē, jo viņa sniegums to neattaisno.

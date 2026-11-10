@@ -104,7 +104,7 @@ Roberto on kogenud töötaja, kes on ettevõttes töötanud 12 aastat.
 <b>Roberto compa-ratio</b>
 Üle palgavahemiku keskpunkti.
 Konkurentsivõimeline palk
-<b>Osaliselt saavutatud tulemuslikkus</b>
+<b>Osaliselt ootustele vastav tulemus</b>
 Palgatõusu ei saa.
 Jah, ametiaja tõttu.
 Ei, sest tema tulemuslikkus seda ei õigusta.

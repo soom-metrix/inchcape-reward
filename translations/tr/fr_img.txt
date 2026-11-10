@@ -104,7 +104,7 @@ Roberto est un collaborateur expérimenté, avec 12 ans d’ancienneté dans l�
 <b>Compa-ratio de Roberto</b>
 Au-dessus du point médian de sa fourchette salariale.
 Salaire compétitif
-<b>Performance partiellement atteinte</b>
+<b>Performance partiellement conforme</b>
 Ne recevra pas d’augmentation.
 Oui, en raison de son ancienneté.
 Non, car sa performance ne le justifie pas.

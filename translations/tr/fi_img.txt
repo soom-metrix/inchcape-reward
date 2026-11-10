@@ -104,7 +104,7 @@ Roberto on kokenut työntekijä, joka on ollut yrityksessä 12 vuotta.
 <b>Robertin compa-ratio</b>
 Palkkahaarukkansa keskipisteen yläpuolella.
 Kilpailukykyinen palkka
-<b>Osittain saavutettu suoritus</b>
+<b>Osittain odotusten mukainen</b>
 Ei saa korotusta.
 Kyllä, työvuosien perusteella.
 Ei, koska hänen suorituksensa ei oikeuta siihen.
