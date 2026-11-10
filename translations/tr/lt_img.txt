@@ -1,8 +1,8 @@
 Pradėti
 Ralio trasa
-Kad judėtume pirmyn ir kirstume finišo liniją, metinę atlyginimų peržiūrą turime vykdyti tiksliai ir laikydamiesi Reward principų.
-Reward principai
-Pagrindinės Reward sąvokos
+Kad judėtume pirmyn ir kirstume finišo liniją, metinę atlyginimų peržiūrą turime vykdyti tiksliai ir laikydamiesi Atlygio principų.
+Atlygio principai
+Pagrindinės Atlygio sąvokos
 Atlygio peržiūros procesas
 Atlygio derinimas su rinka, siekiant pritraukti ir išlaikyti svarbiausius talentus.
 Šališkumo šalinimas ir sprendimų priėmimas remiantis duomenimis.
@@ -11,17 +11,17 @@ Aiškūs tikslai ir sąžiningas kiekvieno kolegos pastangų apdovanojimas.
 Šioje kelionėje aš tave vesiu per…
 AVARINIS RINKINYS
 Pradėkime!
-Rally Reward imituoja, kaip vadovai sprendžia atlyginimų peržiūros valdymo uždavinį, taikydami pagrindinius Reward principus.
+Rally Reward imituoja, kaip vadovai sprendžia atlyginimų peržiūros valdymo uždavinį, taikydami pagrindinius Atlygio principus.
 Apibrėžimas
-Kas yra Reward?
+Kas yra Atlygis?
 Tai sritis, kuri kuria strategiją, įrankius ir politikas, kuriais įmonė <b>atlygina</b> darbuotojams už jų darbą ir indėlį, <b>siekdama pritraukti, išlaikyti ir motyvuoti talentus.</b>
-Atlygis
+Atlyginimas
 Papildomos naudos
 Mobilumas
-REWARD SRITIS
-<b>Reward</b> kaip Inchcape sritis
-<b>Reward</b> kaip atlygis
-Reward – tai ne vien skaičiai: jis kuria pasitikėjimą ir stiprina įsipareigojimą.
+ATLYGIO SRITIS
+<b>Atlygis</b> kaip Inchcape sritis
+<b>Atlygis</b> kaip atlyginimas
+Atlygis – tai ne vien skaičiai: jis kuria pasitikėjimą ir stiprina įsipareigojimą.
 Konkurencingumas rinkoje
 Nešališkumas
 Skaidru, tiksliai, aišku
@@ -111,7 +111,7 @@ Ne, nes jo rezultatai to nepateisina.
 Roberto compa-ratio yra 120%, tačiau jo rezultatai lūkesčius atitiko tik iš dalies. Ar tikslinga skirti jam priedą?
 Taip, nes Roberto Julijai užsiminė, kad nusprendė pirkti namą, o jo žmona laukiasi.
 Per atlyginimų peržiūrą atlyginimas jam nedidės, tačiau pasibaigus procesui už stažą galima skirti papildomą premiją.
-Nors Roberto compa-ratio aukštas, jo rezultatai neatitinka standartų, kurių reikia priedui pagrįsti pagal Reward principus.
+Nors Roberto compa-ratio aukštas, jo rezultatai neatitinka standartų, kurių reikia priedui pagrįsti pagal Atlygio principus.
 Teisingas atsakymas – netikslinga, nes priedai turi būti grindžiami rezultatais, o ne stažu, asmenine padėtimi ar sprendimais už nustatytos tvarkos ribų – taip užtikrinami teisingi ir objektyvūs sprendimai.
 <b>3 dalis: Skaidri ir aiški komunikacija</b>
 Ugdyk įgūdžius tiksliai ir empatiškai paaiškinti atlyginimų sprendimus ir taip kurti pasitikėjimą.
@@ -160,18 +160,18 @@ Būtina suprasti, kaip People Hub sistemoje veikia atlyginimų peržiūra ir kok
 <b>Compensation Planner Manager</b>
 Peržiūri pasiūlymus People Hub.
 Prieš tęsiant patvirtina, pakeičia arba grąžina formas taisyti.
-Vietos ir regiono Reward komanda
+Vietos ir regiono Atlygio komanda
 Patvirtinus pasiūlymą, jis siunčiamas tvirtinti regiono generaliniam direktoriui.
 Atlygio laiškai sugeneruojami pagal rezultatus ir pasiekiami:
 Employee Central\nKiekvieno darbuotojo People Hub profilyje
 Atlygio ataskaitą galima peržiūrėti Employee Central taip:
-Proceso pabaigoje pasiekiame tikslą – veiksmingai taikome Reward principus. Be to, užtikriname, kad kiekvienas darbuotojas supranta priimtus sprendimus ir kaip gali toliau augti.
+Proceso pabaigoje pasiekiame tikslą – veiksmingai taikome Atlygio principus. Be to, užtikriname, kad kiekvienas darbuotojas supranta priimtus sprendimus ir kaip gali toliau augti.
 Konkurencingumas, šališkumas, neskaidrumas ir įsipareigojimas.
 Konkurencingumas rinkos atžvilgiu, nešališkumas, skaidrumas ir aiškumas, įsipareigojimas žmonėms.
-Kokius Reward principus Carla taikė viso proceso metu?
+Kokius Atlygio principus Carla taikė viso proceso metu?
 Paaukštinimas, compa-ratio, nešališkumas ir įsipareigojimas.
 Įsipareigojimas, nešališkumas, konkurencingumas ir atlyginimo lygis.
-Konkurencingumas, nešališkumas, skaidrumas ir įsipareigojimas žmonėms atspindi pagrindinius Reward principus, taikytus atlyginimų peržiūros metu.
+Konkurencingumas, nešališkumas, skaidrumas ir įsipareigojimas žmonėms atspindi pagrindinius Atlygio principus, taikytus atlyginimų peržiūros metu.
 Išvada
-Kaip vadovas dabar supranti savo vaidmenį užtikrinant, kad Reward procesas būtų teisingas ir motyvuojantis. Taikydami šiuos principus, visi kartu judame sėkmės link.
+Kaip vadovas dabar supranti savo vaidmenį užtikrinant, kad Atlygio procesas būtų teisingas ir motyvuojantis. Taikydami šiuos principus, visi kartu judame sėkmės link.
 Baigei šį modulį.\nIki kito karto.
