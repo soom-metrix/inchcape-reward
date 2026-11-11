@@ -75,14 +75,14 @@ def make(src,off,dst):
             if n==72 and g['ids']==['72.11','72.12']:
                 items.append(dict(bs=[dict(bs[0],bbox=[330,236,1700,276])],en=g['en'])); items.append(dict(bs=bs[1:],en=None)); continue
             if n==31 and g['ids']==['31.9']:
-                for t,bb in ((EXTRA.get('MIN','Minimum'),[1170,161,1340,181]),(EXTRA.get('MAX','Maximum'),[1710,161,1880,181])):
-                    items.append(dict(bs=[dict(bs[0],bbox=bb)],en=t))
+                for t,bb in ((EXTRA.get('MIN','Minimum'),[1170,161,1340,181]),(EXTRA.get('MAX','Maximum'),[1690,161,1860,181] if LANGC=='lt' else [1710,161,1880,181])):
+                    items.append(dict(bs=[dict(bs[0],bbox=bb)],en=(t if not (LANGC=='lt' and t=='Maksimumas') else "<span style='font-size:88%'>"+t+"</span>")))
                 continue
             if n==31 and g['ids']==['31.7']:
                 items.append(dict(bs=[dict(bs[0],bbox=[1440,161,1610,181])],en=g['en'])); continue
             if n==31 and g['ids']==['31.8']:
                 for t,bb in ((f"<b>{EXTRA['INITIAL']}</b>",[1228,243,1335,272]),(f"<b>{EXTRA['MARKET']}</b>",[1452,243,1600,272]),(f"<b>{EXTRA['FINAL']}</b>" if LANGC!='lt' else f"<b><span style='font-size:82%'>{EXTRA['FINAL']}</span></b>",([1700,243,1857,272] if LANGC=='lt' else [1735,243,1822,272]))):
-                    items.append(dict(bs=[dict(bs[0],bbox=bb)],en=t))
+                    items.append(dict(bs=[dict(bs[0],bbox=bb)],en=(t if not (LANGC=='lt' and t=='Maksimumas') else "<span style='font-size:88%'>"+t+"</span>")))
                 continue
             if n==34 and g['ids']==['34.3']:
                 _k=EXTRA.get('S34','Salaries');en1,en2=g['en'].split(' '+_k+' ',1)

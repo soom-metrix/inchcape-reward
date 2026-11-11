@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 S=960/742
-src=Image.open('/mnt/user-data/attachments/6594f8bc-cc54-50c2-96b7-17c65d677c04/8e3f99f9-image.png').convert('RGB')
+src=Image.open('/tmp/claude-0/nav/base.png').convert('RGB')
 base=src.resize((960,540),Image.LANCZOS)
 base.save('base.png')
 base.convert('RGB').save('en.jpg',quality=72)
@@ -8,7 +8,7 @@ P='/tmp/claude-0/pdfw/'
 FD={'fr':'fnt','nl':'fnt','fi':'fnt','et':'fnt','el':'fnt_gr','bg':'fnt_gr','pl':'fnt_pl','lt':'fnt_pl','lv':'fnt_pl'}
 T={'fr':['Sous-titres','Retour','Arrêter','Lecture','Suivant'],
 'nl':['Ondertitels','Terug','Stop','Afspelen','Volgende'],
-'el':['Υπότιτλοι','Πίσω','Στοπ','Εκτέλεση','Επόμενο'],
+'el':['Υπότιτλοι','Πίσω','Στοπ','Αναπαραγωγή','Επόμενο'],
 'pl':['Napisy','Wstecz','Zatrzymaj','Odtwórz','Dalej'],
 'bg':['Субтитри','Назад','Стоп','Пусни','Напред'],
 'lt':['Subtitrai','Atgal','Stabdyti','Leisti','Toliau'],

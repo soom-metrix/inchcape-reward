@@ -4,11 +4,11 @@ Kad judėtume pirmyn ir kirstume finišo liniją, metinę atlyginimų peržiūr�
 Atlygio principai
 Pagrindinės Atlygio sąvokos
 Atlygio peržiūros procesas
-Atlygio derinimas su rinka, siekiant pritraukti ir išlaikyti svarbiausius talentus.
-Šališkumo šalinimas ir sprendimų priėmimas remiantis duomenimis.
-Skaidrus kiekvieno sprendimo paaiškinimas, siekiant išlaikyti komandos pasitikėjimą.
-Aiškūs tikslai ir sąžiningas kiekvieno kolegos pastangų apdovanojimas.
-Šioje kelionėje aš tave vesiu per…
+Suderinti atlyginimą su rinkos situacija, kad galėtume pritraukti ir išlaikyti svarbiausius talentus.
+Atpažinti ir pašalinti šališkumą, priimti sprendimus, pagrįstus duomenimis.
+Skaidriai paaiškinti kiekvieną sprendimą ir taip stiprinti komandos pasitikėjimą.
+Išsikelti aiškius tikslus ir užtikrinti, kad kiekvieno kolegos indėlis būtų tinkamai įvertintas.
+Šioje kelionėje padėsiu tau…
 AVARINIS RINKINYS
 Pradėkime!
 Rally Reward imituoja, kaip vadovai sprendžia atlyginimų peržiūros valdymo uždavinį, taikydami pagrindinius Atlygio principus.
@@ -142,36 +142,36 @@ Sudėtingi atvejai, kai atlyginimas nedidinamas: siūlome tobulėjimo ir gerovė
 Roberto, patyręs darbuotojas: po atlyginimų peržiūros pagal įmonės politiką nuspręsta, kad atlyginimo didinimas jam nenumatomas.
 Šiemet tavo atlyginimas nesikeis, bet yra konkurencingas. Norėčiau kartu parengti tavo tobulėjimo planą įmonėje.
 Roberto, labai vertiname tavo patirtį.
-Gausi laisvų dienų tėvystės atostogoms. Skatinu dalyvauti tobulėjimo ir gerovės programose, pvz., koučinge ir streso valdyme. Norime, kad jaustumeisi palaikomas.
-Ačiū už aiškumą, Carla. Vertinu tavo paramą.
+Skatinu įsitraukti į profesinio tobulėjimo ir gerovės programas, pavyzdžiui, dalyvauti koučingo sesijose ar streso valdymo mokymuose. Norime, kad jaustumeisi palaikomas ir turėtum galimybių augti.
+Ačiū, kad paaiškinai ir mane palaikai, Carla.
 Tiesiog pasakyti, kad jo atlyginimas nesikeis.
 Ką svarbiausia Carla turėtų aptarti per pokalbį su Roberto?
 Pripažinti jo indėlį, paaiškinti sprendimą ir pasiūlyti tobulėjimo planą.
-Nieko nesakyti Roberto. Jis net nesupras, kodėl gauna laisvų dienų tėvystės atostogoms.
-Pasielgti kaip piktam vadovui ir kaltinti jį, kad dėl prastų rezultatų priedo negauna.
+Nieko nesakyti Roberto. Jis net nesupras, kodėl siūlau jam tobulėjimo planą.
+Būti piktu vadovu ir sakyti, kad atlyginimas nesikeičia dėl jo prastų rezultatų.
 Jo indėlio pripažinimas, sprendimo paaiškinimas ir tobulėjimo plano pasiūlymas rodo empatiją, skatina motyvaciją ir atitinka skaidrios komunikacijos bei rūpinimosi gerove principus.
-Nieko nepaaiškinus ar tiesiog atsisakius didinti atlyginimą, pritrūksta empatijos ir galima demotyvuoti Roberto. Panašiai ir kaltinimas neprofesionalus bei gali pakenkti ir pasitikėjimui, ir darbo aplinkai.
-Būtina suprasti, kaip People Hub sistemoje veikia atlyginimų peržiūra ir kokias priemones turime.
+Tiesiog atsisakyti didinti atlyginimą nieko nepaaiškinus būtų neempatiška ir galėtų demotyvuoti Roberto. Lygiai taip pat kaltinimai būtų neprofesionalūs ir galėtų pakenkti tarpusavio pasitikėjimui bei darbo aplinkai.
+Susipažinsime, kaip People Hub sistemoje veikia atlygio peržiūros procesas ir kokias priemones turime.
 <b>5 dalis: Atlyginimų peržiūros procesas People Hub sistemoje</b>
 1. Pasiūlymas
 2. Pasiūlymų peržiūra ir patvirtinimas
-3. Vadovų peržiūra
+3. Aukščiausio lygio vadovų peržiūra
 4. Laiškų parengimas ir išmokėjimas
-<b>Compensation Planner Manager</b>
+<b>Atlygio planų tvirtintojai (Compensation planner manager)</b>
 Peržiūri pasiūlymus People Hub.
-Prieš tęsiant patvirtina, pakeičia arba grąžina formas taisyti.
-Vietos ir regiono Atlygio komanda
-Patvirtinus pasiūlymą, jis siunčiamas tvirtinti regiono generaliniam direktoriui.
-Atlygio laiškai sugeneruojami pagal rezultatus ir pasiekiami:
-Employee Central\nKiekvieno darbuotojo People Hub profilyje
-Atlygio ataskaitą galima peržiūrėti Employee Central taip:
-Proceso pabaigoje pasiekiame tikslą – veiksmingai taikome Atlygio principus. Be to, užtikriname, kad kiekvienas darbuotojas supranta priimtus sprendimus ir kaip gali toliau augti.
+Patvirtina, pakeičia arba grąžina formą pakartotinai peržiūrai.
+Šalies ir regiono Atlygio komanda
+Patvirtintas pasiūlymas perduodamas galutinai tvirtinti regiono generaliniam direktoriui.
+Atlyginimo laiškai generuojami pagal patvirtintus rezultatus, ir kiekvienas darbuotojas gali juos rasti:
+Savo People Hub profilyje
+Atlyginimo laišką galima peržiūrėti People Hub čia:
+Pasibaigus procesui pasiekiame tikslą – veiksmingai taikome Atlygio principus. Be to, užtikriname, kad kiekvienas darbuotojas supranta priimtus sprendimus ir kaip gali toliau augti.
 Konkurencingumas, šališkumas, neskaidrumas ir įsipareigojimas.
 Konkurencingumas rinkos atžvilgiu, nešališkumas, skaidrumas ir aiškumas, įsipareigojimas žmonėms.
 Kokius Atlygio principus Carla taikė viso proceso metu?
 Paaukštinimas, compa-ratio, nešališkumas ir įsipareigojimas.
 Įsipareigojimas, nešališkumas, konkurencingumas ir atlyginimo lygis.
 Konkurencingumas, nešališkumas, skaidrumas ir įsipareigojimas žmonėms atspindi pagrindinius Atlygio principus, taikytus atlyginimų peržiūros metu.
-Išvada
-Kaip vadovas dabar supranti savo vaidmenį užtikrinant, kad Atlygio procesas būtų teisingas ir motyvuojantis. Taikydami šiuos principus, visi kartu judame sėkmės link.
-Baigei šį modulį.\nIki kito karto.
+Apibendrinimas
+Kaip vadovas, dabar aiškiai supranti savo vaidmenį užtikrinant, kad Atlygio procesas būtų teisingas, skaidrus ir motyvuojantis. Nuosekliai taikydami Atlygio principus, visi kartu judame sėkmės link!
+Baigei šį modulį.\nIki kito karto!
