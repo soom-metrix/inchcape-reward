@@ -11,17 +11,17 @@ Selgete eesmärkide seadmine ja iga kaastöötaja pingutuse õiglane tasustamine
 Sellel teekonnal juhendan sind…
 HÄDAKOMPLEKT
 Alustame!
-Rally Reward simuleerib, kuidas juhid palgaülevaatust juhivad, rakendades Rewardi põhiprintsiipe.
+Rally Reward simuleerib, kuidas juhid palgaülevaatust juhivad, rakendades tasustamise põhiprintsiipe.
 Määratlus
-Mis on Reward?
+Mis on tasustamine?
 See on valdkond, mis kavandab strateegia, tööriistad ja põhimõtted, mille abil ettevõte <b>tasustab</b> töötajaid nende töö ja panuse eest, <b>eesmärgiga talente ligi meelitada, hoida ja motiveerida.</b>
 Töötasu
 Hüvitised
 Liikuvus
-REWARDI VALDKOND
-<b>Reward</b> Inchcape'i valdkonnana
-<b>Reward</b> töötasuna
-Reward ei mõõda ainult numbreid; see loob ka usaldust ja tugevdab pühendumust.
+TASUSTAMISE VALDKOND
+<b>Tasustamine</b> Inchcape'i valdkonnana
+<b>Tasustamine</b> töötasuna
+Tasustamine ei mõõda ainult numbreid; see loob ka usaldust ja tugevdab pühendumust.
 Konkurentsivõime turul
 Eelarvamustevaba
 Läbipaistev, täpne ja selge
@@ -50,20 +50,20 @@ Teavitame eesmärkidest, edukuse näitajatest ja ootustest hindamistsükli jooks
 Tunnustame ja tähistame iga töötaja saavutusi
 Seame meeskonna heaolu esikohale, pakkudes töötajatele ligipääsu ressurssidele, mis edendavad nende füüsilist ja emotsionaalset tervist ning kutsealast arengut.
 Põhimõisted
-Compa-ratio (ehk positsioon)
-Meriidimaatriks
+Palga suhtarv (ehk positsioon)
+Palgatõusu maatriks
 Palgaastmed
 Palgavahemikud
-<b>Compa-ratio (ehk positsioon)</b>
+<b>Palga suhtarv (ehk positsioon)</b>
 See näitaja hindab, kas töötaja palk vastab tema ametikohale kehtestatud palgavahemikule.
 See tagab õiglased ja konkurentsivõimelised, turule vastavad palgaotsused.
 Keskpunkt
 x
 Miinimum Maksimum
-<b>Meriidimaatriks</b>
+<b>Palgatõusu maatriks</b>
 Palgaülevaatuse protsessis kasutatav tööriist, mis ühendab kaks olulist tegurit:
 * Tulemuslikkus
-* Compa-ratio
+* Palga suhtarv
 <b>Tulemuslikkus</b> Alla 80%
 Ületatud
 Saavutatud
@@ -83,12 +83,12 @@ See määrab miinimumi, keskpunkti ja maksimumi, mida selle astme töötajale ma
 Palgaastmed
 Vaatame näiteid, kus rakendame selles protsessis õpitut.
 <b>1. osa: Palgaülevaatuse ettevalmistus</b>
-Vaata üle iga töötaja compa-ratio ja veendu, et tulemuslikkuse ootused on selged.
+Vaata üle iga töötaja palga suhtarv ja veendu, et tulemuslikkuse ootused on selged.
 Määra ja edasta ootused iga töötaja jaoks ette: eesmärgid, näitajad ja arenguvaldkonnad.
-Juhina on oluline teada oma meeskonna compa-ratiot, kuid üksikisikuga rääkides pole vaja täpset tulemust jagada.
-<b>Julia compa-ratio</b>
+Juhina on oluline teada oma meeskonna palga suhtarvu, kuid üksikisikuga rääkides pole vaja täpset tulemust jagada.
+<b>Julia palga suhtarv</b>
 (Alla oodatud 80%)
-<b>Compa-ratio arvutamine:</b>
+<b>Palga suhtarv arvutamine:</b>
 (Praegune palk / vahemiku keskpunkt) x 100
 Teen turule vastava palgakohanduse.
 Ei tee midagi, sest palk on piisav.
@@ -101,17 +101,17 @@ Kui Julia tulemused ületavad ootusi ja tema palk on keskpunktist oluliselt mada
 <b>2. osa: Eelarvamuste vältimine hindamisel</b>
 Tuvasta ja väldi levinud eelarvamusi palgaotsuste tegemisel, keskendudes tulemuslikkusele ja konkreetsetele andmetele.
 Roberto on kogenud töötaja, kes on ettevõttes töötanud 12 aastat.
-<b>Roberto compa-ratio</b>
+<b>Roberto palga suhtarv</b>
 Üle palgavahemiku keskpunkti.
 Konkurentsivõimeline palk
 <b>Osaliselt ootustele vastav tulemus</b>
 Palgatõusu ei saa.
 Jah, ametiaja tõttu.
 Ei, sest tema tulemuslikkus seda ei õigusta.
-Roberto compa-ratio on 120%, kuid tema tulemused on ootusi täitnud vaid osaliselt. Kas palgatõusu andmine on asjakohane?
+Roberto palga suhtarv on 120%, kuid tema tulemused on ootusi täitnud vaid osaliselt. Kas palgatõusu andmine on asjakohane?
 Jah, sest Roberto ütles Juliale, et on otsustanud osta maja ja tema naine on rase.
 Ta ei saa palgaülevaatuse protsessis palgatõusu, kuid pärast protsessi võiks talle ametiaja tõttu anda lisapreemia.
-Kuigi Roberto compa-ratio on kõrge, ei õigusta tema tulemused Rewardi põhimõtete kohaselt palgatõusu.
+Kuigi Roberto palga suhtarv on kõrge, ei õigusta tema tulemused tasustamise põhimõtete kohaselt palgatõusu.
 Õige vastus on, et see ei ole asjakohane, sest palgatõusud peavad põhinema tulemuslikkusel, mitte sellistel teguritel nagu ametiaeg, isiklik olukord või kehtestatud protsessist väljapoole jäävad alternatiivid, et otsused oleksid õiglased ja objektiivsed.
 <b>3. osa: Läbipaistev ja selge suhtlus</b>
 Arenda oskusi palgaotsustest täpselt ja empaatiliselt suhtlemiseks, kasvatades usaldust.
@@ -125,9 +125,9 @@ Sest kui Carla seda ei tee, ei vormista People'i meeskond Julia uut palka.
 Palgaotsuste selge ja läbipaistev selgitamine tugevdab usaldust, motiveerib töötajat ja tagab, et ta mõistab, kuidas tema tulemusi organisatsioonis väärtustatakse.
 Õige vastus on, et Julia mõistaks kriteeriume ja tunneks end väärtustatuna. Selgitus ei ole pelgalt formaalsus ega haldusnõue; selle peamine eesmärk on tugevdada usaldust ja pühendumust.
 <b>3.1 osa: Läbipaistev, selge ja täpne suhtlus</b>
-Juhina on oluline teada oma meeskonna compa-ratiot, kuid üksikisikuga rääkides pole vaja täpset tulemust jagada.
-Juan:\n• Tema tulemuslikkuse hindamise tulemus oli „vastas ootustele“, kuid mitte „ületas ootused“.\n• Tema compa-ratio on kõrgem tema ametikohale kehtestatud palgavahemikust (122%). Seetõttu ei soovita maatriks palgatõusu.
-Juan, hindame sinu tööd ja seda, et vastad meeskonna ootustele. Sinu palk on aga sinu ametikoha vahemikust kõrgem, seega meriidimaatriks sel aastal palgatõusu ei sisalda. Tahame olla läbipaistvad: need otsused põhinevad sinu tulemuslikkusel ja palga positsioonil.
+Juhina on oluline teada oma meeskonna palga suhtarvu, kuid üksikisikuga rääkides pole vaja täpset tulemust jagada.
+Juan:\n• Tema tulemuslikkuse hindamise tulemus oli „vastas ootustele“, kuid mitte „ületas ootused“.\n• Tema palga suhtarv on kõrgem tema ametikohale kehtestatud palgavahemikust (122%). Seetõttu ei soovita maatriks palgatõusu.
+Juan, hindame sinu tööd ja seda, et vastad meeskonna ootustele. Sinu palk on aga sinu ametikoha vahemikust kõrgem, seega palgatõusu maatriks sel aastal palgatõusu ei sisalda. Tahame olla läbipaistvad: need otsused põhinevad sinu tulemuslikkusel ja palga positsioonil.
 Kuigi sel aastal palgatõusu ei tule, saame koos leida tee, mis võimaldab sul areneda ja kasutada ettevõttes uusi võimalusi.
 Saan aru, suur tänu, et mulle seda nii selgitasid ja võimalusi pakkusid.
 Selgitada põhjuseid ja pakkuda töötaja arenguks alternatiive.
@@ -160,18 +160,18 @@ On oluline mõista, kuidas palgaülevaatuse protsess People Hubi süsteemis toim
 <b>Töötasu planeerija juht</b>
 Vaatab ettepanekud People Hubis üle.
 Kiidab heaks, muudab või tagastab vormid kohandamiseks enne jätkamist.
-Kohalik ja piirkondlik Rewardi meeskond
+Kohalik ja piirkondlik tasustamise meeskond
 Kui ettepanek on heaks kiidetud, saadetakse see kinnitamiseks piirkonna tegevjuhile.
 Töötasukirjad koostatakse protsessi tulemustega ja on kättesaadavad:
 Employee Central\nIga töötaja People Hubi profiilil
 Töötasu aruannet saab Employee Centralis vaadata järgmiselt:
-Protsessi lõpuks saavutame eesmärgi rakendada Rewardi põhimõtteid tõhusalt. Lisaks tagame, et iga töötaja mõistab tehtud otsuseid ja seda, kuidas ta saab edasi kasvada.
+Protsessi lõpuks saavutame eesmärgi rakendada tasustamise põhimõtteid tõhusalt. Lisaks tagame, et iga töötaja mõistab tehtud otsuseid ja seda, kuidas ta saab edasi kasvada.
 Konkurentsivõime, eelarvamused, läbipaistmatus ja pühendumus.
 Konkurentsivõime turuga, eelarvamustevabadus, läbipaistvus ja selgus, pühendumus inimestele.
-Milliseid Rewardi põhimõtteid Carla kogu protsessi jooksul rakendas?
-Edutamine, compa-ratio, eelarvamustevabadus ja pühendumus.
+Milliseid tasustamise põhimõtteid Carla kogu protsessi jooksul rakendas?
+Edutamine, palga suhtarv, eelarvamustevabadus ja pühendumus.
 Pühendumus, eelarvamustevabadus, konkurentsivõime ja palgaaste.
-Konkurentsivõime, eelarvamustevabadus, läbipaistvus ja pühendumus inimestele peegeldavad Rewardi põhimõtteid, mida palgaülevaatuse protsessis rakendati.
+Konkurentsivõime, eelarvamustevabadus, läbipaistvus ja pühendumus inimestele peegeldavad tasustamise põhimõtteid, mida palgaülevaatuse protsessis rakendati.
 Kokkuvõte
-Juhina mõistad nüüd oma rolli Reward-protsessi õiglaseks ja motiveerivaks muutmisel. Liigume kõik koos edu poole, rakendades põhimõtteid.
+Juhina mõistad nüüd oma rolli tasustamisprotsessi õiglaseks ja motiveerivaks muutmisel. Liigume kõik koos edu poole, rakendades põhimõtteid.
 Oled selle mooduli läbinud.\nNäeme järgmisel korral.

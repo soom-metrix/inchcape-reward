@@ -41,6 +41,8 @@ def run(src, dst, pages):
             pitch=(ys[-1]-ys[0])/(len(ys)-1) if len(ys)>1 else s0['size']*1.25
             plan.append((it,found,r,s0,pitch))
             for s in found: page.add_redact_annot(fitz.Rect(s['bbox'])+(-1,-1,1,1))
+        for s in sp:
+            if s['text'].strip()=='a' and 1620<s['bbox'][0]<1632 and 520<s['bbox'][1]<530: page.add_redact_annot(fitz.Rect(s['bbox'])+(-1,-1,1,1))
         page.apply_redactions(images=fitz.PDF_REDACT_IMAGE_NONE, graphics=fitz.PDF_REDACT_LINE_ART_NONE)
         for it,found,r,s0,pitch in plan:
             padx=it.get('padx',0.08)*r.width
@@ -92,6 +94,8 @@ def apply_page(page,n,items,report):
         if len(found)==1 or len(ys)==1: align='left' if s0['bbox'][0]<60 or 'Italic' in s0['font'] and r.x0<500 else 'center'
         plan.append((it,found,r,s0,pitch,align) if it['en'] is not None else None)
         for s in found: page.add_redact_annot(fitz.Rect(s['bbox'])+(-1,-1,1,1))
+    for s in allspans:
+        if s['text'].strip()=='a' and 1620<s['bbox'][0]<1632 and 520<s['bbox'][1]<530: page.add_redact_annot(fitz.Rect(s['bbox'])+(-1,-1,1,1))
     page.apply_redactions(images=fitz.PDF_REDACT_IMAGE_NONE, graphics=fitz.PDF_REDACT_LINE_ART_NONE)
     for pl in plan:
         if pl is None: continue

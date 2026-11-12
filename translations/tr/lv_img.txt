@@ -3,7 +3,7 @@ Rallija trase
 Lai tiktu uz priekšu un šķērsotu finišu, mums precīzi un saskaņā ar Reward principiem jāvada ikgadējā algu pārskatīšana.
 Reward principi
 Reward pamatjēdzieni
-Algu pārskatīšana
+Algu pārskatīšanas process
 Atlīdzības saskaņošana ar tirgu, lai piesaistītu un noturētu galvenos talantus.
 Aizspriedumu novēršana un uz datiem balstītu lēmumu pieņemšana.
 Katra lēmuma pārredzama skaidrošana, lai saglabātu augstu komandas uzticību.
@@ -14,22 +14,22 @@ Sāksim!
 Rally Reward simulē, kā vadītāji vada algu pārskatīšanu, piemērojot Reward pamatprincipus.
 Definīcija
 Kas ir Reward?
-Tā ir joma, kas izstrādā stratēģiju, rīkus un politikas, ar kuriem uzņēmums <b>atalgo</b> darbiniekus par viņu darbu un ieguldījumu, <b>lai piesaistītu, noturētu un motivētu talantus.</b>
-Atlīdzība
+<span style='font-size:93%'>Tā ir joma, kas izstrādā stratēģiju, rīkus un politikas, ar kuriem uzņēmums atlīdzina darbiniekiem par viņu darbu un ieguldījumu, <b>lai piesaistītu, noturētu un motivētu talantus.</b></span>
+Atalgojums
 Labumi
 Mobilitāte
 REWARD JOMA
-<b>Reward</b> kā Inchcape joma
+<b>Reward</b> kā personāla nodaļas process
 <b>Reward</b> kā atlīdzība
-Reward nemēra tikai skaitļus; tā arī veido uzticību un stiprina apņemšanos.
+Reward nemēra tikai skaitļus; tas arī veido uzticību un stiprina apņemšanos.
 Konkurētspēja tirgū
 Bez aizspriedumiem
 Pārredzams, precīzs un skaidrs
-Skaidras snieguma gaidas
+Skaidras darba snieguma gaidas
 Darbinieki dalās mūsu panākumos
 Darbinieku labsajūtas atbalsts
 Atbilst tirgus tendencēm, lai noturētu un piesaistītu talantus.
-Mēs balstāmies uz algu apsekojumiem no tādiem uzņēmumiem kā Mercer vai KornFerry.
+Mēs balstāmies uz algu pētījumiem no tādiem uzņēmumiem kā Mercer vai KornFerry.
 A) Mēs zaudējam talantus.
 B) Tas palielina darbinieku iesaisti.
 C) Tam nav ietekmes.
@@ -51,18 +51,18 @@ Mēs atzīstam un svinam katra darbinieka sasniegumus
 Mēs rūpējamies par komandas labsajūtu, nodrošinot piekļuvi resursiem, kas veicina darbinieku fizisko un emocionālo veselību un profesionālo attīstību.
 Pamatjēdzieni
 Compa-ratio (jeb pozicionējums)
-Nopelnu matrica
-Algu pakāpes
+Atalgojuma pārskatīšanas matrica
+Amatu līmeņi
 Algu diapazoni
 <b>Compa-ratio (jeb pozicionējums)</b>
-Šis rādītājs novērtē, vai darbinieka alga atbilst viņa amatam noteiktajam algu diapazonam.
+Šis rādītājs novērtē, vai darbinieka alga atbilst viņa amatam noteiktajam algu diapazonam tirgū.
 Tas nodrošina taisnīgus un konkurētspējīgus, tirgum atbilstošus algu lēmumus.
 Viduspunkts
 x
 Minimums Maksimums
-<b>Nopelnu matrica</b>
+<b>Atalgojuma pārskatīšanas matrica</b>
 Algu pārskatīšanā izmantots rīks, kas apvieno divus svarīgus faktorus:
-* Sniegums
+* Darba sniegumu
 * Compa-ratio
 <b>Sniegums</b> Zem 80%
 Pārsniegts
@@ -73,84 +73,84 @@ No 80% līdz 100%
 No 100% līdz 120%
 Virs 120%
 Tās nosaka līmeni organizācijā un tirgum atbilstošu algu diapazonu.
-<b>Algu pakāpes</b>
+<b>Amatu līmeņi</b>
 Kategorijas, kas grupē līdzīgus amatus pēc to pienākumiem un prasībām
 Inchcape līmenis
 Nav iedalīts
-Algu pakāpe
+Amata līmenis
 <b>Algu diapazoni</b>
-Tas nosaka minimumu, viduspunktu un maksimumu pakāpē. Algas diapazonā var atšķirties atkarībā no pieredzes, prasmēm un snieguma.
-Algu pakāpes
-Aplūkosim piemērus, kuros piemērosim šajā procesā apgūto.
+Tas nosaka atalgojuma minimumu, viduspunktu un maksimumu attiecīgajā amatu līmenī. Algas diapazonā var atšķirties atkarībā no konkrētā darbinieka pieredzes, prasmēm un snieguma.
+Amatu līmeņi
+Aplūkosim piemērus, kuros pielietosim šajā procesā apgūto.
 <b>1. daļa: Gatavošanās algu pārskatīšanai</b>
 Pārskati katra darbinieka compa-ratio un pārliecinies, ka snieguma gaidas ir skaidras.
 Iepriekš nosaki un paziņo gaidas katram darbiniekam: mērķus, rādītājus un attīstības jomas.
 Kā vadītājam ir svarīgi zināt komandas compa-ratio, taču, runājot ar katru atsevišķi, precīzs rādītājs nav jāatklāj.
-<b>Julias compa-ratio</b>
+<b>Jūlijas compa-ratio</b>
 (Zem sagaidāmajiem 80%)
 <b>Compa-ratio aprēķināšana:</b>
 (Pašreizējā alga / diapazona viduspunkts) x 100
 Es veicu tirgum atbilstošu algas korekciju.
 Neko nedaru, jo alga ir pietiekama.
 Apsveru viņas algas palielināšanu tuvāk diapazona viduspunktam vai minimumam.
-Ja Julias alga ir zem 74% no viduspunkta un viņas sniegums pārsniedz gaidas, ko vajadzētu darīt Carlai?
-Cilvēks, kas pirms diviem gadiem strādāja Julias amatā un jau devies prom, saņēma tikpat, tāpēc Carla uzskata, ka Juliai palielinājums nav vajadzīgs.
-Gaidu, kamēr Julia saņems inflācijas korekciju, ko viņas valstī paredz likums.
-Ja Julias sniegums pārsniedz gaidas un viņas alga ir ievērojami zem viduspunkta, ir pamatoti pielāgot viņas atlīdzību tirgum, atzīstot viņas ieguldījumu komandā.
-Pareizā atbilde ir apsvērt palielinājumu. Ja ignorētu Julias izcilo sniegumu vai nepielāgotu algu, viņa zaudētu motivāciju, un tas šķistu netaisnīgi. Turklāt lēmums, kas balstīts uz novecojušiem datiem vai inflācijas korekcijas gaidīšanu, nenodrošina konkurētspējīgu atlīdzību.
+Ja Jūlijas alga ir zem 74% no viduspunkta un viņas sniegums pārsniedz gaidas, ko vajadzētu darīt Karlai?
+Cilvēks, kas pirms diviem gadiem strādāja Jūlijas amatā un jau devies prom, saņēma tikpat, tāpēc Karla uzskata, ka Jūlijai palielinājums nav vajadzīgs.
+Gaidu, kamēr Jūlija saņems inflācijas korekciju, ja to paredz likums.
+Ja Jūlijas sniegums pārsniedz gaidas un viņas alga ir ievērojami zem viduspunkta, ir pamatoti pielāgot viņas atlīdzību tirgum, atzīstot viņas ieguldījumu komandā.
+Pareizā atbilde ir apsvērt palielinājumu. Ja ignorētu Jūlijas izcilo sniegumu vai nepielāgotu algu, viņa zaudētu motivāciju, un tas šķistu netaisnīgi. Turklāt lēmums, kas balstīts uz novecojušiem datiem vai inflācijas korekcijas gaidīšanu, nenodrošina konkurētspējīgu atlīdzību.
 <b>2. daļa: Aizspriedumu novēršana vērtēšanā</b>
 Atpazīsti un novērs bieži sastopamus aizspriedumus algu lēmumos, balstoties uz sniegumu un konkrētiem datiem.
-Roberto ir pieredzējis darbinieks ar 12 gadu stāžu uzņēmumā.
-<b>Roberto compa-ratio</b>
+Roberts ir pieredzējis darbinieks ar 12 gadu stāžu uzņēmumā.
+<b>Roberta compa-ratio</b>
 Virs viņa algu diapazona viduspunkta.
 Konkurētspējīga alga
 <b>Daļēji atbilstošs sniegums</b>
 Algas palielinājumu nesaņems.
 Jā, stāža dēļ.
-Nē, jo viņa sniegums to neattaisno.
-Roberto compa-ratio ir 120%, taču viņa sniegums gaidām atbilda tikai daļēji. Vai ir pamatoti piešķirt palielinājumu?
-Jā, jo Roberto Juliai pastāstīja, ka grasās pirkt māju un viņa sieva gaida bērnu.
+Nē, jo viņa sniegums to neparedz.
+Roberta compa-ratio ir 120%, taču viņa sniegums gaidām atbilda tikai daļēji. Vai ir pamatoti piešķirt palielinājumu?
+Jā, jo Roberts Jūlijai pastāstīja, ka grasās pirkt māju un viņa sieva gaida bērnu.
 Pārskatīšanā palielinājumu nesaņems, taču pēc tās varētu piešķirt papildu prēmiju par stāžu.
-Lai gan Roberto compa-ratio ir augsts, viņa sniegums atbilstoši Reward principiem nesasniedz līmeni, kas attaisnotu palielinājumu.
+Lai gan Roberta compa-ratio ir augsts, viņa sniegums atbilstoši Reward principiem nesasniedz līmeni, kas attaisnotu palielinājumu.
 Pareizā atbilde: tas nav pamatoti, jo palielinājumiem jābalstās uz sniegumu, nevis uz tādiem faktoriem kā stāžs, personīgā situācija vai risinājumi ārpus noteiktās kārtības, lai lēmumi būtu taisnīgi un objektīvi.
 <b>3. daļa: Pārredzama un skaidra komunikācija</b>
 Attīsti prasmes paziņot algu lēmumus precīzi un empātiski, veicinot uzticību.
-Julia, tavs sniegums ir bijis teicams, un mēs vēlamies nodrošināt, lai tava alga atbilstu tirgum.
+Jūlija, tavs sniegums ir bijis teicams, un mēs vēlamies nodrošināt, lai tava alga atbilstu tirgum.
 Tāpēc saņemsi palielinājumu, kas tavu algu ievietos diapazona robežās.
-Lai Julia izprastu kritērijus un justos novērtēta.
+Lai Jūlija izprastu kritērijus un justos novērtēta.
 Lai izpildītu birokrātisku prasību.
-Lai Julia varētu pāriet uz citu komandu.
-Kāpēc Carlai ir svarīgi izskaidrot Juliai, kā tika pieņemts lēmums par viņas algu?
-Jo citādi People komanda neapstrādās Julias jaunās algas izmaksu.
+Lai Jūlija varētu pāriet uz citu komandu.
+Kāpēc Karlai ir svarīgi izskaidrot Jūlijai, kā tika pieņemts lēmums par viņas algu?
+Jo citādi Personāla komanda neapstrādās Jūlijas jaunās algas izmaksu.
 Algu lēmumu skaidra un pārredzama skaidrošana stiprina uzticību, motivē darbinieku un palīdz saprast, kā viņa sniegums tiek vērtēts organizācijā.
-Pareizā atbilde ir: lai Julia izprastu kritērijus un justos novērtēta. Skaidrojums nav tikai formalitāte vai administratīva prasība; tā galvenais mērķis ir stiprināt uzticību un apņemšanos.
+Pareizā atbilde ir: lai Jūlija izprastu kritērijus un justos novērtēta. Skaidrojums nav tikai formalitāte vai administratīva prasība; tā galvenais mērķis ir stiprināt uzticību un apņemšanos.
 <b>3.1 daļa: Pārredzama, skaidra un precīza komunikācija</b>
 Kā vadītājam ir svarīgi zināt komandas compa-ratio, taču, runājot ar katru atsevišķi, precīzs rādītājs nav jāatklāj.
-Juan:\n• Viņa snieguma novērtējuma rezultāts bija „atbilst gaidām“, bet ne „pārsniedz gaidas“.\n• Viņa compa-ratio pārsniedz viņa amatam noteikto algu diapazonu (122%). Tāpēc matrica algas palielinājumu neiesaka.
-Juan, mēs augstu vērtējam tavu darbu un to, ka atbilsti komandas gaidām. Tomēr tava alga ir virs sava amata diapazona, tāpēc nopelnu matrica šogad palielinājumu neparedz. Mēs vēlamies būt pārredzami, un šie lēmumi balstās uz tavu sniegumu un algas pozicionējumu.
+Huans:\n• Viņa snieguma novērtējuma rezultāts bija „atbilst gaidām“, bet ne „pārsniedz gaidas“.\n• Viņa compa-ratio pārsniedz viņa amatam noteikto algu diapazonu (122%). Tāpēc matrica algas palielinājumu neiesaka.
+Huan, mēs augstu vērtējam tavu darbu un to, ka atbilsti komandas gaidām. Tomēr tava alga ir virs sava amata diapazona, tāpēc atalgojuma pārskatīšanas matrica šogad palielinājumu neparedz. Mēs vēlamies būt pārredzami, un šie lēmumi balstās uz tavu sniegumu un algas pozicionējumu.
 Lai gan šogad palielinājuma nebūs, kopā varam izplānot, kā tu vari turpināt attīstīties un izmantot jaunas iespējas uzņēmumā.
 Es saprotu, paldies, ka tik skaidri paskaidroji un piedāvāji iespējas.
 Skaidri izklāstīt iemeslus un piedāvāt alternatīvas darbinieka attīstībai.
 Neizskaidrot lēmumu un vienkārši pateikt, ka palielinājuma nebūs.
-Kā Carlai jārīkojas situācijā, kad darbinieks atbilst gaidām, bet algas pozicionējuma dēļ nav tiesīgs uz palielinājumu?
-Tomēr piešķirt Juanam palielinājumu, jo viņš atbilda gaidām, un nav svarīgi, ka viņam jau tā maksā par daudz.
-Lūgt Juanam pāriet uz citu uzņēmumu, jo viņš nākotnē palielinājumu nesaņems.
+Kā Karlai jārīkojas situācijā, kad darbinieks atbilst gaidām, bet algas pozicionējuma dēļ nav tiesīgs uz palielinājumu?
+Tomēr piešķirt Huanam palielinājumu, jo viņš atbilda gaidām, un nav svarīgi, ka viņam jau tā maksā par daudz.
+Lūgt Huanam pāriet uz citu uzņēmumu, jo viņš nākotnē palielinājumu nesaņems.
 Iemeslu izskaidrošana un alternatīvu piedāvāšana veicina pārredzamību un uztur darbinieka motivāciju.
 Pareizā atbilde ir skaidri izklāstīt iemeslus un piedāvāt alternatīvas. Ja neizskaidro, rodas neuzticība, palielinājuma piešķiršana pārkāpj algu politiku, bet ieteikt aiziet ir neprofesionāli un demotivējoši.
 <b>4. daļa: Sarežģītu situāciju risināšana</b>
 Sarežģītu gadījumu risināšana, kad algas palielinājums nav piemērojams, piedāvājot attīstības un labsajūtas iespējas.
-Roberto, pieredzējis darbinieks: pēc algu pārskatīšanas un saskaņā ar uzņēmuma politiku tika secināts, ka viņš palielinājumu nesaņems.
+Roberts, pieredzējis darbinieks: pēc algu pārskatīšanas un saskaņā ar uzņēmuma politiku tika secināts, ka viņš palielinājumu nesaņems.
 Šogad palielinājumu nepiemērosim, taču tava alga ir konkurētspējīga tirgū. Vēlos kopā izstrādāt plānu tavas attīstības atbalstam.
-Roberto, augstu vērtējam tavu pieredzi.
-Tu saņemsi brīvas dienas paternitātes atvaļinājumam. Aicinu piedalīties attīstības un labsajūtas programmās. Vēlamies, lai justos atbalstīts.
-Paldies par skaidrību, Carla. Es saprotu situāciju un novērtēju tavu atbalstu.
+Roberts, augstu vērtējam tavu pieredzi.
+Tu saņemsi brīvas dienas paternitātes atvaļinājumam. Aicinu izmantot visus darbinieku labumus, ko piedāvā uzņēmums. Vēlamies, lai justos atbalstīts.
+Paldies par skaidrību, Karla. Es saprotu situāciju un novērtēju tavu atbalstu.
 Vienkārši pateikt, ka palielinājuma nebūs.
-Kādi galvenie elementi Carlai jāiekļauj sarunā ar Roberto?
+Kādi galvenie elementi Karlai jāiekļauj sarunā ar Robertu?
 Atzīt viņa ieguldījumu, izskaidrot lēmumu un piedāvāt attīstības plānu.
-Neko Roberto nepaziņot. Viņš pat nezinātu, kāpēc viņam ir brīvas dienas paternitātes atvaļinājumam.
+Neko Robertam nepaziņot. Viņš pat nezinātu, ka viņam pienākas citi darbinieku labumi.
 Izturēties kā dusmīgam vadītājam un vainot viņu palielinājuma nesaņemšanā zema snieguma dēļ.
 Ieguldījuma atzīšana, lēmuma izskaidrošana un attīstības plāna piedāvāšana apliecina empātiju un veicina motivāciju, atbilstoši pārredzamas komunikācijas un labsajūtas atbalsta principiem.
-Ja nekomunicē vai vienkārši atsaka palielinājumu, trūkst empātijas un var demotivēt Roberto. Tāpat viņa vainošana ir neprofesionāla un varētu kaitēt gan uzticībai, gan darba videi.
+Ja nekomunicē vai vienkārši atsaka palielinājumu, trūkst empātijas un var demotivēt Robertu. Tāpat viņa vainošana ir neprofesionāla un varētu kaitēt gan uzticībai, gan darba videi.
 Ir svarīgi saprast, kā algu pārskatīšanas process darbojas People Hub sistēmā un kādi rīki mums ir pieejami.
 <b>5. daļa: Algu pārskatīšanas process People Hub sistēmā</b>
 1. Algas palielinājuma priekšlikums
@@ -168,10 +168,10 @@ Atlīdzības izrakstu Employee Central var apskatīt šādi:
 Procesa beigās esam sasnieguši mērķi – efektīvi piemērojuši Reward principus. Turklāt katrs darbinieks izprot lēmumus un to, kā var turpināt augt.
 Konkurētspēja, aizspriedumi, nepārredzamība un apņemšanās.
 Konkurētspēja tirgū, brīvība no aizspriedumiem, pārredzamība un skaidrība, apņemšanās pret cilvēkiem.
-Kurus Reward principus Carla piemēroja visa procesa gaitā?
+Kurus Reward principus Karla piemēroja visa procesa gaitā?
 Paaugstinājums, compa-ratio, brīvība no aizspriedumiem un apņemšanās.
-Apņemšanās, brīvība no aizspriedumiem, konkurētspēja un algu pakāpe.
+Apņemšanās, brīvība no aizspriedumiem, konkurētspēja un amata līmenis.
 Konkurētspēja, brīvība no aizspriedumiem, pārredzamība un apņemšanās pret cilvēkiem atspoguļo galvenos Reward principus, kas tika piemēroti algu pārskatīšanā.
-Secinājums
-Vadītāja lomā tu tagad zini, kā veicināt taisnīgu un motivējošu Reward procesu. Kopā virzāmies uz panākumiem, piemērojot šos principus.
+Apkopojums
+Kā vadītājs tu tagad zini, kā veicināt taisnīgu un motivējošu Reward procesu. Kopā virzāmies uz panākumiem, piemērojot šos principus.
 Šis modulis ir pabeigts.\nTiksimies nākamreiz.

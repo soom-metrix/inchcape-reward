@@ -81,7 +81,7 @@ def make(src,off,dst):
             if n==31 and g['ids']==['31.7']:
                 items.append(dict(bs=[dict(bs[0],bbox=[1440,161,1610,181])],en=g['en'])); continue
             if n==31 and g['ids']==['31.8']:
-                for t,bb in ((f"<b>{EXTRA['INITIAL']}</b>",[1228,243,1335,272]),(f"<b>{EXTRA['MARKET']}</b>",[1452,243,1600,272]),(f"<b>{EXTRA['FINAL']}</b>" if LANGC!='lt' else f"<b><span style='font-size:82%'>{EXTRA['FINAL']}</span></b>",([1700,243,1857,272] if LANGC=='lt' else [1735,243,1822,272]))):
+                for t,bb in ((f"<b>{EXTRA['INITIAL']}</b>",[1228,243,1335,272]),(f"<b>{EXTRA['MARKET']}</b>",[1452,243,1600,272]),(f"<b>{EXTRA['FINAL']}</b>" if LANGC not in ('lt','lv') else f"<b><span style='font-size:{60 if LANGC=='lv' else 82}%'>{EXTRA['FINAL']}</span></b>",([1700,243,1857,272] if LANGC=='lt' else [1650,243,1812,272] if LANGC=='lv' else [1735,243,1822,272]))):
                     items.append(dict(bs=[dict(bs[0],bbox=bb)],en=(t if not (LANGC=='lt' and t=='Maksimumas') else "<span style='font-size:88%'>"+t+"</span>")))
                 continue
             if n==34 and g['ids']==['34.3']:
