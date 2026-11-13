@@ -1,13 +1,13 @@
 import json
 T={}
 T[3]="Carla: Sveiki! Aš – Carla. Kviečiu tave prisijungti prie „Rally Reward“ ralio, kur tavęs laukia iššūkiai, kurie patikrins tavo jėgas!\nSpustelėk ir pradėkime"
-T[4]="Carla: Tai ne šiaip sau iššūkis! Kad galėtume judėti pirmyn ir pasiekti finišą, metinę atlygio peržiūrą turime atlikti tiksliai, laikydamiesi Inchcape atlygio principų."
+T[4]="Carla: Tai ne šiaip sau iššūkis! Kad galėtume judėti pirmyn ir pasiekti finišą, metinę atlyginimo peržiūrą turime atlikti tiksliai, laikydamiesi Inchcape Atlygio principų."
 T[5]="Carla: Kiekvienas mūsų priimamas sprendimas turi įtakos komandos motyvacijai, įsitraukimui ir sėkmei. Atlygis ir papildomos naudos parodo, kaip vertiname darbuotojų indėlį, ir padeda užtikrinti, kad jie jaustųsi vertinami bei gautų teisingą ir konkurencingą atlygį."
 T[6]="Carla: Šis ralis – daug daugiau nei vien skaičiai..."
 T[7]="Carla: ... Jis suteiks mums reikiamų įrankių, padėsiančių priimti atlygio sprendimus, atitinkančius strateginius įmonės tikslus."
 T[8]="Carla: Atmink, kad mūsų žmonės yra didžiausias mūsų turtas, o taikydami Atlygio principus ne tik stipriname komandos pasitikėjimą ir motyvaciją, bet ir užtikriname ilgalaikę Inchcape sėkmę."
-T[9]="Carla: Šioje kelionėje padėsiu tau:\nĮvaldyti rinkos tendencijas – suderinti atlygį su rinkos situacija, kad galėtume pritraukti ir išlaikyti svarbiausius talentus.\nPasirinkti teisingą kryptį – atpažinti ir pašalinti šališkumą, priimti sprendimus, pagrįstus duomenimis.\nKomunikuoti aiškiai ir užtikrintai – skaidriai paaiškinti kiekvieną sprendimą ir taip stiprinti komandos pasitikėjimą.\nSėkmingai pasiekti finišą – išsikelti aiškius tikslus ir užtikrinti, kad kiekvieno kolegos indėlis būtų tinkamai įvertintas."
-T[10]="Carla: Nesijaudink, sėkmei turi viską, ko reikia: patikimų duomenų, aiškią strategiją ir geriausią Reward praktiką. Išnaudokime jas maksimaliai."
+T[9]="Carla: Šioje kelionėje padėsiu tau:\nĮvaldyti rinkos tendencijas – suderinti atlyginimą su rinkos situacija, kad galėtume pritraukti ir išlaikyti svarbiausius talentus.\nPasirinkti teisingą kryptį – atpažinti ir pašalinti šališkumą, priimti sprendimus, pagrįstus duomenimis.\nKomunikuoti aiškiai ir užtikrintai – skaidriai paaiškinti kiekvieną sprendimą ir taip stiprinti komandos pasitikėjimą.\nSėkmingai pasiekti finišą – išsikelti aiškius tikslus ir užtikrinti, kad kiekvieno kolegos indėlis būtų tinkamai įvertintas."
+T[10]="Carla: Nesijaudink, sėkmei turi viską, ko reikia: patikimų duomenų, aiškią strategiją ir geriausią Atlygio praktiką. Išnaudokime jas maksimaliai."
 T[11]="Carla: Pradėkime!"
 T[12]="Kaip jau minėjau, Rally Reward – tai simuliacija, kurioje susipažinsi su atlyginimo peržiūros procesu ir išbandysi, kaip vadovai priima sprendimus, vadovaudamiesi pagrindiniais Atlygio principais."
 T[13]="Bet pirmiausia – ką reiškia Atlygis? Tai sritis, apimanti strategijų, įrankių ir politikų kūrimą, padedantį įmonei tinkamai atlyginti darbuotojams už jų darbą ir indėlį, siekiant pritraukti, išlaikyti ir motyvuoti talentus."
