@@ -164,7 +164,7 @@ Vietējā un reģionālā Reward komanda
 Kad priekšlikums ir apstiprināts, tas tiek nosūtīts reģiona izpilddirektoram apstiprināšanai.
 Atlīdzības vēstules ar procesa rezultātiem ir pieejamas:
 Employee Central\nKatra darbinieka People Hub profilā
-Atlīdzības izrakstu Employee Central var apskatīt šādi:
+Atalgojuma pārskatīšanas vēstuli Employee Central var apskatīt šādi:
 Procesa beigās esam sasnieguši mērķi – efektīvi piemērojuši Reward principus. Turklāt katrs darbinieks izprot lēmumus un to, kā var turpināt augt.
 Konkurētspēja, aizspriedumi, nepārredzamība un apņemšanās.
 Konkurētspēja tirgū, brīvība no aizspriedumiem, pārredzamība un skaidrība, apņemšanās pret cilvēkiem.
