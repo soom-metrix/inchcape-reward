@@ -62,8 +62,8 @@ x
 Minimumas Maksimumas
 <b>Atlyginimo didinimo matrica</b>
 Atlygio peržiūros procese naudojama priemonė, apjungianti du svarbius veiksnius:
-* Darbuotojo veiklos rezultatai
-* Atlygio pozicionavimo rodiklis (compa-ratio)
+* Darbuotojo veiklos rezultatus
+* Atlygio pozicionavimo rodiklį (compa-ratio)
 <b>Veiklos rezultatai</b> Žemiau 80%
 Viršyta
 Pasiekta
