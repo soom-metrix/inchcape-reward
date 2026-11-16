@@ -121,7 +121,7 @@ Et Julia mõistaks kriteeriume ja tunneks end väärtustatuna.
 Bürokraatliku nõude täitmiseks.
 Et Julia saaks minna teise meeskonda.
 Miks on Carlal oluline selgitada Juliale, kuidas tema palga kohta otsus tehti?
-Sest kui Carla seda ei tee, ei vormista People'i meeskond Julia uut palka.
+Sest kui Carla seda ei tee, ei vormista personaliosakond Julia uut palka.
 Palgaotsuste selge ja läbipaistev selgitamine tugevdab usaldust, motiveerib töötajat ja tagab, et ta mõistab, kuidas tema tulemusi organisatsioonis väärtustatakse.
 Õige vastus on, et Julia mõistaks kriteeriume ja tunneks end väärtustatuna. Selgitus ei ole pelgalt formaalsus ega haldusnõue; selle peamine eesmärk on tugevdada usaldust ja pühendumust.
 <b>3.1 osa: Läbipaistev, selge ja täpne suhtlus</b>
