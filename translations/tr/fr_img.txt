@@ -4,11 +4,11 @@ Pour avancer et franchir la ligne d’arrivée, nous devons mener le processus a
 Principes Reward
 Concepts clés de Reward
 Processus de révision salariale
-Aligner la rémunération sur le marché pour attirer et fidéliser les talents clés.
-Éliminer les biais et prendre des décisions fondées sur les données.
+Aligner la rémunération sur le marché afin d’attirer et de fidéliser les talents clés.
+Éviter les biais et prendre des décisions fondées sur des données objectives.
 Expliquer chaque décision en toute transparence pour préserver la confiance de l’équipe.
 Fixer des objectifs clairs et récompenser équitablement l’effort de chaque collaborateur.
-Dans ce parcours, je vais vous guider pour…
+Dans ce parcours, je vais vous aider à…
 KIT D’URGENCE
 Commençons !
 Le Rally Reward est conçu pour simuler la façon dont les managers relèvent le défi de la gestion du processus de révision salariale, en appliquant les principes fondamentaux de Reward.
@@ -23,7 +23,7 @@ SERVICE REWARD
 <b>Reward</b> en tant que rémunération
 Reward ne se limite pas à mesurer des chiffres : il instaure aussi la confiance et renforce l’engagement.
 Compétitivité sur le marché
-Exempt de biais
+Absence de biais
 Transparent, précis et clair
 Attentes de performance claires
 Des collaborateurs associés à notre réussite
