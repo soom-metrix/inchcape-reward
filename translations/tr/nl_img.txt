@@ -4,10 +4,10 @@ Om vooruit te komen en de finish te halen, moeten we het jaarlijkse loonreviewpr
 Reward-principes
 Kernbegrippen van Reward
 Loonreviewproces
-De beloning af te stemmen op de markt om talent aan te trekken en te behouden.
-Vooroordelen weg te nemen en datagedreven beslissingen te nemen.
-Elke beslissing helder en transparant toe te lichten om het vertrouwen van het team te behouden.
-Duidelijke doelen te stellen en de inzet van elke medewerker eerlijk te belonen.
+De beloning af te stemmen op de markt om talent aan te trekken en te behouden
+Vooroordelen weg te nemen en dategedreven beslissingen te nemen
+Elke beslissing helder en trasnparant toe te lichten om het vertrouwen van het team te behouden
+Duidelijke doelen te stellen en de inzet van elke medewerker eerlijk te belonen
 Tijdens deze reis help ik je om…
 NOODPAKKET
 Laten we beginnen!
@@ -55,7 +55,7 @@ Meritmatrix
 Functieniveaus
 Loonvorken
 <b>Compa-ratio (of positionering)</b>
-Deze indicator geeft aan hoe het loon van een medewerker zich verhoudt tot het midden van de loonvork voor zijn of haar functie.
+Deze indicator geeft aan hoe het loon van een medewerker zich verhoudt tot het midden van de salarisvork voor zijn of haar functie.
 Deze indicator ondersteunt eerlijke en competitieve beslissingen over verloning.
 Midden
 x
@@ -72,7 +72,7 @@ Onderprestatie
 Tussen 80%-100%
 Tussen 100%-120%
 Boven 120%
-Ze bepalen het niveau van de functie. Elk niveau heeft een loonvork, op basis van de markt.
+Ze bepalen het niveau van de functie binnen de organisatie. Aan elk niveau wordt een loonvork gekoppeld, rekening houdend met de marktomstandigheden.
 <b>Functieniveaus</b>
 Categorieën waarin vergelijkbare functies worden ingedeeld op basis van hun verantwoordelijkheden en functievereisten.
 Inchcape-band
@@ -93,7 +93,7 @@ Als leidinggevende is het cruciaal om de compa-ratio van je team te kennen, maar
 Ik pas het loon aan zodat het marktconform is.
 Niets doen, want haar loon is voldoende.
 Overwegen haar loon te verhogen tot dichter bij het midden of de ondergrens van de loonvork.
-Als Julia’s loon lager ligt dan 74% van het midden van de loonvork en haar prestaties de verwachtingen overtreffen, wat moet Carla dan doen?
+Als Julia’s loon lager ligt dan 74% van het midden van de salarisvork en haar prestaties de verwachtingen overtreffen, wat moet Carla dan doen?
 Julia’s voorganger, die twee jaar geleden dezelfde functie vervulde en inmiddels uit dienst is, verdiende hetzelfde. Daarom vindt Carla een loonsverhoging niet nodig.
 Wachten tot Julia de in haar land wettelijk verplichte indexatie krijgt.
 Als Julia's prestaties de verwachtingen overtreffen en haar loon aanzienlijk onder het midden ligt, is het gepast haar beloning aan te passen aan de markt en haar bijdrage aan het team te erkennen.
@@ -138,7 +138,7 @@ Juan vragen naar een ander bedrijf te gaan, omdat hij in de toekomst geen verhog
 De redenen uitleggen en alternatieven bieden bevordert transparantie en behoudt de motivatie van de medewerker.
 Het juiste antwoord is duidelijk zijn over de redenen en alternatieven bieden. Niet uitleggen wekt wantrouwen, een verhoging geven gaat in tegen het loonbeleid en voorstellen om te vertrekken is onprofessioneel en demotiverend.
 <b>Deel 4: Omgaan met moeilijke situaties</b>
-Omgaan met complexe situaties zonder loonsverhoging, met alternatieven voor ontwikkeling en welzijn.
+Omgaan met complexe situaties waarin een loonsverhoging niet aan de orde is, en alternatieven bieden op het vlak van ontwikkeling en welzijn.
 Roberto is een ervaren medewerker. Na de loonreview is beslist dat hij geen loonsverhoging krijgt.
 Dit jaar passen we op basis van je prestaties en het bedrijfsbeleid geen loonsverhoging toe. Toch wil ik dat je weet dat je loon concurrerend is ten opzichte van de markt. En ik wil graag samen met je een plan maken om je ontwikkeling binnen het bedrijf te blijven ondersteunen.
 Roberto, we waarderen je ervaring en je bijdrage aan het team zeer.

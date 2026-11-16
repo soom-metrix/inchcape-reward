@@ -120,7 +120,9 @@ def apply_page(page,n,items,report):
         best=None
         single = len(set(round(s_['bbox'][1]/8) for s_ in found))==1
         variants=[(box,align)]
-        if single:
+        if os.environ.get('LANGC')=='nl' and n==12 and r.y0>150 and r.y0<400 and r.x0<700:
+            variants=[(fitz.Rect(368,234,870,338),'left')]
+        elif single:
             variants.append((fitz.Rect(r.x0-2,box.y0,min(1900,r.x1+0.6*r.width+padx),box.y1),'left'))
         best=None
         for vbox,valign in variants:
