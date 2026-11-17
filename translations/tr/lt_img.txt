@@ -142,7 +142,7 @@ Sudėtingi atvejai, kai atlyginimas nedidinamas: siūlome tobulėjimo ir gerovė
 Roberto, patyręs darbuotojas: po atlyginimų peržiūros pagal įmonės politiką nuspręsta, kad atlyginimo didinimas jam nenumatomas.
 Šiemet tavo atlyginimas nesikeis, bet yra konkurencingas. Norėčiau kartu parengti tavo tobulėjimo planą įmonėje.
 Roberto, labai vertiname tavo patirtį.
-Skatinu įsitraukti į profesinio tobulėjimo ir gerovės programas, pavyzdžiui, dalyvauti koučingo sesijose ar streso valdymo mokymuose. Norime, kad jaustumeisi palaikomas ir turėtum galimybių augti.
+<span style='font-size:90%'>Skatinu įsitraukti į profesinio tobulėjimo ir gerovės programas, pavyzdžiui, dalyvauti koučingo sesijose ar streso valdymo mokymuose. Norime, kad jaustumeisi palaikomas ir turėtum galimybių augti.</span>
 Ačiū, kad paaiškinai ir mane palaikai, Carla.
 Tiesiog pasakyti, kad jo atlyginimas nesikeis.
 Ką svarbiausia Carla turėtų aptarti per pokalbį su Roberto?
