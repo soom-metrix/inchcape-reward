@@ -51,7 +51,7 @@ Doceniamy i świętujemy osiągnięcia każdego pracownika
 Stawiamy na dobrostan zespołu, zapewniając pracownikom dostęp do zasobów wspierających ich zdrowie fizyczne i emocjonalne oraz rozwój zawodowy.
 Kluczowe pojęcia
 Compa-ratio (czyli pozycjonowanie)
-Macierz zasług
+Macierz podwyżek
 Poziomy płacowe
 Widełki płacowe
 <b>Compa-ratio (czyli pozycjonowanie)</b>
@@ -60,7 +60,7 @@ Pozwala podejmować sprawiedliwe, konkurencyjne decyzje zgodne z rynkiem.
 Punkt środkowy
 x
 Minimum Maksimum
-<b>Macierz zasług</b>
+<b>Macierz podwyżek</b>
 Narzędzie stosowane w procesie przeglądu wynagrodzeń, które łączy dwa ważne czynniki:
 * Wyniki
 * Compa-ratio
@@ -127,7 +127,7 @@ Prawidłowa odpowiedź to: aby Julia zrozumiała kryteria i czuła się docenion
 <b>Część 3.1: Przejrzysta, jasna i precyzyjna komunikacja</b>
 Jako lider musisz znać compa-ratio swojego zespołu, ale w rozmowie z każdą osobą nie musisz podawać dokładnej wartości.
 Juan:\n• Ocena jego wyników: „spełnia oczekiwania”, a nie „przekracza oczekiwania”.\n• Jego compa-ratio jest powyżej widełek płacowych ustalonych dla jego stanowiska (122%). Dlatego macierz nie sugeruje podwyżki.
-Juanie, doceniamy Twoją pracę i to, że spełniasz oczekiwania zespołu. Jednak Twoje wynagrodzenie przekracza widełki dla Twojego stanowiska, więc macierz zasług nie przewiduje w tym roku podwyżki. Chcemy być przejrzyści: te decyzje opierają się na Twoich wynikach i pozycji w widełkach.
+Juanie, doceniamy Twoją pracę i to, że spełniasz oczekiwania zespołu. Jednak Twoje wynagrodzenie przekracza widełki dla Twojego stanowiska, więc macierz podwyżek nie przewiduje w tym roku podwyżki. Chcemy być przejrzyści: te decyzje opierają się na Twoich wynikach i pozycji w widełkach.
 Choć w tym roku podwyżki może nie być, możemy wspólnie znaleźć ścieżkę, która pozwoli Ci się dalej rozwijać i korzystać z nowych możliwości w firmie.
 Rozumiem. Dziękuję, że tak mi to wyjaśniłaś i zaproponowałaś opcje.
 Jasno wyjaśnić powody i zaproponować alternatywy dla rozwoju pracownika.
