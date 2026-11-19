@@ -51,7 +51,7 @@ Doceniamy i świętujemy osiągnięcia każdego pracownika
 Stawiamy na dobrostan zespołu, zapewniając pracownikom dostęp do zasobów wspierających ich zdrowie fizyczne i emocjonalne oraz rozwój zawodowy.
 Kluczowe pojęcia
 Compa-ratio (czyli pozycjonowanie)
-Macierz podwyżek
+Matryca podwyżek
 Poziomy płacowe
 Widełki płacowe
 <b>Compa-ratio (czyli pozycjonowanie)</b>
@@ -60,7 +60,7 @@ Pozwala podejmować sprawiedliwe, konkurencyjne decyzje zgodne z rynkiem.
 Punkt środkowy
 x
 Minimum Maksimum
-<b>Macierz podwyżek</b>
+<b>Matryca podwyżek</b>
 Narzędzie stosowane w procesie przeglądu wynagrodzeń, które łączy dwa ważne czynniki:
 * Wyniki
 * Compa-ratio
@@ -100,7 +100,7 @@ Jeśli wyniki Julii przewyższają oczekiwania, a jej wynagrodzenie jest znaczni
 Prawidłowa odpowiedź to rozważenie podwyżki. Zignorowanie znakomitych wyników Julii lub brak korekty jej wynagrodzenia zniechęciłoby ją i mogłoby zostać odebrane jako niesprawiedliwe. Ponadto opieranie decyzji na nieaktualnych danych lub czekanie na waloryzację inflacyjną nie zapewniają konkurencyjnego wynagrodzenia.
 <b>Część 2: Unikanie uprzedzeń w ocenie</b>
 Rozpoznawaj i zapobiegaj typowym uprzedzeniom w decyzjach płacowych, skupiając się na wynikach i konkretnych danych.
-Roberto to doświadczony pracownik z 12-letnim stażem w firmie.
+Robert to doświadczony pracownik z 12-letnim stażem w firmie.
 <b>Compa-ratio Roberta</b>
 Powyżej punktu środkowego jego widełek płacowych.
 Konkurencyjne wynagrodzenie
@@ -108,10 +108,10 @@ Konkurencyjne wynagrodzenie
 Nie otrzyma podwyżki.
 Tak, ze względu na staż pracy.
 Nie, ponieważ jego wyniki tego nie uzasadniają.
-Roberto ma compa-ratio na poziomie 120%, ale jego wyniki tylko częściowo spełniły oczekiwania. Czy należy przyznać mu podwyżkę?
-Tak, ponieważ Roberto powiedział Julii, że postanowił kupić dom, a jego żona jest w ciąży.
+Robert ma compa-ratio na poziomie 120%, ale jego wyniki tylko częściowo spełniły oczekiwania. Czy należy przyznać mu podwyżkę?
+Tak, ponieważ Robert powiedział Julii, że postanowił kupić dom, a jego żona jest w ciąży.
 Nie otrzyma podwyżki w procesie przeglądu wynagrodzeń, ale po jego zakończeniu mógłby dostać dodatkową premię ze względu na staż pracy.
-Chociaż Roberto ma wysokie compa-ratio, jego wyniki nie spełniają standardów koniecznych do uzasadnienia podwyżki, zgodnie z zasadami Reward.
+Chociaż Robert ma wysokie compa-ratio, jego wyniki nie spełniają standardów koniecznych do uzasadnienia podwyżki, zgodnie z zasadami Reward.
 Prawidłowa odpowiedź brzmi: nie jest to właściwe, ponieważ podwyżki powinny opierać się na wynikach, a nie na czynnikach takich jak staż, sytuacja osobista czy rozwiązania poza ustalonym procesem, co zapewnia sprawiedliwe i obiektywne decyzje.
 <b>Część 3: Przejrzysta i jasna komunikacja</b>
 Rozwijaj umiejętności komunikowania decyzji płacowych dokładnie i z empatią, budując zaufanie.
@@ -126,8 +126,8 @@ Jasne i przejrzyste wyjaśnianie decyzji płacowych wzmacnia zaufanie, motywuje 
 Prawidłowa odpowiedź to: aby Julia zrozumiała kryteria i czuła się doceniona. Wyjaśnienie nie jest tylko formalnością ani wymogiem administracyjnym; jego głównym celem jest wzmocnienie zaufania i zaangażowania.
 <b>Część 3.1: Przejrzysta, jasna i precyzyjna komunikacja</b>
 Jako lider musisz znać compa-ratio swojego zespołu, ale w rozmowie z każdą osobą nie musisz podawać dokładnej wartości.
-Juan:\n• Ocena jego wyników: „spełnia oczekiwania”, a nie „przekracza oczekiwania”.\n• Jego compa-ratio jest powyżej widełek płacowych ustalonych dla jego stanowiska (122%). Dlatego macierz nie sugeruje podwyżki.
-Juanie, doceniamy Twoją pracę i to, że spełniasz oczekiwania zespołu. Jednak Twoje wynagrodzenie przekracza widełki dla Twojego stanowiska, więc macierz podwyżek nie przewiduje w tym roku podwyżki. Chcemy być przejrzyści: te decyzje opierają się na Twoich wynikach i pozycji w widełkach.
+Juan:\n• Ocena jego wyników: „spełnia oczekiwania”, a nie „przekracza oczekiwania”.\n• Jego compa-ratio jest powyżej widełek płacowych ustalonych dla jego stanowiska (122%). Dlatego matryca nie sugeruje podwyżki.
+Juanie, doceniamy Twoją pracę i to, że spełniasz oczekiwania zespołu. Jednak Twoje wynagrodzenie przekracza widełki dla Twojego stanowiska, więc matryca podwyżek nie przewiduje w tym roku podwyżki. Chcemy być przejrzyści: te decyzje opierają się na Twoich wynikach i pozycji w widełkach.
 Choć w tym roku podwyżki może nie być, możemy wspólnie znaleźć ścieżkę, która pozwoli Ci się dalej rozwijać i korzystać z nowych możliwości w firmie.
 Rozumiem. Dziękuję, że tak mi to wyjaśniłaś i zaproponowałaś opcje.
 Jasno wyjaśnić powody i zaproponować alternatywy dla rozwoju pracownika.
@@ -139,9 +139,9 @@ Wyjaśnienie powodów i zaproponowanie alternatyw sprzyja przejrzystości i podt
 Prawidłowa odpowiedź to jasne wyjaśnienie powodów i zaproponowanie alternatyw. Brak wyjaśnienia rodzi nieufność, przyznanie podwyżki łamie politykę płacową, a sugerowanie odejścia jest nieprofesjonalne i demotywujące.
 <b>Część 4: Radzenie sobie z trudnymi sytuacjami</b>
 Zarządzanie złożonymi przypadkami, w których podwyżki nie mają zastosowania, z ofertą alternatyw rozwojowych i wspierających dobrostan.
-Roberto, doświadczony pracownik: po przeglądzie wynagrodzeń i zgodnie z polityką firmy ustalono, że nie otrzyma podwyżki.
+Robert, doświadczony pracownik: po przeglądzie wynagrodzeń i zgodnie z polityką firmy ustalono, że nie otrzyma podwyżki.
 W tym roku nie przyznamy podwyżki, ale Twoje wynagrodzenie jest konkurencyjne. Chciałabym wspólnie opracować plan Twojego rozwoju w firmie.
-Roberto, bardzo cenimy Twoje doświadczenie.
+Robert, bardzo cenimy Twoje doświadczenie.
 Otrzymasz dni wolne na urlop ojcowski. Zachęcam Cię też do udziału w programach rozwoju i dobrostanu, np. coachingu i zarządzaniu stresem. Chcemy, abyś czuł się wspierany.
 Dziękuję za jasność, Carlo. Rozumiem sytuację i doceniam wsparcie, które mi oferujesz.
 Po prostu powiedzieć, że podwyżki nie będzie.
